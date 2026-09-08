@@ -5,12 +5,11 @@ import {
   Headphones,
   Heart,
   MessageCircle,
-  Play,
 } from 'lucide-react';
 
 const routes = [
   { label: 'Read', href: '#read' },
-  { label: 'Watch', href: '#watch' },
+  { label: 'Conversations', href: '#conversations' },
   { label: 'Listen', href: '#listen' },
   { label: 'Discuss', href: '#discuss' },
   { label: 'Support', href: '#support' },
@@ -18,7 +17,6 @@ const routes = [
 
 const externalLinks = {
   amazon: 'https://www.amazon.com/dp/B0DBPD57SN',
-  youtube: 'https://www.youtube.com/@EchoofHumanity01',
   tiktok: 'https://www.tiktok.com/@echoofhumanity7',
   reddit: 'https://www.reddit.com/user/Visible-Current-3909/',
   support: 'https://buymeacoffee.com/capto50z',
@@ -89,7 +87,7 @@ export default function Home() {
 
         <div className="hero-index" aria-label="The three forms of the work">
           <a href="#read"><span>01</span> The book</a>
-          <a href="#watch"><span>02</span> Conversations</a>
+          <a href="#conversations"><span>02</span> Conversations</a>
           <a href="#listen"><span>03</span> Before the Dawn</a>
         </div>
       </section>
@@ -142,11 +140,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="watch" className="feature feature-conversations">
+      <section id="conversations" className="feature feature-conversations">
         <div className="section-shell">
           <div className="feature-heading">
-            <p className="section-number">02 / Watch</p>
-            <Play aria-hidden="true" />
+            <p className="section-number">02 / Conversations</p>
+            <MessageCircle aria-hidden="true" />
           </div>
           <div className="conversation-layout">
             <div className="conversation-art" aria-hidden="true">
@@ -169,9 +167,10 @@ export default function Home() {
                 <span>Parts One &amp; Two</span>
                 <span>Full discussion</span>
               </div>
-              <ExternalLink className="primary-link" href={externalLinks.youtube}>
-                Visit the YouTube channel
-              </ExternalLink>
+              <p className="quiet-note">
+                A permanent public home for the complete conversation archive
+                is being prepared.
+              </p>
             </div>
           </div>
         </div>
@@ -198,8 +197,8 @@ export default function Home() {
               metaphor. Different tones, one larger search for what makes us
               human before the world changes again.
             </p>
-            <ExternalLink className="primary-link" href={externalLinks.youtube}>
-              Hear Echo on YouTube
+            <ExternalLink className="primary-link" href={externalLinks.tiktok}>
+              Hear Echo on TikTok
             </ExternalLink>
           </div>
         </div>
@@ -212,7 +211,7 @@ export default function Home() {
             <MessageCircle aria-hidden="true" size={34} strokeWidth={1.3} />
           </div>
           <div>
-            <h2>The work continues after the video ends.</h2>
+            <h2>The work continues after each conversation.</h2>
             <p>
               Read written supplements, source notes, corrections, expanded
               arguments, and new questions on Reddit. Each post should stand on
@@ -254,7 +253,6 @@ export default function Home() {
           </div>
         </div>
         <div className="footer-links" aria-label="Echo destinations">
-          <ExternalLink href={externalLinks.youtube}>YouTube</ExternalLink>
           <ExternalLink href={externalLinks.tiktok}>TikTok</ExternalLink>
           <ExternalLink href={externalLinks.reddit}>Reddit</ExternalLink>
           <ExternalLink href={externalLinks.support}>Support</ExternalLink>
