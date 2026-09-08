@@ -167,9 +167,16 @@ export default function Home() {
                 <span>Parts One &amp; Two</span>
                 <span>Full discussion</span>
               </div>
+              <a
+                className="primary-link"
+                href="/conversations/when-ai-goes-rogue"
+              >
+                Read the full conversation
+                <ArrowUpRight aria-hidden="true" size={16} strokeWidth={1.7} />
+              </a>
               <p className="quiet-note">
-                A permanent public home for the complete conversation archive
-                is being prepared.
+                The complete text is preserved here. A non-YouTube home for the
+                finished video is being selected separately.
               </p>
             </div>
           </div>
