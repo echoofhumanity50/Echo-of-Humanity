@@ -8,6 +8,7 @@ import {
 } from 'lucide-react';
 
 const routes = [
+  { label: 'Archive', href: '/archive' },
   { label: 'Read', href: '#read' },
   { label: 'Conversations', href: '#conversations' },
   { label: 'Listen', href: '#listen' },
@@ -16,6 +17,7 @@ const routes = [
 ];
 
 const externalLinks = {
+  archive: 'https://archive.org/details/@echo_of_humanity',
   amazon: 'https://www.amazon.com/dp/B0DBPD57SN',
   tiktok: 'https://www.tiktok.com/@echoofhumanity7',
   reddit: 'https://www.reddit.com/user/Visible-Current-3909/',
@@ -171,13 +173,14 @@ export default function Home() {
                 className="primary-link"
                 href="/conversations/when-ai-goes-rogue"
               >
-                Read the full conversation
+                Watch and read the full conversation
                 <ArrowUpRight aria-hidden="true" size={16} strokeWidth={1.7} />
               </a>
               <p className="quiet-note">
-                The complete text is preserved here. A non-YouTube home for the
-                finished video is being selected separately.
+                The complete video and synchronized captions are now on
+                Internet Archive, alongside the full transcript here.
               </p>
+              <a className="text-link" href="/archive#conversations">Explore all Echo Conversations <ArrowUpRight aria-hidden="true" size={16} /></a>
             </div>
           </div>
         </div>
@@ -194,9 +197,9 @@ export default function Home() {
             <h2>Before<br />the Dawn</h2>
           </div>
           <div className="track-list" aria-label="Selected songs">
-            <div><span>01</span><strong>Heroes Die</strong></div>
-            <div><span>02</span><strong>The Best I Am</strong></div>
-            <div><span>03</span><strong>Everybody Poops</strong></div>
+            <a href="https://archive.org/details/echo-of-humanity-heroes-die" target="_blank" rel="noreferrer"><span>01</span><strong>Heroes Die</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
+            <a href="https://archive.org/details/echo-of-humanity-the-best-i-am" target="_blank" rel="noreferrer"><span>02</span><strong>The Best I Am</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
+            <a href="https://archive.org/details/echo-of-humanity-everybody-poops" target="_blank" rel="noreferrer"><span>03</span><strong>Everybody Poops</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
           </div>
           <div className="feature-copy music-copy">
             <p className="lead">
@@ -204,9 +207,8 @@ export default function Home() {
               metaphor. Different tones, one larger search for what makes us
               human before the world changes again.
             </p>
-            <ExternalLink className="primary-link" href={externalLinks.tiktok}>
-              Hear Echo on TikTok
-            </ExternalLink>
+            <a className="primary-link" href="/archive#music">Hear the full songs <ArrowUpRight aria-hidden="true" size={16} /></a>
+            <p className="quiet-note">Original music by Echo. Full versions on Archive; vertical editions on TikTok.</p>
           </div>
         </div>
       </section>
@@ -260,6 +262,8 @@ export default function Home() {
           </div>
         </div>
         <div className="footer-links" aria-label="Echo destinations">
+          <a href="/archive">Full archive</a>
+          <ExternalLink href={externalLinks.archive}>Internet Archive</ExternalLink>
           <ExternalLink href={externalLinks.tiktok}>TikTok</ExternalLink>
           <ExternalLink href={externalLinks.reddit}>Reddit</ExternalLink>
           <ExternalLink href={externalLinks.support}>Support</ExternalLink>

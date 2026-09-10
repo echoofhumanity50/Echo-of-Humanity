@@ -169,7 +169,7 @@ export default function RogueAIConversation() {
 
       <section className="archive-hero">
         <div>
-          <p className="eyebrow">Echo Conversations � Archive 001</p>
+          <p className="eyebrow">Echo Conversations · Archive 001</p>
           <h1>When AI Goes Rogue - Who Is Responsible?</h1>
           <div className="archive-meta">
             <span>Parts One &amp; Two</span>
@@ -191,6 +191,14 @@ export default function RogueAIConversation() {
       </section>
 
       <div className="archive-content">
+        <section className="full-video" aria-labelledby="watch-full">
+          <p className="section-number">Watch the complete discussion</p>
+          <h2 id="watch-full">Parts One &amp; Two, together.</h2>
+          <div className="video-frame"><iframe src="https://archive.org/embed/echo-of-humanity-when-ai-goes-rogue" title="When AI Goes Rogue — Who Is Responsible? Full discussion" allow="fullscreen" allowFullScreen loading="lazy" /></div>
+          <div className="media-links"><a href="https://archive.org/details/echo-of-humanity-when-ai-goes-rogue" target="_blank" rel="noreferrer">Watch or download on Archive</a><a href="#part-one">Read the transcript below</a><a href="/archive">All Echo releases</a></div>
+          <p className="quiet-note">14 minutes · English · Synchronized captions · AI-generated narration and imagery</p>
+          <details className="alternate-editions"><summary>Watch the vertical editions on TikTok</summary><div className="media-links"><a href="https://www.tiktok.com/@echoofhumanity7/video/7683572356576529695" target="_blank" rel="noreferrer">Part One on TikTok</a><a href="https://www.tiktok.com/@echoofhumanity7/video/7683572509433777439" target="_blank" rel="noreferrer">Part Two on TikTok</a></div></details>
+        </section>
         <aside className="archive-note">
           <strong>Adaptation note.</strong> The historical sequence and argument
           are preserved. Direct speaker names are standardized to HUMAN and
