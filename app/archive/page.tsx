@@ -1,15 +1,13 @@
-import type { Metadata } from 'next';
+import { pageMetadata, StructuredData, origin } from '../seo';
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
-import { archiveUrl, media } from './catalog';
+import { archiveUrl, media, workUrl } from './catalog';
 
-export const metadata: Metadata = {
-  title: 'The Full Archive — Echo of Humanity',
-  description: 'Complete Echo Conversations and the three Before the Dawn songs by Echo. Watch full videos, read the conversation, and explore the work in order.',
-};
+export const metadata = pageMetadata('The Full Archive — Echo of Humanity', 'Full Echo Conversations and four Before the Dawn songs by Echo, including The Magic Man. Watch, listen, and read the complete song lyrics.', '/archive');
 
 export default function MediaArchive() {
   return (
     <main className="archive-page library-page">
+      <StructuredData data={{ "@context": "https://schema.org", "@type": "CollectionPage", name: "Echo of Humanity — Full Archive", url: `${origin}/archive`, mainEntity: { "@type": "ItemList", itemListElement: media.map((item, i) => ({ "@type": "ListItem", position: i + 1, name: item.title, url: `${origin}${workUrl(item)}` })) } }} />
       <header className="archive-header">
         <a className="archive-back" href="/"><ArrowLeft size={16} aria-hidden="true" />Echo of Humanity</a>
         <nav className="library-nav" aria-label="Archive navigation"><a href="#conversations">Conversations</a><a href="#music">Music</a></nav>
@@ -21,12 +19,12 @@ export default function MediaArchive() {
       <div className="archive-content library-content">
         {(['conversation', 'music'] as const).map((kind) => (
           <section className="library-section" id={kind === 'music' ? 'music' : 'conversations'} key={kind}>
-            <div className="library-heading"><p className="section-number">{kind === 'music' ? '02 / Original music' : '01 / Human and AI'}</p><h2>{kind === 'music' ? 'Before the Dawn' : 'Echo Conversations'}</h2><p>{kind === 'music' ? 'Three songs by Echo. Different tones, one larger search for what makes us human.' : 'Begin with the latest discussion, or follow the three founding conversations in their original order.'}</p><a className="archive-back" href={kind === 'music' ? 'https://archive.org/details/@echo_of_humanity/lists/1/before-the-dawn-%E2%80%94-full-songs' : 'https://archive.org/details/@echo_of_humanity/lists/2/echo-conversations-%E2%80%94-full-videos'} target="_blank" rel="noreferrer">Browse this collection on Archive <ArrowUpRight size={16} aria-hidden="true" /></a></div>
+            <div className="library-heading"><p className="section-number">{kind === 'music' ? '02 / Original music' : '01 / Human and AI'}</p><h2>{kind === 'music' ? 'Before the Dawn' : 'Echo Conversations'}</h2><p>{kind === 'music' ? 'Four songs by Echo. Different tones, one larger search for what makes us human.' : 'Begin with the latest discussion, or follow the three founding conversations in their original order.'}</p><a className="archive-back" href={kind === 'music' ? 'https://archive.org/details/@echo_of_humanity/lists/1/before-the-dawn-%E2%80%94-full-songs' : 'https://archive.org/details/@echo_of_humanity/lists/2/echo-conversations-%E2%80%94-full-videos'} target="_blank" rel="noreferrer">Browse this collection on Archive <ArrowUpRight size={16} aria-hidden="true" /></a></div>
             <div className="media-grid">
               {media.filter((item) => item.kind === kind).map((item) => (
                 <article className="media-card" key={item.slug}>
-                  <a className="media-art" href={archiveUrl(item.slug)} target="_blank" rel="noreferrer" aria-label={`Watch ${item.title} in full`}><img src={item.image} alt="" loading="lazy" /><span>{item.duration} · Full version</span></a>
-                  <div className="media-copy"><p className="kicker">{item.year} · {kind === 'music' ? 'Echo' : 'Echo Conversations'}</p><h3>{item.title}</h3><p>{item.description}</p><p className="media-note">{item.note}</p><div className="media-links"><a href={archiveUrl(item.slug)} target="_blank" rel="noreferrer">Watch in full <ArrowUpRight size={15} aria-hidden="true" /></a>{item.transcript && <a href={item.transcript}>Read transcript</a>}{item.tiktok && <a href={`https://www.tiktok.com/@echoofhumanity7/video/${item.tiktok}`} target="_blank" rel="noreferrer">TikTok edition</a>}</div></div>
+                  <a className="media-art" href={workUrl(item)} aria-label={`Watch ${item.title} in full`}><img src={item.image} alt="" loading="lazy" /><span>{item.duration} · Full version</span></a>
+                  <div className="media-copy"><p className="kicker">{item.year} · {kind === 'music' ? 'Echo' : 'Echo Conversations'}</p><h3><a href={workUrl(item)}>{item.title}</a></h3><p>{item.description}</p><p className="media-note">{item.note}</p><div className="media-links"><a href={workUrl(item)}>{kind === 'music' ? 'Listen & read lyrics' : 'Explore conversation'}</a><a href={archiveUrl(item.slug)} target="_blank" rel="noreferrer">Watch in full <ArrowUpRight size={15} aria-hidden="true" /></a>{item.transcript && <a href={item.transcript}>Read transcript</a>}{item.tiktok && <a href={`https://www.tiktok.com/@echoofhumanity7/video/${item.tiktok}`} target="_blank" rel="noreferrer">TikTok edition</a>}</div></div>
                 </article>
               ))}
             </div>

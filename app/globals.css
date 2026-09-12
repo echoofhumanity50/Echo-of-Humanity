@@ -797,3 +797,29 @@ nav a:hover, nav a:focus-visible { color: #fff; }
   .transcript-message { grid-template-columns: 1fr; gap: 0.7rem; }
   .transcript-copy { padding-bottom: 2rem; }
 }
+
+.utility-footer { display:flex; flex-wrap:wrap; gap:1rem 1.8rem; padding-block:1.8rem; border-top:1px solid var(--border); color:#b2c4cc; font-size:.9rem; }
+.utility-footer a:hover, .information-page a, .song-notes a { text-decoration:underline; text-underline-offset:.25em; }
+.information-page { max-width:800px; padding-block:5rem; }
+.information-page h1, .song-heading h1 { font-family:var(--font-display); font-weight:400; font-size:clamp(3rem,7vw,6rem); letter-spacing:-.035em; line-height:1.05; margin:1rem 0; }
+.information-page h2, .lyrics-layout h2, .related-work h2 { font-family:var(--font-display); font-weight:400; font-size:2rem; line-height:1.2; margin:2.6rem 0 1rem; }
+.information-page p { color:#b8c9d0; }
+.song-heading { display:grid; grid-template-columns:1.05fr 1fr; align-items:center; gap:3rem; padding-block:4rem; }
+.song-heading .lead { margin-block:1.5rem; }
+.song-art { width:100%; aspect-ratio:16/9; object-fit:cover; border:1px solid var(--border); }
+.song-body { padding-block:2rem 5rem; }
+.song-body .full-video { max-width:1000px; }
+.lyrics-layout { display:grid; grid-template-columns:1.2fr .8fr; gap:5rem; border-top:1px solid var(--border); padding-top:2rem; }
+.song-lyrics { color:#cbd7dc; font-size:1.08rem; line-height:1.85; }
+.song-lyrics p { white-space:pre-wrap; margin-block:0 1.75rem; }
+.song-notes { border-left:1px solid var(--border); padding-left:2rem; color:#aebfc7; }
+.song-notes a { display:block; margin-top:1.25rem; }
+.related-work { margin-top:4rem; border-top:1px solid var(--border); }
+.related-work>a { display:flex; justify-content:space-between; gap:2rem; padding:1.2rem 0; border-bottom:1px solid var(--border); font-size:1rem; }
+.related-work>a:hover { color:var(--dawn); }
+.related-work span { color:#a6b9c1; white-space:nowrap; }
+.quiet-note, .support-note, .footer-note, .footer-brand span { color:#9aafb9; }
+.library-nav, .media-links a, .media-copy .media-note, .footer-links a, .archive-meta span { font-size:.875rem; }
+a:focus-visible, summary:focus-visible { outline:2px solid var(--dawn); outline-offset:5px; }
+@media (max-width:900px) { .song-heading, .lyrics-layout { grid-template-columns:1fr; gap:2rem; } .song-notes { border-left:0; border-top:1px solid var(--border); padding:1rem 0 0; } }
+@media (max-width:640px) { .song-heading { padding-block:3rem; } .information-page { padding-block:3rem; } }

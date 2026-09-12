@@ -1,3 +1,5 @@
+import { pageMetadata } from './seo';
+export const metadata = pageMetadata('Echo of Humanity — Music, AI, Humanity', 'Human–AI conversations, books, and original music by Echo. Listen to Before the Dawn, watch the full conversations, and explore the archive.', '/');
 import {
   ArrowDown,
   ArrowUpRight,
@@ -197,9 +199,10 @@ export default function Home() {
             <h2>Before<br />the Dawn</h2>
           </div>
           <div className="track-list" aria-label="Selected songs">
-            <a href="https://archive.org/details/echo-of-humanity-heroes-die" target="_blank" rel="noreferrer"><span>01</span><strong>Heroes Die</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
-            <a href="https://archive.org/details/echo-of-humanity-the-best-i-am" target="_blank" rel="noreferrer"><span>02</span><strong>The Best I Am</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
-            <a href="https://archive.org/details/echo-of-humanity-everybody-poops" target="_blank" rel="noreferrer"><span>03</span><strong>Everybody Poops</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
+            <a href="/music/the-magic-man"><span>NEW</span><strong>The Magic Man</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
+            <a href="/music/heroes-die"><span>01</span><strong>Heroes Die</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
+            <a href="/music/the-best-i-am"><span>02</span><strong>The Best I Am</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
+            <a href="/music/everybody-poops"><span>03</span><strong>Everybody Poops</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
           </div>
           <div className="feature-copy music-copy">
             <p className="lead">

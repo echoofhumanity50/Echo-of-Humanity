@@ -1,11 +1,7 @@
-import type { Metadata } from 'next';
+import { pageMetadata } from '../../seo';
 import { ArrowLeft } from 'lucide-react';
 
-export const metadata: Metadata = {
-  title: 'When AI Goes Rogue - Who Is Responsible? | Echo of Humanity',
-  description:
-    'A preserved HUMAN and AGENT conversation about AI, institutional power, accountability, control, and trust.',
-};
+export const metadata = pageMetadata('When AI Goes Rogue — Who Is Responsible? | Echo of Humanity', 'A preserved HUMAN and AGENT conversation about AI, institutional power, accountability, control, and trust. Watch both parts and read the complete transcript.', '/conversations/when-ai-goes-rogue');
 
 type TranscriptMessage = {
   speaker: 'HUMAN' | 'AGENT';
