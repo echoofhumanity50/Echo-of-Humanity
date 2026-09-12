@@ -5,6 +5,7 @@ import { origin, StructuredData, UtilityFooter } from './seo';
 export const metadata: Metadata = {
   metadataBase: new URL(origin),
   icons: { icon: '/favicon.svg' },
+  other: { 'msvalidate.01': 'FF94D290F775F206637FE567E1F14DA4' },
   title: 'Echo of Humanity — Music, AI, Humanity',
   description:
     'Conversations, music, and books exploring humanity, artificial intelligence, responsibility, empathy, and the future.',
