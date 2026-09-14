@@ -1,7 +1,7 @@
 import { pageMetadata } from '../../seo';
 import { ArrowLeft } from 'lucide-react';
 
-export const metadata = pageMetadata('When AI Goes Rogue — Who Is Responsible? | Echo of Humanity', 'A preserved HUMAN and AGENT conversation about AI, institutional power, accountability, control, and trust. Watch both parts and read the complete transcript.', '/conversations/when-ai-goes-rogue');
+export const metadata = pageMetadata('When AI Goes Rogue — Who Is Responsible? | Echo of Humanity', 'A preserved HUMAN and AGENT conversation about AI, institutional power, accountability, control, and trust. Watch the complete conversation and read the full transcript.', '/conversations/when-ai-goes-rogue');
 
 type TranscriptMessage = {
   speaker: 'HUMAN' | 'AGENT';
@@ -193,7 +193,7 @@ export default function RogueAIConversation() {
           <div className="video-frame"><iframe src="https://archive.org/embed/echo-of-humanity-when-ai-goes-rogue" title="When AI Goes Rogue — Who Is Responsible? Full discussion" allow="fullscreen" allowFullScreen loading="lazy" /></div>
           <div className="media-links"><a href="https://archive.org/details/echo-of-humanity-when-ai-goes-rogue" target="_blank" rel="noreferrer">Watch or download on Archive</a><a href="#part-one">Read the transcript below</a><a href="/archive">All Echo releases</a></div>
           <p className="quiet-note">14 minutes · English · Synchronized captions · AI-generated narration and imagery</p>
-          <details className="alternate-editions"><summary>Watch the vertical editions on TikTok</summary><div className="media-links"><a href="https://www.tiktok.com/@echoofhumanity7/video/7683572356576529695" target="_blank" rel="noreferrer">Part One on TikTok</a><a href="https://www.tiktok.com/@echoofhumanity7/video/7683572509433777439" target="_blank" rel="noreferrer">Part Two on TikTok</a></div></details>
+          <details className="alternate-editions"><summary>Watch the complete vertical edition on TikTok</summary><div className="media-links"><a href="https://www.tiktok.com/@echoofhumanity7/video/7685537532062256414" target="_blank" rel="noreferrer">Full conversation on TikTok · 14:21</a></div><p className="quiet-note">Both parts in one video, with synchronized words and rings that respond directly to the voices.</p></details>
         </section>
         <aside className="archive-note">
           <strong>Adaptation note.</strong> The historical sequence and argument
