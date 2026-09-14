@@ -19,7 +19,7 @@ export default async function Conversation({ params }: { params: Promise<{ slug:
   if (!item) notFound();
   const archive = archiveUrl(slug);
   return <main className="archive-page">
-    <StructuredData data={{ '@context': 'https://schema.org', '@type': 'VideoObject', name: item.title, description: item.description, url: `${origin}/conversations/${slug}`, thumbnailUrl: `${origin}${item.image}`, duration: 'PT28M40S', uploadDate: '2026-09-14T00:00:00-05:00', embedUrl: `https://archive.org/embed/echo-of-humanity-${slug}`, publisher: { '@type': 'Organization', name: 'Echo of Humanity' }, sameAs: archive }} />
+    <StructuredData data={{ '@context': 'https://schema.org', '@type': 'VideoObject', name: item.title, description: item.description, url: `${origin}/conversations/${slug}`, thumbnailUrl: `${origin}${item.image}`, duration: 'PT28M40S', uploadDate: '2026-09-14T21:17:48Z', embedUrl: `https://archive.org/embed/echo-of-humanity-${slug}`, publisher: { '@type': 'Organization', name: 'Echo of Humanity' }, sameAs: archive }} />
     <header className="archive-header"><a className="archive-back" href="/">Echo of Humanity</a><a href="/archive#conversations">All conversations</a></header>
     <section className="song-heading section-shell">
       <div><p className="eyebrow">Echo Conversations · {item.year} edition</p><h1>{item.title}</h1><p className="lead">{item.description}</p><div className="archive-meta"><span>{item.duration}</span><span>All 12 messages</span><span>English captions</span></div></div>
