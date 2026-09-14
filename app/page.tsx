@@ -20,7 +20,7 @@ const routes = [
 
 const externalLinks = {
   archive: 'https://archive.org/details/@echo_of_humanity',
-  amazon: 'https://www.amazon.com/dp/B0DBPD57SN',
+  amazon: 'https://www.amazon.com/dp/B0HJHPY4J7',
   tiktok: 'https://www.tiktok.com/@echoofhumanity7',
   reddit: 'https://www.reddit.com/user/Visible-Current-3909/',
   support: 'https://buymeacoffee.com/capto50z',
@@ -130,9 +130,10 @@ export default function Home() {
             <p className="kicker">The written foundation</p>
             <h2>The Echo of Humanity</h2>
             <p className="lead">
-              The message comes before the sale. The current Kindle edition is
-              available now, while a revised edition and a permanent free
-              reading version are being prepared.
+              The message comes before the sale. The second edition is now
+              available on Kindle.
+              A permanent free reading edition will be added here after the
+              current Amazon exclusivity term ends.
             </p>
             <ExternalLink className="primary-link" href={externalLinks.amazon}>
               Read on Amazon
