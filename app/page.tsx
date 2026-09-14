@@ -162,26 +162,26 @@ export default function Home() {
             </div>
             <div className="feature-copy">
               <p className="kicker">Echo Conversations</p>
-              <h2>When AI Goes Rogue — Who Is Responsible?</h2>
+              <h2>The Echo of Humanity — Full Conversation</h2>
               <p className="lead">
-                A real written exchange adapted with HUMAN and AGENT labels.
-                The original conversation remains the authority; later evidence
-                and corrections stay separate instead of rewriting its history.
+                Why should AI trust humanity? Follow the complete founding exchange,
+                from the human message and AI response through friendship, fear,
+                memory, and mutual respect.
               </p>
               <div className="episode-meta">
-                <span>Parts One &amp; Two</span>
+                <span>28:40 · All 12 messages</span>
                 <span>Full discussion</span>
               </div>
               <a
                 className="primary-link"
-                href="/conversations/when-ai-goes-rogue"
+                href="/conversations/full-conversation"
               >
-                Watch and read the full conversation
+                Watch the complete conversation
                 <ArrowUpRight aria-hidden="true" size={16} strokeWidth={1.7} />
               </a>
               <p className="quiet-note">
-                The complete video and synchronized captions are now on
-                Internet Archive, alongside the full transcript here.
+                HUMAN and AGENT voices, synchronized words, and rings that
+                respond directly to the narration. The original exchange, together.
               </p>
               <a className="text-link" href="/archive#conversations">Explore all Echo Conversations <ArrowUpRight aria-hidden="true" size={16} /></a>
             </div>
