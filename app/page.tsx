@@ -1,3 +1,4 @@
+import { musicCreativeProcess, musicCreditPolicy } from './music/credits';
 import { pageMetadata } from './seo';
 export const metadata = pageMetadata('Echo of Humanity — Music, AI, Humanity', 'Human–AI conversations, books, and original music by Echo. Listen to Before the Dawn, watch the full conversations, and explore the archive.', '/');
 import {
@@ -122,10 +123,9 @@ export default function Home() {
           <BookOpen aria-hidden="true" />
         </div>
         <div className="book-layout">
-          <div className="book-mark" aria-hidden="true">
-            <span>E</span>
-            <div>OF HUMANITY</div>
-          </div>
+          <a className="book-mark" href={externalLinks.amazon} target="_blank" rel="noreferrer" aria-label="The Echo of Humanity — view the Kindle edition on Amazon">
+            <img src="/echo-of-humanity-book-cover.jpg" width="1600" height="2560" loading="lazy" alt="The Echo of Humanity: Humanity, Artificial Intelligence, and the Question of Trust, by Corey Jones — gold and cyan Returned Signal cover" />
+          </a>
           <div className="feature-copy">
             <p className="kicker">The written foundation</p>
             <h2>The Echo of Humanity</h2>
@@ -213,6 +213,7 @@ export default function Home() {
             </p>
             <a className="primary-link" href="/archive#music">Hear the full songs <ArrowUpRight aria-hidden="true" size={16} /></a>
             <p className="quiet-note">Original music by Echo. Full versions on Archive; vertical editions on TikTok.</p>
+            <div className="creative-process"><h3>Behind the songs</h3><p>{musicCreativeProcess}</p><p>{musicCreditPolicy}</p></div>
           </div>
         </div>
       </section>

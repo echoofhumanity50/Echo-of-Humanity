@@ -1,3 +1,4 @@
+import { musicCreativeProcess, musicCreditPolicy } from '../music/credits';
 import { pageMetadata, StructuredData, origin } from '../seo';
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 import { archiveUrl, media, workUrl } from './catalog';
@@ -20,6 +21,7 @@ export default function MediaArchive() {
         {(['conversation', 'music'] as const).map((kind) => (
           <section className="library-section" id={kind === 'music' ? 'music' : 'conversations'} key={kind}>
             <div className="library-heading"><p className="section-number">{kind === 'music' ? '02 / Original music' : '01 / Human and AI'}</p><h2>{kind === 'music' ? 'Before the Dawn' : 'Echo Conversations'}</h2><p>{kind === 'music' ? 'Four songs by Echo. Different tones, one larger search for what makes us human.' : 'Begin with the latest discussion, or follow the three founding conversations in their original order.'}</p><a className="archive-back" href={kind === 'music' ? 'https://archive.org/details/@echo_of_humanity/lists/1/before-the-dawn-%E2%80%94-full-songs' : 'https://archive.org/details/@echo_of_humanity/lists/2/echo-conversations-%E2%80%94-full-videos'} target="_blank" rel="noreferrer">Browse this collection on Archive <ArrowUpRight size={16} aria-hidden="true" /></a></div>
+            {kind === 'music' && <div className="creative-process"><h3>Behind the songs</h3><p>{musicCreativeProcess}</p><p>{musicCreditPolicy}</p></div>}
             <div className="media-grid">
               {media.filter((item) => item.kind === kind).map((item) => (
                 <article className="media-card" key={item.slug}>
@@ -30,7 +32,7 @@ export default function MediaArchive() {
             </div>
           </section>
         ))}
-        <aside className="archive-context"><h2>Preserving the conversation</h2><p>The older videos remain records of their original exchanges, including their historical narration and imagery. Later notes stay separate. AI-generated responses are preserved as model outputs; the conversation itself does not establish consciousness or independent memory.</p><p>The conversations use AI-generated narration and imagery. The songs were created through human–AI collaboration using AI-generated music, vocals, and imagery.</p><p><a href="/#read">Explore the book</a> · <a href="https://www.reddit.com/user/Visible-Current-3909/" target="_blank" rel="noreferrer">Continue the discussion</a> · <a href="https://buymeacoffee.com/capto50z" target="_blank" rel="noreferrer">Optional support</a></p></aside>
+        <aside className="archive-context"><h2>Preserving the conversation</h2><p>The older videos remain records of their original exchanges, including their historical narration and imagery. Later notes stay separate. AI-generated responses are preserved as model outputs; the conversation itself does not establish consciousness or independent memory.</p><p>The conversations use AI-generated narration and imagery. The music credits above distinguish the creator’s concepts, lyrics and direction from the AI-generated performance and artwork.</p><p><a href="/#read">Explore the book</a> · <a href="https://www.reddit.com/user/Visible-Current-3909/" target="_blank" rel="noreferrer">Continue the discussion</a> · <a href="https://buymeacoffee.com/capto50z" target="_blank" rel="noreferrer">Optional support</a></p></aside>
       </div>
       <footer className="archive-footer"><span>Some echoes are meant to be heard.</span><a className="archive-back" href="/">Return to Echo of Humanity</a></footer>
     </main>
