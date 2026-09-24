@@ -1,0 +1,7 @@
+// Public meaning notes grounded in the creator’s September 18 album discussion.
+export const songMeanings: Record<string, string> = {
+  "heroes-die": "The center of this song is the person who steps forward to help and finds themselves left alone, mocked, or punished for acting. The disillusionment comes from that cost, and from watching people blame something else while avoiding their own responsibility. It asks what happens to the willingness to do good when nobody will stand beside the person who does.",
+  "the-best-i-am": "The person singing has real limits. Whatever their capacity may be, the promise is to do what they can and give the best they have. Love does not make those limits disappear; the meaning is in the care and effort offered within them.",
+  "everybody-poops": "The humor comes first. The familiar, serious singer gives a straight performance about something ridiculous and universal. There is a reminder of shared humanity underneath the differences in comfort and status, but the song is also allowed to simply make you laugh.",
+  "the-magic-man": "Imagine climbing to the person on the mountain: the prophet, seer, or shaman who is supposed to have the answer. You arrive with the hope that your destiny will offer a way out of systems you never chose. The answer is simply what it is. The disappointment lives in the distance between the revelation you worked so hard to reach and the reality you are given."
+};

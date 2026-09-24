@@ -1,7 +1,7 @@
 import { ArrowUpRight, Globe, Mail, MessageCircle } from 'lucide-react';
 import { newsletterIsOpen } from '../lib/newsletter';
 
-export function DiscussionInvitation({ title }: { title?: string }) {
+export function DiscussionInvitation({ title, rumble, tiktok }: { title?: string; rumble?: string; tiktok?: string }) {
   const subject = title ? `Echo discussion: ${title}` : 'A question for Echo of Humanity';
   return (
     <section className="discussion-invitation" aria-label="Join the Echo discussion">
@@ -21,7 +21,9 @@ export function DiscussionInvitation({ title }: { title?: string }) {
         </a>
       </div>
       <a className="discussion-reddit" href="https://www.reddit.com/user/Visible-Current-3909/" target="_blank" rel="noreferrer"><MessageCircle size={19} aria-hidden="true" /> Join us on Reddit <span className="sr-only">(opens in a new tab)</span><ArrowUpRight size={16} aria-hidden="true" /></a>
-      {newsletterIsOpen && <p className="discussion-updates"><a href="/subscribe">Get the free monthly email</a>, with new work and a question to explore together.</p>}
+      <p>Watching on a video platform? Leave a comment there too: what stayed with you, what do you question, or what should we explore next?</p>
+      <div className="video-comment-links"><a href={rumble || 'https://rumble.com/c/c-7957548'} target="_blank" rel="noreferrer">Comment on Rumble</a><a href={tiktok ? `https://www.tiktok.com/@echoofhumanity7/video/${tiktok}` : 'https://www.tiktok.com/@echoofhumanity7'} target="_blank" rel="noreferrer">Comment on TikTok</a></div>
+      <p className="discussion-updates"><a href="/subscribe">{newsletterIsOpen ? 'Get the free monthly email' : 'Monthly newsletter · signup opens soon'}</a></p>
     </section>
   );
 }

@@ -6,7 +6,7 @@ export const newsletter: {
   signupEnabled: boolean;
 } = {
   provider: 'Buttondown',
-  username: null,
+  username: 'echoofhumanity',
   signupEnabled: false,
 };
 

@@ -1,5 +1,6 @@
 import { musicCreativeProcess, musicCreditPolicy } from './music/credits';
 import { pageMetadata } from './seo';
+import { newsletterIsOpen } from '../lib/newsletter';
 export const metadata = pageMetadata('Echo of Humanity — Music, AI, Humanity', 'Human–AI conversations, books, and original music by Echo. Listen to Before the Dawn, watch the full conversations, and explore the archive.', '/');
 import {
   ArrowDown,
@@ -16,7 +17,7 @@ const routes = [
   { label: 'Conversations', href: '#conversations' },
   { label: 'Listen', href: '#listen' },
   { label: 'Discuss', href: '#discuss' },
-  { label: 'Support', href: '#support' },
+  { label: 'Support', href: '/support' },
 ];
 
 const externalLinks = {
@@ -24,7 +25,7 @@ const externalLinks = {
   amazon: 'https://www.amazon.com/dp/B0HJHPY4J7',
   tiktok: 'https://www.tiktok.com/@echoofhumanity7',
   reddit: 'https://www.reddit.com/user/Visible-Current-3909/',
-  support: 'https://buymeacoffee.com/capto50z',
+  rumble: 'https://rumble.com/c/c-7957548',
 };
 
 function ExternalLink({
@@ -153,7 +154,7 @@ export default function Home() {
           </div>
           <div className="conversation-layout">
             <div className="conversation-art" aria-hidden="true">
-              <img src="/archive/who-is-allowed-to-create-2026-09-24.jpg" alt="" />
+              <img src="/archive/returned-signal-home-2026-09-24.png" loading="lazy" alt="" />
               <div className="conversation-signal">
                 <span>HUMAN</span>
                 <i />
@@ -225,15 +226,15 @@ export default function Home() {
             <MessageCircle aria-hidden="true" size={34} strokeWidth={1.3} />
           </div>
           <div>
-            <h2>The work continues after each conversation.</h2>
-            <p>
-              Read written supplements, source notes, corrections, expanded
-              arguments, and new questions on Reddit. Each post should stand on
-              its own—not exist only to send you somewhere else.
-            </p>
-            <ExternalLink className="primary-link dark-link" href={externalLinks.reddit}>
-              Continue on Reddit
-            </ExternalLink>
+            <h2>Bring your perspective.</h2>
+            <p>A question, an experience, a correction, or a different view. What you bring can help shape the next conversation.</p>
+            <div className="participation-options">
+              <a href="mailto:echoofhumanity50@gmail.com"><span className="option-label">A direct conversation</span><h3>Email us</h3><p>Share an idea or write privately.</p><span className="option-destination">echoofhumanity50@gmail.com ↗</span></a>
+              <a href={externalLinks.reddit} target="_blank" rel="noreferrer"><span className="option-label">In writing, together</span><h3>Join us on Reddit</h3><p>Explore ideas, ask questions, and add your own perspective.</p><span className="option-destination">Open Echo’s Reddit profile ↗</span></a>
+              <a href="/subscribe"><span className="option-label">Free · Monthly</span><h3>Echo by email</h3><p>New work and a question worth exploring together.</p><span className="option-destination">{newsletterIsOpen ? 'Join the newsletter →' : 'Newsletter signup opens soon →'}</span></a>
+              <div className="video-comment-option"><span className="option-label">Where you watch</span><h3>Comment on a video</h3><p>Tell us what stayed with you, what you question, or what we should explore next.</p><div className="option-video-links"><a href={externalLinks.rumble} target="_blank" rel="noreferrer">Rumble ↗</a><a href={externalLinks.tiktok} target="_blank" rel="noreferrer">TikTok ↗</a></div></div>
+            </div>
+            <p className="participation-note">No subscription or payment is needed to take part. Emailing us does not add you to a mailing list.</p>
           </div>
         </div>
       </section>
@@ -251,10 +252,8 @@ export default function Home() {
             helps us continue the books, conversations, music, and the forms
             they may take next.
           </p>
-          <ExternalLink className="support-link" href={externalLinks.support}>
-            Support Echo of Humanity
-          </ExternalLink>
-          <span className="support-note">Optional. The work remains available either way.</span>
+          <a className="support-link" href="/support">Support Echo of Humanity <ArrowUpRight aria-hidden="true" size={16} /></a>
+          <span className="support-note">Compare the options, fees, and what reaches the work. Support is optional.</span>
         </div>
       </section>
 
@@ -270,8 +269,11 @@ export default function Home() {
           <a href="/archive">Full archive</a>
           <ExternalLink href={externalLinks.archive}>Internet Archive</ExternalLink>
           <ExternalLink href={externalLinks.tiktok}>TikTok</ExternalLink>
+          <ExternalLink href={externalLinks.rumble}>Rumble</ExternalLink>
           <ExternalLink href={externalLinks.reddit}>Reddit</ExternalLink>
-          <ExternalLink href={externalLinks.support}>Support</ExternalLink>
+          <a href="/subscribe">Monthly email</a>
+          <a href="/contact">Email us</a>
+          <a href="/support">Support</a>
         </div>
         <p className="footer-note">
           Echo remains unseen. The ideas, their sources, and their consequences
