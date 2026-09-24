@@ -1,3 +1,4 @@
+import { redditDiscussions } from '../../../lib/reddit';
 import { pageMetadata } from '../../seo';
 import { ArrowLeft } from 'lucide-react';
 import { DiscussionInvitation } from '../../../components/discussion-invitation';
@@ -204,7 +205,7 @@ export default function RogueAIConversation() {
           conversation.
         </aside>
 
-        <DiscussionInvitation title="When AI Goes Rogue — Who Is Responsible?" rumble="https://rumble.com/v7fxjdc-when-ai-goes-rogue-who-is-responsible-echo-conversations.html" tiktok="7685537532062256414" />
+        <DiscussionInvitation reddit={redditDiscussions['when-ai-goes-rogue']} title="When AI Goes Rogue — Who Is Responsible?" rumble="https://rumble.com/v7fxjdc-when-ai-goes-rogue-who-is-responsible-echo-conversations.html" tiktok="7685537532062256414" />
         <section className="transcript-part" aria-labelledby="part-one">
           <div className="transcript-part-heading"><span>Part one</span><i /></div>
           <h2 id="part-one">The story that started it</h2>
