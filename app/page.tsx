@@ -198,7 +198,10 @@ export default function Home() {
         <div className="music-layout">
           <div className="album-title">
             <p className="kicker">The album</p>
-            <h2>Before<br />the Dawn</h2>
+            <h2>Before the Dawn</h2>
+            <a className="album-cover-link" href="/archive#music" aria-label="Explore Before the Dawn by Echo">
+              <img className="album-cover" src="/archive/before-the-dawn-album-cover.png" alt="Before the Dawn by Echo — the approved album cover, a wet mountain road leading toward sunrise" width="3000" height="3000" loading="lazy" decoding="async" />
+            </a>
           </div>
           <div className="track-list" aria-label="Selected songs">
             <a href="/music/the-magic-man"><span>NEW</span><strong>The Magic Man</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
@@ -213,7 +216,7 @@ export default function Home() {
               human before the world changes again.
             </p>
             <a className="primary-link" href="/archive#music">Hear the full songs <ArrowUpRight aria-hidden="true" size={16} /></a>
-            <p className="quiet-note">Original music by Echo. Full versions on Archive; vertical editions on TikTok.</p>
+            <p className="quiet-note">Original music by Echo. Full songs on Rumble and Archive; vertical editions on TikTok.</p>
             <div className="creative-process"><h3>Behind the songs</h3><p>{musicCreativeProcess}</p><p>{musicCreditPolicy}</p></div>
           </div>
         </div>
