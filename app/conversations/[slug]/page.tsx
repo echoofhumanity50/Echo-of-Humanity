@@ -28,7 +28,7 @@ export default async function Conversation({ params }: { params: Promise<{ slug:
     </section>
     <div className="archive-content">
       <section className="full-video"><h2>Watch the complete conversation.</h2><p>{item.note}</p><div className="video-frame"><iframe src={`https://archive.org/embed/echo-of-humanity-${slug}`} title={item.title} loading="lazy" allow="fullscreen" allowFullScreen /></div>
-        <div className="media-links"><a href={archive} target="_blank" rel="noreferrer">Watch or download on Internet Archive</a>{item.tiktok && <a href={`https://www.tiktok.com/@echoofhumanity7/video/${item.tiktok}`} target="_blank" rel="noreferrer">Watch the portrait edition on TikTok</a>}<a href="/archive/full-conversation.en.srt" download>English captions (SRT)</a><a href="/archive/full-conversation.en.vtt" download>English captions (VTT)</a></div>
+        <div className="media-links"><a href={archive} target="_blank" rel="noreferrer">Watch or download on Internet Archive</a>{item.rumble && <a href={item.rumble} target="_blank" rel="noreferrer">Watch on Rumble</a>}{item.tiktok && <a href={`https://www.tiktok.com/@echoofhumanity7/video/${item.tiktok}`} target="_blank" rel="noreferrer">Watch the portrait edition on TikTok</a>}<a href="/archive/full-conversation.en.srt" download>English captions (SRT)</a><a href="/archive/full-conversation.en.vtt" download>English captions (VTT)</a></div>
         <p className="quiet-note">The player is provided by Internet Archive. If it does not load, use the Archive link above.</p>
       </section>
       <DiscussionInvitation title={item.title} />

@@ -192,7 +192,7 @@ export default function RogueAIConversation() {
           <p className="section-number">Watch the complete discussion</p>
           <h2 id="watch-full">Parts One &amp; Two, together.</h2>
           <div className="video-frame"><iframe src="https://archive.org/embed/echo-of-humanity-when-ai-goes-rogue" title="When AI Goes Rogue — Who Is Responsible? Full discussion" allow="fullscreen" allowFullScreen loading="lazy" /></div>
-          <div className="media-links"><a href="https://archive.org/details/echo-of-humanity-when-ai-goes-rogue" target="_blank" rel="noreferrer">Watch or download on Archive</a><a href="#part-one">Read the transcript below</a><a href="/archive">All Echo releases</a></div>
+          <div className="media-links"><a href="https://archive.org/details/echo-of-humanity-when-ai-goes-rogue" target="_blank" rel="noreferrer">Watch or download on Archive</a><a href="https://rumble.com/v7fxjdc-when-ai-goes-rogue-who-is-responsible-echo-conversations.html" target="_blank" rel="noreferrer">Watch on Rumble</a><a href="#part-one">Read the transcript below</a><a href="/archive">All Echo releases</a></div>
           <p className="quiet-note">14 minutes · English · Synchronized captions · AI-generated narration and imagery</p>
           <details className="alternate-editions"><summary>Watch the complete vertical edition on TikTok</summary><div className="media-links"><a href="https://www.tiktok.com/@echoofhumanity7/video/7685537532062256414" target="_blank" rel="noreferrer">Full conversation on TikTok · 14:21</a></div><p className="quiet-note">Both parts in one video, with synchronized words and rings that respond directly to the voices.</p></details>
         </section>

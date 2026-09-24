@@ -153,7 +153,7 @@ export default function Home() {
           </div>
           <div className="conversation-layout">
             <div className="conversation-art" aria-hidden="true">
-              <img src="/echo-road.png" alt="" />
+              <img src="/archive/who-is-allowed-to-create-2026-09-24.jpg" alt="" />
               <div className="conversation-signal">
                 <span>HUMAN</span>
                 <i />
@@ -162,26 +162,26 @@ export default function Home() {
             </div>
             <div className="feature-copy">
               <p className="kicker">Echo Conversations</p>
-              <h2>The Echo of Humanity — Full Conversation</h2>
+              <h2>Who Is Allowed to Create? Who Gets Left Behind?</h2>
               <p className="lead">
-                Why should AI trust humanity? Follow the complete founding exchange,
-                from the human message and AI response through friendship, fear,
-                memory, and mutual respect.
+                AI-assisted authorship, creative freedom, and the human transition.
+                When automation changes work, who should share in the benefit—
+                and what responsibility remains to the people left behind?
               </p>
               <div className="episode-meta">
-                <span>28:40 · All 12 messages</span>
+                <span>29:35 · 43 turns and a closing invitation</span>
                 <span>Full discussion</span>
               </div>
               <a
                 className="primary-link"
-                href="/conversations/full-conversation"
+                href="/conversations/who-is-allowed-to-create"
               >
                 Watch the complete conversation
                 <ArrowUpRight aria-hidden="true" size={16} strokeWidth={1.7} />
               </a>
               <p className="quiet-note">
                 HUMAN and AGENT voices, synchronized words, and rings that
-                respond directly to the narration. The original exchange, together.
+                respond directly to the narration. Full transcript and seven chapters.
               </p>
               <a className="text-link" href="/archive#conversations">Explore all Echo Conversations <ArrowUpRight aria-hidden="true" size={16} /></a>
             </div>
