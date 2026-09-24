@@ -745,6 +745,22 @@ nav a:hover, nav a:focus-visible { color: #fff; }
 .full-video { margin-bottom: 4rem; }
 .video-frame { width: 100%; aspect-ratio: 16 / 9; margin-block: 1.8rem; background: #04090d; }
 .video-frame iframe { width: 100%; height: 100%; border: 0; }
+.discussion-invitation { margin-block: 3rem; padding: clamp(1.25rem, 3vw, 2rem); border: 1px solid #29404e; background: #0b151c; }
+.discussion-invitation h2 { margin: .6rem 0 1rem; font-family: var(--font-display); font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; line-height: 1.15; }
+.discussion-invitation > p:not(.eyebrow) { max-width: 65ch; color: #c0d0d8; font-size: 1rem; line-height: 1.65; }
+.discussion-contact-cards { display: grid; gap: .85rem; margin-block: 1.5rem; }
+.discussion-contact-card { display: flex; gap: .85rem; align-items: center; min-width: 0; min-height: 5.2rem; padding: 1rem 1.1rem; border: 1px solid #29404e; border-left: 3px solid #3fdcff; border-radius: .65rem; background: #0f1b23; color: #f2f6f9; }
+.discussion-contact-card > span { flex: 1; min-width: 0; }
+.discussion-contact-card strong { display: block; margin-bottom: .3rem; color: #3fdcff; font-size: .875rem; font-weight: 600; }
+.discussion-contact-card > span > span { display: block; font-size: clamp(1rem, 2.3vw, 1.25rem); line-height: 1.4; overflow-wrap: anywhere; }
+.discussion-contact-card svg { flex-shrink: 0; color: #3fdcff; }
+.discussion-email { border-left-color: #ffd95b; }
+.discussion-email strong, .discussion-email svg { color: #ffd95b; }
+.discussion-contact-card:hover { background: #162631; border-top-color: #526c7b; border-right-color: #526c7b; border-bottom-color: #526c7b; }
+.discussion-contact-card:focus-visible { outline: 3px solid #f2f6f9; outline-offset: 4px; }
+.discussion-reddit { display: inline-flex; align-items: center; gap: .5rem; min-height: 44px; color: #c9e5ee; font-size: 1rem; text-decoration: underline; text-underline-offset: .25em; }
+.discussion-updates a { text-decoration: underline; text-underline-offset: .25em; }
+@media (max-width: 380px) { .discussion-contact-card { gap: .6rem; padding-inline: .7rem; } .discussion-contact-card > svg:last-child { display: none; } }
 .alternate-editions { margin-top: 1.5rem; color: #aebfc6; font-size: .85rem; }
 .alternate-editions summary { cursor: pointer; }
 .footer-links { flex-wrap: wrap; }

@@ -2,6 +2,7 @@ import { musicCreativeProcess, musicCreditPolicy } from '../music/credits';
 import { pageMetadata, StructuredData, origin } from '../seo';
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 import { archiveUrl, media, workUrl } from './catalog';
+import { DiscussionInvitation } from '../../components/discussion-invitation';
 
 export const metadata = pageMetadata('The Full Archive — Echo of Humanity', 'Full Echo Conversations and four Before the Dawn songs by Echo, including The Magic Man. Watch, listen, and read the complete song lyrics.', '/archive');
 
@@ -33,6 +34,7 @@ export default function MediaArchive() {
           </section>
         ))}
         <aside className="archive-context"><h2>Preserving the conversation</h2><p>The original written exchanges remain the source. New video editions can update the voices and presentation while preserving the conversation. The founding exchange now appears in one complete film. Later notes stay separate. AI-generated responses are preserved as model outputs; the conversation itself does not establish consciousness or independent memory.</p><p>The conversations use AI-generated narration, with the presentation and visual credits described on each release page. The music credits above distinguish the creator’s concepts, lyrics and direction from the AI-generated performance and artwork.</p><p><a href="/#read">Explore the book</a> · <a href="https://www.reddit.com/user/Visible-Current-3909/" target="_blank" rel="noreferrer">Continue the discussion</a> · <a href="https://buymeacoffee.com/capto50z" target="_blank" rel="noreferrer">Optional support</a></p></aside>
+        <DiscussionInvitation />
       </div>
       <footer className="archive-footer"><span>Some echoes are meant to be heard.</span><a className="archive-back" href="/">Return to Echo of Humanity</a></footer>
     </main>

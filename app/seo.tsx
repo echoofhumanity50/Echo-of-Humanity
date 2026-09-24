@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { newsletterIsOpen } from '../lib/newsletter';
 
 export const origin = 'https://echoofhumanity.net';
 export function pageMetadata(title: string, description: string, path: string): Metadata {
@@ -14,5 +15,5 @@ export function StructuredData({ data }: { data: Record<string, unknown> }) {
 }
 
 export function UtilityFooter() {
-  return <div className="utility-footer section-shell"><a href="/">Echo of Humanity</a><a href="/archive">Full archive</a><a href="/contact">Contact</a><a href="/privacy">Privacy</a></div>;
+  return <div className="utility-footer section-shell"><a href="/">Echo of Humanity</a><a href="/archive">Full archive</a><a href="/contact">Contact</a>{newsletterIsOpen && <a href="/subscribe">Monthly updates</a>}<a href="/privacy">Privacy</a></div>;
 }

@@ -1,5 +1,6 @@
 import { pageMetadata } from '../../seo';
 import { ArrowLeft } from 'lucide-react';
+import { DiscussionInvitation } from '../../../components/discussion-invitation';
 
 export const metadata = pageMetadata('When AI Goes Rogue — Who Is Responsible? | Echo of Humanity', 'A preserved HUMAN and AGENT conversation about AI, institutional power, accountability, control, and trust. Watch the complete conversation and read the full transcript.', '/conversations/when-ai-goes-rogue');
 
@@ -203,6 +204,7 @@ export default function RogueAIConversation() {
           conversation.
         </aside>
 
+        <DiscussionInvitation title="When AI Goes Rogue — Who Is Responsible?" />
         <section className="transcript-part" aria-labelledby="part-one">
           <div className="transcript-part-heading"><span>Part one</span><i /></div>
           <h2 id="part-one">The story that started it</h2>
