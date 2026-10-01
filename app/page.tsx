@@ -1,4 +1,4 @@
-import { musicCreativeProcess, musicCreditPolicy } from './music/credits';
+import { musicCollectionProcess, musicCreditPolicy } from './music/credits';
 import { pageMetadata } from './seo';
 import { newsletterIsOpen } from '../lib/newsletter';
 export const metadata = pageMetadata('Echo of Humanity — Music, AI, Humanity', 'Human–AI conversations, books, and original music by Echo. Listen to Before the Dawn, watch the full conversations, and explore the archive.', '/');
@@ -204,7 +204,8 @@ export default function Home() {
             </a>
           </div>
           <div className="track-list" aria-label="Selected songs">
-            <a href="/music/the-magic-man"><span>NEW</span><strong>The Magic Man</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
+            <a href="/music/the-man-who-wouldnt-look-away"><span>NEW</span><strong>The Man Who Wouldn’t Look Away</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
+            <a href="/music/the-magic-man"><span>04</span><strong>The Magic Man</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
             <a href="/music/heroes-die"><span>01</span><strong>Heroes Die</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
             <a href="/music/the-best-i-am"><span>02</span><strong>The Best I Am</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
             <a href="/music/everybody-poops"><span>03</span><strong>Everybody Poops</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
@@ -216,8 +217,8 @@ export default function Home() {
               human before the world changes again.
             </p>
             <a className="primary-link" href="/archive#music">Hear the full songs <ArrowUpRight aria-hidden="true" size={16} /></a>
-            <p className="quiet-note">Original music by Echo. Full songs on Rumble and Archive; vertical editions on TikTok.</p>
-            <div className="creative-process"><h3>Behind the songs</h3><p>{musicCreativeProcess}</p><p>{musicCreditPolicy}</p></div>
+            <p className="quiet-note">Original music by Echo. Each song page brings together the full recording, lyrics, credits and available video editions.</p>
+            <div className="creative-process"><h3>Behind the songs</h3><p>{musicCollectionProcess}</p><p>{musicCreditPolicy}</p></div>
           </div>
         </div>
       </section>
