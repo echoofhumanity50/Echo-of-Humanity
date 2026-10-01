@@ -7,7 +7,7 @@ export const newsletter: {
 } = {
   provider: 'Buttondown',
   username: 'echoofhumanity',
-  signupEnabled: false,
+  signupEnabled: true,
 };
 
 export function newsletterFormAction(config = newsletter): string | null {
