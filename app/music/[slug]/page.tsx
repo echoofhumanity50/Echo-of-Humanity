@@ -1,3 +1,4 @@
+import { VideoStructuredData } from '../../../components/video-structured-data';
 import { redditDiscussions } from '../../../lib/reddit';
 import { songMeanings } from '../meanings';
 import { musicCreditPolicy, recordingCredits } from '../credits';
@@ -35,6 +36,7 @@ export default async function Song({ params }: { params: Promise<{ slug: string 
     ...(item.tiktok ? ['https://www.tiktok.com/@echoofhumanity7/video/' + item.tiktok] : []),
   ];
   return <main className="archive-page song-page">
+    <VideoStructuredData slug={slug} />
     <StructuredData data={{ '@context': 'https://schema.org', '@type': 'MusicRecording', name: item.title, description: item.description, url: origin + '/music/' + slug, image: origin + item.image, duration: 'PT' + minutes + 'M' + seconds + 'S', byArtist: { '@type': 'MusicGroup', name: 'Echo' }, inAlbum: { '@type': 'MusicAlbum', name: 'Before the Dawn' }, lyrics: { '@type': 'CreativeWork', text: songLyrics }, creditText: recordingCredits[slug], sameAs: publishedEditions }} />
     <header className="archive-header"><a className="archive-back" href="/">Echo of Humanity</a><nav className="library-nav" aria-label="Music navigation"><a href="/archive#music">All songs</a><a href="/contact">Contact</a></nav></header>
     <section className="song-heading section-shell">

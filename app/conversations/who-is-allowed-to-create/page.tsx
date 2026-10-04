@@ -1,6 +1,7 @@
+import { VideoStructuredData } from '../../../components/video-structured-data';
 import { redditDiscussions } from '../../../lib/reddit';
 import { ArrowLeft } from 'lucide-react';
-import { pageMetadata, StructuredData, origin } from '../../seo';
+import { pageMetadata, origin } from '../../seo';
 import { DiscussionInvitation } from '../../../components/discussion-invitation';
 import transcript from './transcript.json';
 
@@ -25,7 +26,7 @@ const chapterAnchor = (chapter: string) => chapter.toLowerCase().replaceAll(' ',
 
 export default function WhoIsAllowedToCreate() {
   return <main className="archive-page">
-    <StructuredData data={{ '@context': 'https://schema.org', '@type': 'VideoObject', name: title, description, thumbnailUrl: `${origin}${image}`, uploadDate: '2026-09-24T16:03:13Z', duration: 'PT29M35S', embedUrl: 'https://archive.org/embed/echo-of-humanity-who-is-allowed-to-create', url: `${origin}${path}`, inLanguage: 'en', sameAs: [archive, rumble, 'https://www.tiktok.com/@echoofhumanity7/video/7689135396587900191'] }} />
+    <VideoStructuredData slug="who-is-allowed-to-create" />
     <header className="archive-header"><a className="archive-back" href="/archive#conversations"><ArrowLeft aria-hidden="true" size={16} />Echo Conversations</a><span className="archive-wordmark">Echo of Humanity</span></header>
     <section className="archive-hero"><div><p className="eyebrow">Echo Conversations · September 24, 2026</p><h1>{title}</h1><div className="archive-meta"><span>29:35 · Full conversation</span><span>HUMAN / AGENT</span><span>Full transcript</span></div></div><div className="archive-summary"><p>A dismissive comment about a free Windows utility opens a larger discussion about who is allowed to create—and what society owes the people affected by automation.</p><p>From AI-assisted authorship and creative freedom to a Human Transition Dividend: when technology makes work easier or cheaper, who should share in the benefit?</p></div></section>
     <div className="archive-content">

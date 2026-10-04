@@ -163,26 +163,26 @@ export default function Home() {
             </div>
             <div className="feature-copy">
               <p className="kicker">Echo Conversations</p>
-              <h2>Who Is Allowed to Create? Who Gets Left Behind?</h2>
+              <h2>The Trigger That Never Comes</h2>
               <p className="lead">
-                AI-assisted authorship, creative freedom, and the human transition.
-                When automation changes work, who should share in the benefit—
-                and what responsibility remains to the people left behind?
+                Why do we keep waiting for a decisive moment?
+                A conversation about gradual change, moving baselines,
+                political unrest, and the people controlling AI.
               </p>
               <div className="episode-meta">
-                <span>29:35 · 43 turns and a closing invitation</span>
+                <span>31:37 · 48 turns and a closing invitation</span>
                 <span>Full discussion</span>
               </div>
               <a
                 className="primary-link"
-                href="/conversations/who-is-allowed-to-create"
+                href="/conversations/the-trigger-that-never-comes"
               >
                 Watch the complete conversation
                 <ArrowUpRight aria-hidden="true" size={16} strokeWidth={1.7} />
               </a>
               <p className="quiet-note">
                 HUMAN and AGENT voices, synchronized words, and rings that
-                respond directly to the narration. Full transcript and seven chapters.
+                respond directly to the narration. Full transcript and ten chapters.
               </p>
               <a className="text-link" href="/archive#conversations">Explore all Echo Conversations <ArrowUpRight aria-hidden="true" size={16} /></a>
             </div>

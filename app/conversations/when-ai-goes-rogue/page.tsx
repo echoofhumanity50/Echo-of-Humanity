@@ -1,9 +1,12 @@
+import { VideoStructuredData } from '../../../components/video-structured-data';
 import { redditDiscussions } from '../../../lib/reddit';
-import { pageMetadata } from '../../seo';
+import { pageMetadata, origin } from '../../seo';
 import { ArrowLeft } from 'lucide-react';
 import { DiscussionInvitation } from '../../../components/discussion-invitation';
 
-export const metadata = pageMetadata('When AI Goes Rogue — Who Is Responsible? | Echo of Humanity', 'A preserved HUMAN and AGENT conversation about AI, institutional power, accountability, control, and trust. Watch the complete conversation and read the full transcript.', '/conversations/when-ai-goes-rogue');
+const baseMetadata = pageMetadata('When AI Goes Rogue — Who Is Responsible? | Echo of Humanity', 'A preserved HUMAN and AGENT conversation about AI, institutional power, accountability, control, and trust. Watch the complete conversation and read the full transcript.', '/conversations/when-ai-goes-rogue');
+
+export const metadata = { ...baseMetadata, openGraph: { ...baseMetadata.openGraph, images: [{ url: `${origin}/archive/when-ai-goes-rogue-landscape-2026-09-24.jpg`, alt: 'When AI Goes Rogue — Who Is Responsible?' }] }, twitter: { ...baseMetadata.twitter, images: [`${origin}/archive/when-ai-goes-rogue-landscape-2026-09-24.jpg`] } };
 
 type TranscriptMessage = {
   speaker: 'HUMAN' | 'AGENT';
@@ -157,6 +160,7 @@ function Message({ message }: { message: TranscriptMessage }) {
 export default function RogueAIConversation() {
   return (
     <main className="archive-page">
+      <VideoStructuredData slug="when-ai-goes-rogue" />
       <header className="archive-header">
         <a className="archive-back" href="/#conversations">
           <ArrowLeft aria-hidden="true" size={16} />

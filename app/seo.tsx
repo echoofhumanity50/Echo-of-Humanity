@@ -5,8 +5,9 @@ export function pageMetadata(title: string, description: string, path: string): 
   const url = `${origin}${path}`;
   return {
     title, description, alternates: { canonical: url },
-    openGraph: { title, description, url, siteName: 'Echo of Humanity', type: 'website', locale: 'en_US' },
-    twitter: { card: 'summary', title, description },
+    openGraph: { title, description, url, siteName: 'Echo of Humanity', type: 'website', locale: 'en_US', images: [{ url: `${origin}/echo-share.jpg`, width: 1200, height: 630, alt: 'Echo of Humanity — conversations, music and books' }] },
+    twitter: { card: 'summary_large_image', title, description, images: [`${origin}/echo-share.jpg`] },
+    robots: { index: true, follow: true },
   };
 }
 export function StructuredData({ data }: { data: Record<string, unknown> }) {

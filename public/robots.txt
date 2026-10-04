@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://echoofhumanity.net/sitemap.xml
+Sitemap: https://echoofhumanity.net/video-sitemap.xml
