@@ -47,7 +47,7 @@ export default async function Song({ params }: { params: Promise<{ slug: string 
       <section className="full-video" id="listen">
         <p className="section-number">01 / Listen</p><h2>The complete song.</h2>
         <div className="video-frame">
-          <iframe src={'https://archive.org/embed/echo-of-humanity-' + slug} title={item.title + ' — full song by Echo'} loading="lazy" allow="fullscreen" allowFullScreen />
+          <iframe src={slug === 'somebody-else' ? 'https://rumble.com/embed/v7el7m0/?pub=4qj58q' : 'https://archive.org/embed/echo-of-humanity-' + slug} title={item.title + ' — full song by Echo'} loading="lazy" allow="fullscreen" allowFullScreen />
         </div>
         <div className="media-links">
           {!item.archivePending && <a href={archiveUrl(slug)} target="_blank" rel="noreferrer">Watch on Internet Archive</a>}
