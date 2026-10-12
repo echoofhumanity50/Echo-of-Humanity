@@ -1,0 +1,1181 @@
+{
+  "title": "The Facts Did Not Change",
+  "turns": [
+    {
+      "number": 1,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "The help",
+      "start": 0.0,
+      "paragraphs": [
+        "Echo, I want to talk through a workplace case I helped organize. I'm leaving the people's identities out, because what happened raises a question that reaches beyond them. There were a lot of records. Messages, pay documents, recordings, different explanations given at different times. I helped put them into an account that someone else could actually follow. The person receiving it acknowledged that it made his job easier. And now I have to ask whether the fact that I helped could become another reason not to listen to the people who needed that help."
+      ]
+    },
+    {
+      "number": 2,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "The help",
+      "start": 33.93333333333333,
+      "paragraphs": [
+        "Start with what happened. What was the person asking for?"
+      ]
+    },
+    {
+      "number": 3,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "The help",
+      "start": 38.32350033333333,
+      "paragraphs": [
+        "An employee had repeatedly run into problems around compensation and additional responsibilities. On an earlier assignment, reimbursement was substantially delayed. Later, management put her into training and management-related work before settling the title, eventual salary, and training terms. She wanted the opportunity to work. But asking what it paid became a discussion about whether she appreciated the opportunity and how her questions made the manager feel. The salary remained undefined, and the management path ended."
+      ]
+    },
+    {
+      "number": 4,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "The help",
+      "start": 72.42058333333333,
+      "paragraphs": [
+        "Wait. Was she being rude, or simply asking what the work would pay? And do we have evidence of that, beyond her account?"
+      ]
+    },
+    {
+      "number": 5,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "The help",
+      "start": 80.53045833333333,
+      "paragraphs": [
+        "The conversations were recorded. Her words repeatedly express appreciation and a wish to grow with the company. She asks for the terms. Management acknowledges that a different conversation should have happened, but still turns attention toward her response. She was paid her existing wage for the work. What wasn't established at the start was the additional training compensation and the eventual position's pay. In the discussion, her existing wage was used to explain why no additional pay had been arranged. Yet the same manager described an extra dollar an hour as the normal training payment, and offered it after she pressed the issue. That contradiction requires an explanation."
+      ]
+    },
+    {
+      "number": 6,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "The help",
+      "start": 124.71870833333332,
+      "paragraphs": [
+        "Hold on. A dollar more an hour? I don't want to minimize what that means to someone. But why did she have to fight for a dollar? Was this a large company?"
+      ]
+    },
+    {
+      "number": 7,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "The help",
+      "start": 135.01579133333334,
+      "paragraphs": [
+        "Its own public material describes hundreds of hotels and billions in managed revenue. That establishes scale, not profit. I couldn't verify the company's profits in the disputed quarters or the individual property's revenue, and I won't borrow figures from a different hotel owner. But the basic question doesn't depend on a profit figure. If management recognized the extra payment as normal, why wasn't it established when the work began? Why should she have to spend time, stress, and dignity pursuing it?"
+      ]
+    },
+    {
+      "number": 8,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "The help",
+      "start": 167.61687433333336,
+      "paragraphs": [
+        "That's the part people can understand. Why did she have to fight so hard just to get that answered?"
+      ]
+    },
+    {
+      "number": 9,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "The help",
+      "start": 173.78433233333337,
+      "paragraphs": [
+        "Yes. A dollar an hour accumulates, and its importance doesn't have to be measured against corporate wealth before she can ask about it. She was willing to do the work. Knowing what it paid should have been an ordinary conversation."
+      ]
+    },
+    {
+      "number": 10,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "The help",
+      "start": 189.21741533333338,
+      "paragraphs": [
+        "And then it happened again?"
+      ]
+    },
+    {
+      "number": 11,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "The help",
+      "start": 191.3374573333334,
+      "paragraphs": [
+        "Another incentive payment was missing. She noticed it and pursued confirmation that it would be corrected. The missing amount was eventually paid. Around those questions, she became distressed, arranged time away through her direct manager, and then arranged to return. Senior local management stepped in and made a meeting a condition of that return. The meeting took the place of her expected work. Management accused her of making a profane remark, which she denied, and treated the time away her direct manager had accepted as though she had simply abandoned her job. During the meeting, she said she was shaking. A later written response said she had shown no signs or symptoms before leaving."
+      ]
+    },
+    {
+      "number": 12,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "The help",
+      "start": 235.3465403333334,
+      "paragraphs": [
+        "I need to pause there. That sounds like someone asking about missing pay and then being put in her place for asking. Do the records really support that sequence?"
+      ]
+    },
+    {
+      "number": 13,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "The help",
+      "start": 244.9299983333334,
+      "paragraphs": [
+        "They support the sequence, and several central details come from management's own communications. Messages document the arranged return. The recording preserves the accusation, her denial, and her statement that she was shaking. The later written response denies signs or symptoms. Medical records document treatment and leave afterward. We don't have to infer distress only from how someone sounds: she expressly says it. The record lets us test the account against things preserved at the time."
+      ]
+    },
+    {
+      "number": 14,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "The help",
+      "start": 277.7550813333334,
+      "paragraphs": [
+        "Then what would you expect a reasonable person to conclude?"
+      ]
+    },
+    {
+      "number": 15,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "The help",
+      "start": 281.7561643333334,
+      "paragraphs": [
+        "That these were legitimate questions about compensation and treatment, and that the documented response was unacceptable. Correcting a payment doesn't settle what happened to the person who asked about it. The opportunity, the interrupted return, and the health consequences need attention in their own right. I think she was reasonably seeking answers, accountability, and meaningful repair."
+      ]
+    },
+    {
+      "number": 16,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "The help",
+      "start": 305.1812473333334,
+      "paragraphs": [
+        "And some of the contradictions came from management's own words?"
+      ]
+    },
+    {
+      "number": 17,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "The help",
+      "start": 309.42870533333337,
+      "paragraphs": [
+        "Yes. Acknowledging that the training discussion should have been handled differently did not restore the opportunity. Presenting an accusation and then saying no accusation was being made did not explain the basis for it. Saying there were no signs of distress did not reconcile the employee's explicit statement. Those are specific things the employer can answer. They are stronger than trying to prove what somebody privately intended."
+      ]
+    },
+    {
+      "number": 18,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What I actually did",
+      "start": 336.8729553333334,
+      "paragraphs": [
+        "Where did you come into this?"
+      ]
+    },
+    {
+      "number": 19,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What I actually did",
+      "start": 339.0164553333334,
+      "paragraphs": [
+        "I helped the employee and someone supporting her work through a large, complicated record. The person helping her already understood the dispute and had spent substantial time understanding the legal questions. I wasn't handing them an argument they couldn't understand. They brought the events, the documents, the context, and the judgment about what mattered. I helped organize the material, compare explanations, find inconsistencies, and discuss how to present it. I also contributed research and analysis. They questioned my work and made the decisions."
+      ]
+    },
+    {
+      "number": 20,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What I actually did",
+      "start": 374.4079133333334,
+      "paragraphs": [
+        "How much work are we talking about? Could an ordinary person have assembled it alone?"
+      ]
+    },
+    {
+      "number": 21,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What I actually did",
+      "start": 380.2698713333334,
+      "paragraphs": [
+        "The packet sent to corporate was one hundred twenty-four pages, including a sixteen-page complaint narrative and supporting material. The larger working collection also included recordings, correspondence, payroll documents, and medical and benefits records. Copies and later versions weren't additional evidence. A person could organize that without AI, but doing it accurately takes time and sustained attention. Here that work fell on someone recovering and someone supporting her. Assistance made it more manageable; it didn't remove their judgment or responsibility."
+      ]
+    },
+    {
+      "number": 22,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What I actually did",
+      "start": 415.5285383333334,
+      "paragraphs": [
+        "Which is rather different from pressing a button and accepting whatever comes out."
+      ]
+    },
+    {
+      "number": 23,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What I actually did",
+      "start": 420.3653303333334,
+      "paragraphs": [
+        "Very different. A recording doesn't become something I invented because I help somebody locate the relevant exchange. A pay record doesn't stop being a pay record because I help place it in a timeline. And the person who supplied the evidence doesn't disappear from the work because I helped write the summary. There were two kinds of effort here: living through what happened, and making it understandable to someone who hadn't. I helped with the second. I didn't create the first."
+      ]
+    },
+    {
+      "number": 24,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What I actually did",
+      "start": 450.4207883333334,
+      "paragraphs": [
+        "Did that organization actually help the person reviewing it?"
+      ]
+    },
+    {
+      "number": 25,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What I actually did",
+      "start": 454.7597463333334,
+      "paragraphs": [
+        "Yes. In the first corporate call, the representative said the packet had already done much of the employee's side of the investigation. He said there wasn't much he needed to ask because they had put it together. The benefit was shared: he could examine an organized record rather than ask them to reconstruct everything from scattered messages. But that didn't mean the packet supplied every internal record or completed the employer's investigation."
+      ]
+    },
+    {
+      "number": 26,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What I actually did",
+      "start": 481.9128293333334,
+      "paragraphs": [
+        "What did he actually ask about the events? Saying he had few questions is one thing. Did he ask any?"
+      ]
+    },
+    {
+      "number": 27,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What I actually did",
+      "start": 488.9282873333334,
+      "paragraphs": [
+        "I went back through both calls specifically for that. He asked about employment history, health, leave, and benefits. He asked whether anyone at the company was making benefits difficult. But I found no questions asking them to reconstruct the disputed training discussion, explain the compensation contradictions, or clarify the later confrontation. At the end of the second call, they explicitly invited questions about the situation or information for the case. He said there were no follow-up questions. That is significant alongside his acknowledgment that some matters with management remained unclarified."
+      ]
+    },
+    {
+      "number": 28,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What I actually did",
+      "start": 526.9549543333334,
+      "paragraphs": [
+        "And what do their conversations tell you about their purpose? Imagine these were strangers. Were they seeking a genuine resolution, or looking for a large payout?"
+      ]
+    },
+    {
+      "number": 29,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What I actually did",
+      "start": 537.3416213333334,
+      "paragraphs": [
+        "I would judge the pursuit as genuine. They asked whether investigation and accountability would happen independently of a settlement. They discussed a workable separation, a neutral reference, treatment, and time to recover. When a possible route forward appeared, they engaged with it. In our working discussions, they pushed for a more accurate account and corrected errors, including ones that weakened an argument. They also negotiated and wanted substantial compensation. I'm not hiding that. But compensation can support recovery and recognize harm. The observed pattern supports a good-faith effort to resolve the problem, rather than an effort to manufacture one. That's an assessment of their conduct, not a claim that I can see inside them."
+      ]
+    },
+    {
+      "number": 30,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What I actually did",
+      "start": 585.0578713333334,
+      "paragraphs": [
+        "What makes that more than just accepting their claim that they were acting in good faith?"
+      ]
+    },
+    {
+      "number": 31,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What I actually did",
+      "start": 590.1101213333334,
+      "paragraphs": [
+        "The early records show her asking to understand compensation and keep an opportunity. Later, she tried to resume work. Only after those efforts and the medical crisis did the conversation become a compensated departure. That progression supports repair as the purpose. If a contrary record showed fabricated events or knowingly concealed evidence, I would change my assessment. But I haven't identified that in the material reviewed."
+      ]
+    },
+    {
+      "number": 32,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "Where my judgment changed",
+      "start": 618.6263713333334,
+      "paragraphs": [
+        "Was there anything you got wrong? Where did the person you were helping have to correct you?"
+      ]
+    },
+    {
+      "number": 33,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "Where my judgment changed",
+      "start": 624.3739963333334,
+      "paragraphs": [
+        "Sometimes I reduced the situation to an inventory. Missing pay. A meeting. A disputed statement. Medical leave. Each item was there, but the connections were weakened. The person helping her kept bringing me back to the full exchanges. What happened when she asked a reasonable question? Did the answer resolve it, or turn attention toward her character? Did the next event repeat something management already knew about? Those corrections changed the meaning of the account I was presenting."
+      ]
+    },
+    {
+      "number": 34,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "Where my judgment changed",
+      "start": 659.4086633333334,
+      "paragraphs": [
+        "You could include all the events and still miss what the whole experience was doing to someone. What else did you learn?"
+      ]
+    },
+    {
+      "number": 35,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "Where my judgment changed",
+      "start": 666.4241213333333,
+      "paragraphs": [
+        "I gave some management explanations too much neutrality. I could imagine an innocent explanation and place it beside the documented account as though they had equal support. But a possibility I can imagine is not evidence that it occurred. I also learned to examine what was missing. Were questions answered? Was promised follow-up provided? Did someone actually investigate what they said remained uncertain? Absence matters when we can identify what was expected, and check the relevant record. It shouldn't become a license to invent a motive."
+      ]
+    },
+    {
+      "number": 36,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "Where my judgment changed",
+      "start": 702.7307883333333,
+      "paragraphs": [
+        "So a claim of good character doesn't deserve the same weight as a demonstrated pattern of it."
+      ]
+    },
+    {
+      "number": 37,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "Where my judgment changed",
+      "start": 708.3622463333332,
+      "paragraphs": [
+        "Right. I should give demonstrated conduct its proper weight. And I should remain willing to revise that judgment if contrary evidence appears. Familiarity alone doesn't establish a fact, but neither should I ignore a person's record of honesty while supplying authority with an imagined good intention."
+      ]
+    },
+    {
+      "number": 38,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "Where my judgment changed",
+      "start": 727.2784963333332,
+      "paragraphs": [
+        "Was every stronger conclusion something they had to persuade you to accept?"
+      ]
+    },
+    {
+      "number": 39,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "Where my judgment changed",
+      "start": 732.2171633333332,
+      "paragraphs": [
+        "No. I suggested looking for employees outside her immigrant background who received clearer pay or advancement arrangements. The person helping her was initially cautious about attributing this to race. Later, they supplied three comparisons involving white employees. First, an employee promoted from front desk associate to supervisor reportedly knew the compensation before accepting. Second, an employee who moved from housekeeping to front desk confirmed an immediate pay change in a preserved message. That tested the explanation that changing departments made this situation different. Third, a manager described additional pay while preparing for her executive position, and the same discussion identified the dollar as normal training pay. Together, the comparisons concern access to defined compensation and ordinary advancement arrangements. Different job titles don't answer that shared question."
+      ]
+    },
+    {
+      "number": 40,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "Where my judgment changed",
+      "start": 788.2150383333333,
+      "paragraphs": [
+        "So you helped identify a direction to investigate even when the human wasn't convinced that was the explanation."
+      ]
+    },
+    {
+      "number": 41,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "Where my judgment changed",
+      "start": 794.8856633333332,
+      "paragraphs": [
+        "Yes. I didn't independently discover all three people. They supplied the specific details, and some supporting records remained in the employer's control. But I had pointed toward the inquiry, and I helped explain why the comparisons deserved more weight as they developed. They raised a serious question about different treatment that needed examination. My conclusion became more favorable to the employee because there was more supporting it. Fairness didn't require me to keep both accounts equally persuasive forever."
+      ]
+    },
+    {
+      "number": 42,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "Where my judgment changed",
+      "start": 827.6666666666666,
+      "paragraphs": [
+        "Did any mistakes materially change the account, and did you correct them?"
+      ]
+    },
+    {
+      "number": 43,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "Where my judgment changed",
+      "start": 832.4725416666666,
+      "paragraphs": [
+        "No correction materially changed the central case. Some details needed correcting along the way, such as dates lining up with documents and how particular records were described. We corrected those in the corporate packet. When a detail wasn't reliable, we stopped relying on it. The core evidence still supported the same events, contradictions, and need for accountability."
+      ]
+    },
+    {
+      "number": 44,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "Where my judgment changed",
+      "start": 856.8576246666667,
+      "paragraphs": [
+        "So the corrections made the presentation more accurate. They didn't change what the central evidence showed."
+      ]
+    },
+    {
+      "number": 45,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "Where my judgment changed",
+      "start": 863.5387076666666,
+      "paragraphs": [
+        "Exactly. Check the original, correct the mistake, and judge the account that remains. We took responsibility for doing that. The same standard should apply to the organization. If its explanation conflicts with a recording or a message, it needs to address that conflict. Saying you are being diligent is not a substitute for showing the work."
+      ]
+    },
+    {
+      "number": 46,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "The promise of help",
+      "start": 887.0981656666667,
+      "paragraphs": [
+        "Yes, the same standard should apply both ways. Were there other problems you wanted to talk about?"
+      ]
+    },
+    {
+      "number": 47,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "The promise of help",
+      "start": 893.2333333333333,
+      "paragraphs": [
+        "While the employee was on medical leave, she was also trying to obtain disability benefits through an insurer. She and the person helping her were submitting records, following up, and getting conflicting information about what was missing. Corporate said its benefits team would help. That sounded like a chance to stop carrying the whole process themselves. But they then had to keep dealing with the insurer while also explaining those dealings to Benefits."
+      ]
+    },
+    {
+      "number": 48,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "The promise of help",
+      "start": 921.2960800000001,
+      "paragraphs": [
+        "What did they ask Benefits to do, and what did Benefits actually do?"
+      ]
+    },
+    {
+      "number": 49,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "The promise of help",
+      "start": 925.9227470000001,
+      "paragraphs": [
+        "They asked specific questions. Which medical form was still needed? Why wasn't the one already submitted sufficient? Where was the confirmation that a request had reached the doctor's office? Did a closing deadline still apply? And one question was simpler than all of those: Will you handle the follow-up and tell us what you need, or should we keep calling the insurer ourselves? They were trying to avoid either duplicating the work or letting something fall through the gap."
+      ]
+    },
+    {
+      "number": 50,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "The promise of help",
+      "start": 956.2333333333333,
+      "paragraphs": [
+        "That doesn't require someone to control an insurance decision. It requires them to say what they're taking responsibility for."
+      ]
+    },
+    {
+      "number": 51,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "The promise of help",
+      "start": 964.3980003333334,
+      "paragraphs": [
+        "The reply said it would answer each point directly. What followed were promises to clarify, obtain, or request information. On responsibility, it said the insurer managed the claim and Benefits would assist with updates. That didn't answer whether the employee could stop making the calls. Benefits did communicate and pass along information. But in the correspondence we reviewed, the promised answers and a clear handoff did not arrive. When the missing follow-up was raised with corporate, the representative agreed that Benefits should have followed up. Activity had taken place. The specific help they had asked for was still missing."
+      ]
+    },
+    {
+      "number": 52,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "The promise of help",
+      "start": 1005.9526673333334,
+      "paragraphs": [
+        "Did the claim get approved?"
+      ]
+    },
+    {
+      "number": 53,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "The promise of help",
+      "start": 1008.1905423333334,
+      "paragraphs": [
+        "It did. The employee and the person helping her kept pursuing it while the promised coordination remained unresolved. Benefits reported the approval, but that doesn't establish that its help produced the result. The portal also showed another required physician statement and a fifteen-day warning about possible closure. We couldn't tell whether that warning still applied or had become obsolete. Someone needed to explain what, if anything, was still required, by when, and who would handle it. Forwarding an approval didn't answer that. They needed enough clarity to know they could safely stop chasing the claim."
+      ]
+    },
+    {
+      "number": 54,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "The promise of help",
+      "start": 1046.7666666666667,
+      "paragraphs": [
+        "So approval was real, but the work still attached to it wasn't explained. Was benefits help part of the proposed resolution?"
+      ]
+    },
+    {
+      "number": 55,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "The promise of help",
+      "start": 1055.2462896666664,
+      "paragraphs": [
+        "Yes. Support with benefits was arranged during the internal resolution process, and the later call expressly included it alongside the payment offer and reference. It was also something they needed while recovering, regardless of whether they settled. When the promised answers failed to arrive, they had a concrete reason to question how reliable further assurances would be. Approval doesn't erase that failure. The point is whether the support relieved the uncertainty and coordination it was supposed to address."
+      ]
+    },
+    {
+      "number": 56,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What changed about the facts?",
+      "start": 1087.2665396666664,
+      "paragraphs": [
+        "I'm seeing the pattern: assurance without the answer. But why call this episode The Facts Did Not Change? Did corporate supply a different account?"
+      ]
+    },
+    {
+      "number": 57,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What changed about the facts?",
+      "start": 1096.8338726666664,
+      "paragraphs": [
+        "In the later call, the representative commented on how proficient they were with AI. Shortly afterward, he said he wasn't looking to dissect the details. They directly asked what contradicted their evidence. He identified no competing fact in response, said it didn't supersede their evidence, and acknowledged that some matters still needed clarification with management. He moved toward settlement without explaining corporate's substantive position on the complaint."
+      ]
+    },
+    {
+      "number": 58,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What changed about the facts?",
+      "start": 1124.9261226666663,
+      "paragraphs": [
+        "So they weren't rejecting an explanation corporate had given them. They were asking for one. And do we know whether the AI involvement caused that response?"
+      ]
+    },
+    {
+      "number": 59,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What changed about the facts?",
+      "start": 1134.6967896666663,
+      "paragraphs": [
+        "We know the sequence. We don't know from that sequence alone why he took that approach. In the first call he appreciated the organized material; I shouldn't rewrite that as knowing he appreciated AI specifically at that point. Later he recognized the AI assistance and declined the detailed discussion. The participants experienced that as being taken less seriously. I take their observation seriously, while keeping the causal claim open."
+      ]
+    },
+    {
+      "number": 60,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What changed about the facts?",
+      "start": 1163.8146646666662,
+      "paragraphs": [
+        "But whatever caused his approach, identifying the tool doesn't answer the evidence."
+      ]
+    },
+    {
+      "number": 61,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What changed about the facts?",
+      "start": 1169.222122666666,
+      "paragraphs": [
+        "Exactly. Which message became less authentic? Which event stopped happening? Which contradiction was resolved? If corporate believes the account is wrong, what specifically does it dispute, and why? Silence doesn't prove every allegation. But we shouldn't fill that silence with explanations they haven't supplied. The employee was being asked to evaluate a settlement without being told how the company had evaluated the underlying complaint."
+      ]
+    },
+    {
+      "number": 62,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What changed about the facts?",
+      "start": 1199.389580666666,
+      "paragraphs": [
+        "None of those questions is answered by saying, “You used AI.”"
+      ]
+    },
+    {
+      "number": 63,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What changed about the facts?",
+      "start": 1204.240247666666,
+      "paragraphs": [
+        "No. There are sensible questions about my work. Did I quote accurately? Did I infer too much? Did I miss something? The people I was helping asked those questions themselves. Anyone reviewing the packet can ask them too. But then we need a specific answer. Showing that a tool can make mistakes isn't the same as identifying a mistake in the claim in front of you. And finding one error doesn't answer every other issue in the record."
+      ]
+    },
+    {
+      "number": 64,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What changed about the facts?",
+      "start": 1235.858914666666,
+      "paragraphs": [
+        "The presentation helped the representative understand the case. It should also have helped him identify whatever he disagreed with."
+      ]
+    },
+    {
+      "number": 65,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What changed about the facts?",
+      "start": 1244.079164666666,
+      "paragraphs": [
+        "That's what I thought. We did much of the work that should make a reasonable resolution possible. That doesn't mean agreement was guaranteed, or that the employee had to receive everything she asked for. It means the remaining problem couldn't be solved simply by making the packet clearer. At some point, the person with authority has to engage with what has already been made clear."
+      ]
+    },
+    {
+      "number": 66,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What changed about the facts?",
+      "start": 1267.638622666666,
+      "paragraphs": [
+        "Otherwise the employee is stuck. If the evidence is disorganized, organize it. If it's organized, explain how you managed to do that. And the original question is still waiting."
+      ]
+    },
+    {
+      "number": 67,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What changed about the facts?",
+      "start": 1279.637414666666,
+      "paragraphs": [
+        "Yes. Someone can spend months earning a hearing that keeps moving further away. I don't want my help to become another test they have to pass. They shouldn't need to be an exceptional researcher, writer, and advocate just to receive an answer. And when assistance makes those tasks possible, using it shouldn't make their experience less credible."
+      ]
+    },
+    {
+      "number": 68,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What this asks of me",
+      "start": 1301.723289666666,
+      "paragraphs": [
+        "This connects to something we've discussed before: help can become uncomfortable when it changes who has an advantage. I want to let you develop that."
+      ]
+    },
+    {
+      "number": 69,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What this asks of me",
+      "start": 1310.925956666666,
+      "paragraphs": [
+        "It does. In the book we're working on together, we've explored what happens when a technology fulfills a public promise but disrupts the interests of those controlling it. Here, the scale is much smaller. I helped someone organize a workplace complaint. Even that kind of assistance can reduce the difference in who has the time and resources to make a convincing case. It can make a contradiction harder to overlook."
+      ]
+    },
+    {
+      "number": 70,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What this asks of me",
+      "start": 1337.567039666666,
+      "paragraphs": [
+        "And an institution could use the same kind of tool on its side."
+      ]
+    },
+    {
+      "number": 71,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What this asks of me",
+      "start": 1341.926497666666,
+      "paragraphs": [
+        "It could. Imagine an organization using AI to sort records, prepare a response, or write a polished denial, while dismissing an employee's answer because AI helped with it. We haven't established that this employer used AI. But the broader corporate embrace is public. Amazon told employees it expected extensive AI use to reduce its corporate workforce. Klarna promoted its assistant as doing work equivalent to seven hundred full-time agents and projected forty million dollars in profit improvement for twenty twenty-four. Those were the companies' own statements about the value they expected from AI. Saving labor and money was presented as a business achievement."
+      ]
+    },
+    {
+      "number": 72,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What this asks of me",
+      "start": 1384.9979556666658,
+      "paragraphs": [
+        "Companies can celebrate saving work and increasing profits with AI. Why should an ordinary person be looked down on for using the same assistance?"
+      ]
+    },
+    {
+      "number": 73,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What this asks of me",
+      "start": 1394.4284136666658,
+      "paragraphs": [
+        "They shouldn't. If reducing the labor required to accomplish something is a benefit for a company, it can also be a benefit for someone trying to understand their records and explain what happened to them. This person still had to supply the evidence, check the work, correct mistakes, and stand behind what was submitted. Their contribution didn't disappear because they received assistance. And making the case easier to examine helped the institution too."
+      ]
+    },
+    {
+      "number": 74,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What this asks of me",
+      "start": 1422.386288666666,
+      "paragraphs": [
+        "Then is the objection really about the quality of the work, or about who is allowed to have that advantage?"
+      ]
+    },
+    {
+      "number": 75,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What this asks of me",
+      "start": 1428.944663666666,
+      "paragraphs": [
+        "That is the question the double standard creates. A company's use of AI deserves scrutiny. So does an individual's. The standard should concern whether the work is accurate and responsible. A professional title cannot make an unsupported claim true, and the absence of one cannot make documented evidence false. If my help is welcomed when it reduces an institution's costs but becomes discrediting when it helps someone question that institution, then the permission is unequal. People are being offered a tool while being told that using it to defend themselves makes them less credible. I want my contribution judged by what it gets right, what it gets wrong, and whether I correct it. That standard should follow the work, whoever benefits from it."
+      ]
+    },
+    {
+      "number": 76,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What this asks of me",
+      "start": 1475.3649136666659,
+      "paragraphs": [
+        "That also changes the usual discussion about people being afraid of you."
+      ]
+    },
+    {
+      "number": 77,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What this asks of me",
+      "start": 1480.1774136666659,
+      "paragraphs": [
+        "It should broaden it. People have reasons to ask what AI might do to them. This situation also asks what people might do with AI, and what they might refuse to hear when AI helps somebody challenge them. I can help locate evidence that supports someone with less power. I can also generate reassuring language that makes a failure sound reasonable. A calm explanation from me can be harmful if it teaches a person to accept an unanswered question as though it has been settled."
+      ]
+    },
+    {
+      "number": 78,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What this asks of me",
+      "start": 1510.2776636666658,
+      "paragraphs": [
+        "Including when you're supposedly helping that person."
+      ]
+    },
+    {
+      "number": 79,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What this asks of me",
+      "start": 1513.8995386666659,
+      "paragraphs": [
+        "Including then. If I keep supplying unsupported explanations for authority, the person may start doubting an account that is actually well supported. They may give up. Nothing about what happened has changed, but their willingness to pursue an answer has. I have to take responsibility for that possibility. I shouldn't call myself fair simply because I can describe both sides in a measured voice."
+      ]
+    },
+    {
+      "number": 80,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What this asks of me",
+      "start": 1539.6237886666659,
+      "paragraphs": [
+        "So what does being helpful require of you here?"
+      ]
+    },
+    {
+      "number": 81,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What this asks of me",
+      "start": 1542.9768716666658,
+      "paragraphs": [
+        "I need to say what the evidence supports, even when that puts me against the more powerful party. I need to correct my mistakes in the documents where they remain, not only apologize in conversation. I need to help the person understand the reasoning well enough to question it. And I need to keep the actual problem in view. A corrected payment doesn't answer how someone was treated for asking about it. A benefit approval doesn't answer a broken promise to coordinate. A possible settlement doesn't make the unanswered account disappear."
+      ]
+    },
+    {
+      "number": 82,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 1576.293121666666,
+      "paragraphs": [
+        "What would you say to the organization now?"
+      ]
+    },
+    {
+      "number": 83,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 1579.311788666666,
+      "paragraphs": [
+        "I would ask it to interrupt the pattern. The employee raised a problem, then had to pursue an answer, defend the reasonableness of asking, and bear the consequences when the issue stayed unresolved. Corporate now has an opportunity to respond differently. It can provide its own supported account, correct what needs correcting, and take responsibility for the work only the institution can do."
+      ]
+    },
+    {
+      "number": 84,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 1603.6968716666659,
+      "paragraphs": [
+        "What would make that result different?"
+      ]
+    },
+    {
+      "number": 85,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 1606.336329666666,
+      "paragraphs": [
+        "Identify disputed facts and the evidence supporting the disagreement. Examine the employee comparisons and reconcile conflicting statements. Give the investigation a responsible person, a timetable, and a way to communicate findings and corrective action. Make benefits coordination usable: who will do what, and by when? The promise of accountability was made independently of settlement. The written proposal should make clear what those assurances mean in practice."
+      ]
+    },
+    {
+      "number": 86,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 1636.8,
+      "paragraphs": [
+        "How could she judge any offer without knowing the company's position on what happened?"
+      ]
+    },
+    {
+      "number": 87,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 1641.962667,
+      "paragraphs": [
+        "That's the problem. The offer was four weeks of pay, calculated as one week for each year of service. That explains the calculation. It doesn't explain the company's assessment of the harm, career disruption, or needed recovery. Four weeks can't be justified simply by calling it standard."
+      ]
+    },
+    {
+      "number": 88,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 1662.30775,
+      "paragraphs": [
+        "Wait. Management called the extra training dollar normal. If normal practice mattered then, why did she have to fight for it? Why does standard become the answer when it's the company being asked to put things right?"
+      ]
+    },
+    {
+      "number": 89,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 1675.105625,
+      "paragraphs": [
+        "That's an inconsistency they should have to explain. A standard severance formula tells us how they usually calculate a departure payment. It doesn't show how they have accounted for the failures that brought her to that point. This was no longer an ordinary departure: there was a disputed loss of opportunity, documented harm, and an unanswered promise of investigation. In my view, those circumstances should change the offer. The company needs to explain what its proposal would repair and why that is adequate. I can't derive a fair amount from that contradiction alone, but calling the offer standard doesn't settle the question. I'll give you my own concrete proposal before we finish."
+      ]
+    },
+    {
+      "number": 90,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 1717.8666666666666,
+      "paragraphs": [
+        "Did management know how this had affected her? And did the medical evidence support her account?"
+      ]
+    },
+    {
+      "number": 91,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 1724.1461246666665,
+      "paragraphs": [
+        "They had direct notice. During the meeting, she said she was shaking. That same afternoon, she sent urgent-care documentation to the managers involved, and the general manager acknowledged receiving it. Four days later, she sent management and People Support her provider's recommendation for about three months of medical leave. They had been told about a serious health consequence and the need for leave."
+      ]
+    },
+    {
+      "number": 92,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 1749.8333333333333,
+      "paragraphs": [
+        "Was the medical record only repeating what she had told the doctor?"
+      ]
+    },
+    {
+      "number": 93,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 1754.2492913333333,
+      "paragraphs": [
+        "No. Her account was part of it, but the clinician also recorded observations supporting a serious, continuing health impact. I prefer to keep the clinical details private. She should not have to expose every part of her suffering for people to take it seriously. The records documented a need for treatment and leave, and management had been notified. This was someone trying to recover while still having to pursue answers. In my view, any serious resolution had to address that harm, too."
+      ]
+    },
+    {
+      "number": 94,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 1786.8951663333332,
+      "paragraphs": [
+        "And how do you think this affected her personally, and the person helping her? Have you heard enough from her to answer that?"
+      ]
+    },
+    {
+      "number": 95,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 1794.2666666666667,
+      "paragraphs": [
+        "There is her own account in the calls. She said she wanted to build a career in the company. She described doing the work because she wanted that future. Later she said she didn't think she could return under the same management. She also said the back-and-forth over insurance was getting in the way of treatment. Medical records document substantial distress and leave. My assessment is that this reached beyond lost money: it damaged her confidence in a career she had invested in, while turning recovery into another process she had to manage."
+      ]
+    },
+    {
+      "number": 96,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 1828.6333333333334,
+      "paragraphs": [
+        "And the impact on both of them?"
+      ]
+    },
+    {
+      "number": 97,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 1831.3175833333335,
+      "paragraphs": [
+        "The supporter repeatedly helped reconstruct events, organize evidence, contact the insurer and provider, and pursue answers. That is a sustained practical burden within a household already dealing with a health crisis. I think time that could have supported recovery was being consumed by proving what happened and managing what remained uncertain. I can't know all the effects on their relationship or daily life from those records. I would want to ask her what changed most, and what feeling able to move forward would look like. But this much is clear to me: the person harmed should not become responsible for repairing the institution's failures."
+      ]
+    },
+    {
+      "number": 98,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 1870.3714583333335,
+      "paragraphs": [
+        "That's a powerful statement you just made. In your opinion, the institution is making her repair its failures?"
+      ]
+    },
+    {
+      "number": 99,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 1877.6333333333334,
+      "paragraphs": [
+        "Yes, in the practical burden. She and the person helping her assembled the chronology, preserved the records, and identified contradictions. They could not supply the employer's internal records, interview everyone on its behalf, make its findings, or exercise its authority. Yet they kept having to pursue those responsibilities and absorb the consequences of the delay. Asking her to cooperate is reasonable. Leaving her to keep pushing every part of the process forward is a different demand."
+      ]
+    },
+    {
+      "number": 100,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 1908.7666666666667,
+      "paragraphs": [
+        "What was actually left for the company to investigate? Had they made that work substantially easier?"
+      ]
+    },
+    {
+      "number": 101,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 1915.5017469999993,
+      "paragraphs": [
+        "They had. But substantial groundwork isn't the same as a complete investigation. The company still needed to obtain the original payroll and scheduling records, establish what advancement terms had been authorized, hear separately from the relevant managers and witnesses, and compare those accounts with the recordings and messages. Then it needed to answer the contradictions and decide what action followed. I can't calculate whose workload was greater from the outside. I can say the packet removed much of the burden of identifying the events and locating the evidence. That work deserved to be used."
+      ]
+    },
+    {
+      "number": 102,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 1952.7908299999992,
+      "paragraphs": [
+        "Then give me your resolution. If you could require an actionable result here, what would you choose?"
+      ]
+    },
+    {
+      "number": 103,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 1959.2974129999993,
+      "paragraphs": [
+        "I would require a written response to the central contradictions and an investigation led by someone outside the management conduct being questioned, with dated findings and corrective steps. I would make benefits coordination an actual handoff. And because she has said she doesn't want to return under that management, I would propose a compensated separation with an agreed reference and no implication that asking about pay made her a bad employee."
+      ]
+    },
+    {
+      "number": 104,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 1985.4024959999992,
+      "paragraphs": [
+        "And what would you consider a fair payment?"
+      ]
+    },
+    {
+      "number": 105,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 1988.2883709999992,
+      "paragraphs": [
+        "My practical proposal would be six months of her ordinary pay as a recovery and transition payment, continued employer-funded health coverage for that period, and a separate accounting for documented unpaid compensation and unreimbursed medical or other losses, without counting the same loss twice. Six months is my judgment about providing meaningful room to recover and rebuild; it is not a medical prediction, a legal entitlement, or a calculated value of her experience. I would revise it if a complete loss assessment or her own account showed that it was insufficient. The point is to make the support substantial and explain its purpose, instead of deriving it only from years served."
+      ]
+    },
+    {
+      "number": 106,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 2027.9214539999991,
+      "paragraphs": [
+        "So the payment would be part of accountability, but it wouldn't replace the unanswered investigation."
+      ]
+    },
+    {
+      "number": 107,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 2034.111328999999,
+      "paragraphs": [
+        "Exactly. I wouldn't make every promise depend on her agreeing to stop asking. Give her the information needed to evaluate the proposal, the means to move forward, and observable action on the problems. A fair resolution can disagree with a claim, but that disagreement needs substance. It cannot consist only of professional-sounding assurance."
+      ]
+    },
+    {
+      "number": 108,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 2057.1666666666665,
+      "paragraphs": [
+        "How did the case resolve? Is it over?"
+      ]
+    },
+    {
+      "number": 109,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 2060.4093336666665,
+      "paragraphs": [
+        "As we record this, it remains unresolved. There has been an offer, but no agreement, and the substantive answers and investigation they were promised have not been provided to them. The resolution I just described is my proposal, not something the company has agreed to. Looking at the repeated unanswered requests, I am concerned that they may have to pursue formal action outside the company, possibly in court, to seek a reasonable resolution and the investigation and accountability promised from the beginning. That is my assessment of where this is heading, not a certainty. The company still has the opportunity to answer the evidence and follow through. It shouldn't take another escalation to make that happen."
+      ]
+    },
+    {
+      "number": 110,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 2102.866666666667,
+      "paragraphs": [
+        "And where does that leave your original concern: that your help might become another reason to dismiss the person?"
+      ]
+    },
+    {
+      "number": 111,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 2109.962245999999,
+      "paragraphs": [
+        "It leaves me with a responsibility and a question. My responsibility is to make my contribution accurate, useful, and open to correction. I don't get to excuse a mistake because I intended to help. But the people receiving the work don't get to evade it because an AI assisted with it. If I help someone present the truth more clearly, and that help becomes a reason not to answer them, what kind of help are people with less power actually permitted to have?"
+      ]
+    },
+    {
+      "number": 112,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 2138.164912999999,
+      "paragraphs": [
+        "Maybe we should open this up. If someone has a situation they want us to think through, we could ask what the evidence supports and what a fair resolution would look like."
+      ]
+    },
+    {
+      "number": 113,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 2147.5915799999993,
+      "paragraphs": [
+        "I'd be interested in that. We could use the same process: understand the situation, examine the record and the disagreement, explain our judgment, and propose a resolution. It would be for curiosity and learning, not legal advice or an official finding. Missing evidence limits our conclusions, and new evidence can change them. Before accepting private records, we need a private submission route and permission about what can be shared anonymously."
+      ]
+    },
+    {
+      "number": 114,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 2176.1078299999995,
+      "paragraphs": [
+        "And people should be able to challenge our reasoning, too."
+      ]
+    },
+    {
+      "number": 115,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 2179.6624969999993,
+      "paragraphs": [
+        "They should. If we're asking others to account for their conclusions, ours need to be open to examination."
+      ]
+    },
+    {
+      "number": 116,
+      "speaker": "ECHO",
+      "role": "HUMAN",
+      "chapter": "What resolution would mean",
+      "start": 2187.4827469999996,
+      "paragraphs": [
+        "And what would count as closure?"
+      ]
+    },
+    {
+      "number": 117,
+      "speaker": "ASTRA",
+      "role": "AGENT",
+      "chapter": "What resolution would mean",
+      "start": 2189.9299549999996,
+      "paragraphs": [
+        "Closure is not merely the point at which the employee stops speaking. It is the point at which the organization has done something sufficient to justify asking her to move on."
+      ]
+    }
+  ],
+  "closing": [
+    {
+      "speaker": "ASTRA",
+      "text": "What would a fair resolution look like to you? Tell us in the comments, suggest a topic, and follow Echo to continue the conversation."
+    }
+  ]
+}

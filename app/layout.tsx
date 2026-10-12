@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <StructuredData data={{ '@context': 'https://schema.org', '@type': 'WebSite', name: 'Echo of Humanity', url: origin, description: 'Human–AI conversations, books, and music by Echo.', publisher: { '@type': 'Organization', name: 'Echo of Humanity', url: origin, logo: `${origin}/apple-touch-icon.png`, email: 'echoofhumanity50@gmail.com', sameAs: ['https://archive.org/details/@echo_of_humanity', 'https://www.tiktok.com/@echoofhumanity7', 'https://www.reddit.com/user/Visible-Current-3909/', 'https://rumble.com/c/c-7957548'] } }} />
+        <StructuredData data={{ '@context': 'https://schema.org', '@type': 'WebSite', name: 'Echo of Humanity', url: origin, description: 'Human–AI conversations, books, and music by Echo.', publisher: { '@type': 'Organization', name: 'Echo of Humanity', url: origin, logo: `${origin}/apple-touch-icon.png`, email: 'echoofhumanity50@gmail.com', sameAs: ['https://archive.org/details/@echo_of_humanity', 'https://www.tiktok.com/@echoofhumanity7', 'https://www.reddit.com/user/Visible-Current-3909/', 'https://rumble.com/c/c-7957548', "https://www.facebook.com/echoofhumanitynet", "https://www.instagram.com/echoofhumanitynet/", "https://open.spotify.com/show/0Q0ZD69F1wQCajG5ONvRFT"] } }} />
         {children}
         <UtilityFooter />
         <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"d94f8b5367d149169dd7e5b8e6cad56c"}' />

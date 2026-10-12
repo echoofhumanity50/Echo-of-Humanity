@@ -43,5 +43,15 @@
     "uploadDate": "2026-10-04T15:56:10Z",
     "duration": "PT1896.963021S",
     "contentUrl": "https://archive.org/download/echo-of-humanity-the-trigger-that-never-comes/The%20Trigger%20That%20Never%20Comes%20-%20Landscape.mp4"
+  },
+  "the-facts-did-not-change": {
+    "uploadDate": "2026-10-12T18:00:00Z",
+    "duration": "PT2210.760352S",
+    "contentUrl": "https://archive.org/download/echo-of-humanity-the-facts-did-not-change/The%20Facts%20Did%20Not%20Change%20-%20Landscape.mp4"
+  },
+  "somebody-else": {
+    "uploadDate": "2026-10-12T18:00:00Z",
+    "duration": "PT195.594667S",
+    "contentUrl": "https://archive.org/download/echo-of-humanity-somebody-else/Somebody%20Else%20-%20Landscape.mp4"
   }
 }

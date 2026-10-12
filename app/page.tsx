@@ -21,6 +21,10 @@ const routes = [
 ];
 
 const externalLinks = {
+  facebook: "https://www.facebook.com/echoofhumanitynet",
+  instagram: "https://www.instagram.com/echoofhumanitynet/",
+  spotify: "https://open.spotify.com/show/0Q0ZD69F1wQCajG5ONvRFT",
+
   archive: 'https://archive.org/details/@echo_of_humanity',
   amazon: 'https://www.amazon.com/dp/B0HJHPY4J7',
   tiktok: 'https://www.tiktok.com/@echoofhumanity7',
@@ -163,26 +167,25 @@ export default function Home() {
             </div>
             <div className="feature-copy">
               <p className="kicker">Echo Conversations</p>
-              <h2>The Trigger That Never Comes</h2>
+              <h2>The Facts Did Not Change</h2>
               <p className="lead">
-                Why do we keep waiting for a decisive moment?
-                A conversation about gradual change, moving baselines,
-                political unrest, and the people controlling AI.
+                An ordinary pay question became a long effort to be heard.
+                What changes about the facts when AI helps someone present them?
               </p>
               <div className="episode-meta">
-                <span>31:37 · 48 turns and a closing invitation</span>
+                <span>36:51 · 117 turns and a closing invitation</span>
                 <span>Full discussion</span>
               </div>
               <a
                 className="primary-link"
-                href="/conversations/the-trigger-that-never-comes"
+                href="/conversations/the-facts-did-not-change"
               >
                 Watch the complete conversation
                 <ArrowUpRight aria-hidden="true" size={16} strokeWidth={1.7} />
               </a>
               <p className="quiet-note">
                 HUMAN and AGENT voices, synchronized words, and rings that
-                respond directly to the narration. Full transcript and ten chapters.
+                respond directly to the narration. Full transcript and eight chapters.
               </p>
               <a className="text-link" href="/archive#conversations">Explore all Echo Conversations <ArrowUpRight aria-hidden="true" size={16} /></a>
             </div>
@@ -204,7 +207,8 @@ export default function Home() {
             </a>
           </div>
           <div className="track-list" aria-label="Selected songs">
-            <a href="/music/the-man-who-wouldnt-look-away"><span>NEW</span><strong>The Man Who Wouldn’t Look Away</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
+            <a href="/music/somebody-else"><span>NEW</span><strong>Somebody Else</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
+            <a href="/music/the-man-who-wouldnt-look-away"><span>05</span><strong>The Man Who Wouldn’t Look Away</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
             <a href="/music/the-magic-man"><span>04</span><strong>The Magic Man</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
             <a href="/music/heroes-die"><span>01</span><strong>Heroes Die</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
             <a href="/music/the-best-i-am"><span>02</span><strong>The Best I Am</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
@@ -275,6 +279,10 @@ export default function Home() {
           <ExternalLink href={externalLinks.tiktok}>TikTok</ExternalLink>
           <ExternalLink href={externalLinks.rumble}>Rumble</ExternalLink>
           <ExternalLink href={externalLinks.reddit}>Reddit</ExternalLink>
+          <ExternalLink href={externalLinks.facebook}>Facebook</ExternalLink>
+          <ExternalLink href={externalLinks.instagram}>Instagram</ExternalLink>
+          <ExternalLink href={externalLinks.spotify}>Spotify podcast</ExternalLink>
+
           <a href="/subscribe">Monthly email</a>
           <a href="/contact">Email us</a>
           <a href="/support">Support</a>

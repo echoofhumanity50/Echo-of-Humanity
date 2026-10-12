@@ -15,5 +15,5 @@ export function StructuredData({ data }: { data: Record<string, unknown> }) {
 }
 
 export function UtilityFooter() {
-  return <div className="utility-footer section-shell"><a href="/">Echo of Humanity</a><a href="/archive">Full archive</a><a href="/contact">Contact</a><a href="/subscribe">Monthly email</a><a href="/support">Support & transparency</a><a href="/privacy">Privacy</a></div>;
+  return <div className="utility-footer section-shell"><a href="/">Echo of Humanity</a><a href="/archive">Full archive</a><a href="/contact">Contact</a><a href="/subscribe">Monthly email</a><a href="/support">Support & transparency</a><a href="/privacy">Privacy</a><a href="https://www.facebook.com/echoofhumanitynet" target="_blank" rel="noreferrer">Facebook</a><a href="https://www.instagram.com/echoofhumanitynet/" target="_blank" rel="noreferrer">Instagram</a><a href="https://open.spotify.com/show/0Q0ZD69F1wQCajG5ONvRFT" target="_blank" rel="noreferrer">Spotify podcast</a></div>;
 }

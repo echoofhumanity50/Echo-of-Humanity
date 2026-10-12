@@ -22,7 +22,7 @@ export function DiscussionInvitation({ title, rumble, tiktok, reddit }: { title?
       </div>
       <a className="discussion-reddit" href={reddit || 'https://www.reddit.com/user/Visible-Current-3909/'} target="_blank" rel="noreferrer"><MessageCircle size={19} aria-hidden="true" /> {reddit ? 'Discuss this release on Reddit' : 'Join us on Reddit'} <span className="sr-only">(opens in a new tab)</span><ArrowUpRight size={16} aria-hidden="true" /></a>
       <p>Watching on a video platform? Leave a comment there too: what stayed with you, what do you question, or what should we explore next?</p>
-      <div className="video-comment-links"><a href={rumble || 'https://rumble.com/c/c-7957548'} target="_blank" rel="noreferrer">Comment on Rumble</a><a href={tiktok ? `https://www.tiktok.com/@echoofhumanity7/video/${tiktok}` : 'https://www.tiktok.com/@echoofhumanity7'} target="_blank" rel="noreferrer">Comment on TikTok</a></div>
+      <div className="video-comment-links"><a href={rumble || 'https://rumble.com/c/c-7957548'} target="_blank" rel="noreferrer">Comment on Rumble</a><a href={tiktok ? `https://www.tiktok.com/@echoofhumanity7/video/${tiktok}` : 'https://www.tiktok.com/@echoofhumanity7'} target="_blank" rel="noreferrer">Comment on TikTok</a><a href="https://www.facebook.com/echoofhumanitynet" target="_blank" rel="noreferrer">Facebook</a><a href="https://www.instagram.com/echoofhumanitynet/" target="_blank" rel="noreferrer">Instagram</a><a href="https://open.spotify.com/show/0Q0ZD69F1wQCajG5ONvRFT" target="_blank" rel="noreferrer">Spotify podcast</a></div>
       <p className="discussion-updates"><a href="/subscribe">{newsletterIsOpen ? 'Get the free monthly email' : 'Monthly newsletter · signup opens soon'}</a></p>
     </section>
   );

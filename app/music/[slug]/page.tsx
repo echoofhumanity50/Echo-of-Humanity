@@ -49,6 +49,7 @@ export default async function Song({ params }: { params: Promise<{ slug: string 
         <div className="video-frame">
           {item.localVideo ? <video controls playsInline preload="metadata" poster={item.image} aria-label={item.title + ' — full song by Echo'}>
             <source src={item.localVideo} type="video/mp4" />
+            {item.captions && <track kind="captions" src={item.captions} srcLang="en" label="English" />}
             Your browser does not support this player. <a href={item.localVideo}>Download the full video</a>.
           </video> : <iframe src={'https://archive.org/embed/echo-of-humanity-' + slug} title={item.title + ' — full song by Echo'} loading="lazy" allow="fullscreen" allowFullScreen />}
         </div>
