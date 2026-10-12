@@ -47,17 +47,10 @@ export default async function Song({ params }: { params: Promise<{ slug: string 
       <section className="full-video" id="listen">
         <p className="section-number">01 / Listen</p><h2>The complete song.</h2>
         <div className="video-frame">
-          {item.localVideo ? <video controls playsInline preload="metadata" poster={item.image} aria-label={item.title + ' — full song by Echo'}>
-            <source src={item.localVideo} type="video/mp4" />
-            {item.captions && <track kind="captions" src={item.captions} srcLang="en" label="English" />}
-            Your browser does not support this player. <a href={item.localVideo}>Download the full video</a>.
-          </video> : <iframe src={'https://archive.org/embed/echo-of-humanity-' + slug} title={item.title + ' — full song by Echo'} loading="lazy" allow="fullscreen" allowFullScreen />}
+          <iframe src={'https://archive.org/embed/echo-of-humanity-' + slug} title={item.title + ' — full song by Echo'} loading="lazy" allow="fullscreen" allowFullScreen />
         </div>
         <div className="media-links">
-          {item.audioDownload && <a href={item.audioDownload} download>Download the song (MP3)</a>}
-          {item.localVideo && <a href={item.localVideo} download>Download the full video</a>}
-          {details && <a href={'/media/' + slug + '/lyrics.txt'} download>Download the lyrics</a>}
-          {!item.archivePending && <a href={archiveUrl(slug)} target="_blank" rel="noreferrer">Watch or download on Internet Archive</a>}
+          {!item.archivePending && <a href={archiveUrl(slug)} target="_blank" rel="noreferrer">Watch on Internet Archive</a>}
           {item.rumble && <a href={item.rumble} target="_blank" rel="noreferrer">Watch on Rumble</a>}
           {item.tiktok && <a href={'https://www.tiktok.com/@echoofhumanity7/video/' + item.tiktok} target="_blank" rel="noreferrer">Watch on TikTok</a>}
         </div>
@@ -65,7 +58,6 @@ export default async function Song({ params }: { params: Promise<{ slug: string 
       </section>
       <div className="lyrics-layout">
         <section id="lyrics"><p className="section-number">02 / Lyrics</p><h2>{item.title}</h2>
-          {slug === 'everybody-poops' && <div className="media-links"><a href="/archive/everybody-poops-timed-lyrics-2026-09-14.srt" download>Timed lyrics (SRT)</a><a href="/archive/everybody-poops-timed-lyrics-2026-09-14.vtt" download>Timed lyrics (VTT)</a></div>}
           <div className="song-lyrics">{songLyrics.split(/\n\s*\n/).map((stanza, i) => <p key={i}>{stanza.replace(/\*\*/g, '')}</p>)}</div>
         </section>
         <aside className="song-notes"><h2>About the song</h2><p>{songMeanings[slug]}</p><h2>About the recording</h2><p>{item.note}</p><h3>Creative process</h3><p>{recordingCredits[slug]}</p><p>{musicCreditPolicy}</p><p>The lyrics shown here are the supplied song text. Vocal phrasing and repeated lines in the recording may vary.</p><a href="/archive#music">Explore Before the Dawn</a><a href="/contact">Share feedback or a correction</a><a href="/support">Optional support</a></aside>

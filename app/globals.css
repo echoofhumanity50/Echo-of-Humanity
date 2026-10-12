@@ -315,19 +315,14 @@ nav a:hover, nav a:focus-visible { color: #fff; }
 .conversation-art {
   position: relative;
   min-height: 0;
-  aspect-ratio: 1;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   border: 1px solid rgba(210, 229, 235, 0.15);
 }
 
-.conversation-art::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, transparent 55%, rgba(2, 7, 10, 0.85));
-}
+.conversation-art::after { display: none; }
 
-.conversation-art img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: left center; }
+.conversation-art img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; }
 .feature-conversations h2 { max-width: 18ch; font-size: clamp(2.4rem, 3.8vw, 3.6rem); line-height: 1.06; }
 
 .conversation-signal {

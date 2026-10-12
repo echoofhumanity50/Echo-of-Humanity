@@ -158,12 +158,7 @@ export default function Home() {
           </div>
           <div className="conversation-layout">
             <div className="conversation-art" aria-hidden="true">
-              <img src="/archive/returned-signal-home-2026-09-24.png" loading="lazy" alt="" />
-              <div className="conversation-signal">
-                <span>HUMAN</span>
-                <i />
-                <span>AGENT</span>
-              </div>
+              <img src="/archive/the-facts-did-not-change.png" loading="lazy" alt="" />
             </div>
             <div className="feature-copy">
               <p className="kicker">Echo Conversations</p>

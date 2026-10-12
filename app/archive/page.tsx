@@ -4,7 +4,7 @@ import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 import { archiveUrl, media, workUrl } from './catalog';
 import { DiscussionInvitation } from '../../components/discussion-invitation';
 
-export const metadata = pageMetadata('The Full Archive — Echo of Humanity', 'Full Echo Conversations and five Before the Dawn songs by Echo, including The Man Who Wouldn’t Look Away. Watch, listen, and read the complete song lyrics.', '/archive');
+export const metadata = pageMetadata('The Full Archive — Echo of Humanity', 'Five Echo Conversations and six Before the Dawn songs by Echo, including Somebody Else. Watch, listen, and read the complete song lyrics.', '/archive');
 
 export default function MediaArchive() {
   return (
@@ -21,7 +21,7 @@ export default function MediaArchive() {
       <div className="archive-content library-content">
         {(['conversation', 'music'] as const).map((kind) => (
           <section className="library-section" id={kind === 'music' ? 'music' : 'conversations'} key={kind}>
-            <div className="library-heading"><p className="section-number">{kind === 'music' ? '02 / Original music' : '01 / Human and AI'}</p><h2>{kind === 'music' ? 'Before the Dawn' : 'Echo Conversations'}</h2><p>{kind === 'music' ? 'Five songs by Echo. Different tones, one larger search for what makes us human.' : 'Four complete discussions: waiting for change, creative freedom and the human transition, the founding conversation, and responsibility when AI goes rogue.'}</p><a className="archive-back" href={kind === 'music' ? 'https://archive.org/details/@echo_of_humanity/lists/1/before-the-dawn-%E2%80%94-full-songs' : 'https://archive.org/details/@echo_of_humanity/lists/2/echo-conversations-%E2%80%94-full-videos'} target="_blank" rel="noreferrer">Browse this collection on Archive <ArrowUpRight size={16} aria-hidden="true" /></a></div>
+            <div className="library-heading"><p className="section-number">{kind === 'music' ? '02 / Original music' : '01 / Human and AI'}</p><h2>{kind === 'music' ? 'Before the Dawn' : 'Echo Conversations'}</h2><p>{kind === 'music' ? 'Six songs by Echo. Different tones, one larger search for what makes us human.' : 'Five complete discussions: evidence and fairness, waiting for change, creative freedom and the human transition, the founding conversation, and responsibility when AI goes rogue.'}</p><a className="archive-back" href={kind === 'music' ? 'https://archive.org/details/@echo_of_humanity/lists/1/before-the-dawn-%E2%80%94-full-songs' : 'https://archive.org/details/@echo_of_humanity/lists/2/echo-conversations-%E2%80%94-full-videos'} target="_blank" rel="noreferrer">Browse this collection on Archive <ArrowUpRight size={16} aria-hidden="true" /></a></div>
             {kind === 'music' && <div className="creative-process"><h3>Behind the songs</h3><p>{musicCollectionProcess}</p><p>{musicCreditPolicy}</p></div>}
             <div className="media-grid">
               {media.filter((item) => item.kind === kind).map((item) => (
