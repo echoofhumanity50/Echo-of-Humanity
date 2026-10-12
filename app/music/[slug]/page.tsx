@@ -1,3 +1,4 @@
+import videoMetadata from '../../archive/video-metadata.json';
 import { VideoStructuredData } from '../../../components/video-structured-data';
 import { redditDiscussions } from '../../../lib/reddit';
 import { songMeanings } from '../meanings';
@@ -47,14 +48,14 @@ export default async function Song({ params }: { params: Promise<{ slug: string 
       <section className="full-video" id="listen">
         <p className="section-number">01 / Listen</p><h2>The complete song.</h2>
         <div className="video-frame">
-          <iframe src={slug === 'somebody-else' ? 'https://rumble.com/embed/v7el7m0/?pub=4qj58q' : 'https://archive.org/embed/echo-of-humanity-' + slug} title={item.title + ' — full song by Echo'} loading="lazy" allow="fullscreen" allowFullScreen />
+          <iframe src={videoMetadata[slug as keyof typeof videoMetadata].embedUrl} title={item.title + ' — full song by Echo'} loading="lazy" allow="fullscreen" allowFullScreen />
         </div>
         <div className="media-links">
           {!item.archivePending && <a href={archiveUrl(slug)} target="_blank" rel="noreferrer">Watch on Internet Archive</a>}
           {item.rumble && <a href={item.rumble} target="_blank" rel="noreferrer">Watch on Rumble</a>}
           {item.tiktok && <a href={'https://www.tiktok.com/@echoofhumanity7/video/' + item.tiktok} target="_blank" rel="noreferrer">Watch on TikTok</a>}
         </div>
-        {item.localVideo ? <p className="quiet-note">The complete recording is freely available here. Read the full written lyrics below.</p> : <p className="quiet-note">The player is provided by Internet Archive. If it does not load, use the Archive link above.</p>}
+        <p className="quiet-note">The complete song plays here through Rumble. If the player does not load, use one of the watch links above. Read the lyrics below.</p>
       </section>
       <div className="lyrics-layout">
         <section id="lyrics"><p className="section-number">02 / Lyrics</p><h2>{item.title}</h2>
