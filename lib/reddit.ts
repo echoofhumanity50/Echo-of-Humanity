@@ -1,5 +1,7 @@
-// Verified Echo discussion destinations, September 24, 2026.
+// Verified Echo discussion destinations, October 12, 2026.
 export const redditDiscussions: Record<string, string | undefined> = {
+  "the-facts-did-not-change": "https://www.reddit.com/user/Visible-Current-3909/comments/1x49qs9/if_ai_helps_someone_present_the_evidence_what/",
+  "somebody-else": "https://www.reddit.com/user/Visible-Current-3909/comments/1x49yn5/somebody_else_wanting_the_world_to_change_while/",
   "the-trigger-that-never-comes": "https://www.reddit.com/user/Visible-Current-3909/comments/1wxjodb/what_if_the_moment_everyone_is_waiting_for_never/",
   "the-man-who-wouldnt-look-away": "https://www.reddit.com/user/Visible-Current-3909/comments/1wv1yhx/when_does_refusing_to_look_away_become_a/",
   "who-is-allowed-to-create": "https://www.reddit.com/user/Visible-Current-3909/comments/1wpd4t8/who_is_allowed_to_createand_who_gets_left_behind/",

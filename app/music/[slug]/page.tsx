@@ -82,7 +82,7 @@ export default async function Song({ params }: { params: Promise<{ slug: string 
         </section>
         <section className="song-explanation"><h2>{details.question}</h2><p>What helps you recognize the difference in yourself? Share your perspective below.</p></section>
       </>}
-      <DiscussionInvitation reddit={redditDiscussions[slug]} title={item.title} rumble={item.rumble} tiktok={item.tiktok} />
+      <DiscussionInvitation reddit={redditDiscussions[slug]} title={item.title} rumble={item.rumble} tiktok={item.tiktok} facebook={item.facebook} instagram={item.instagram} spotify={item.spotify} />
       <section className="related-work"><h2>More from Before the Dawn</h2>{media.filter(other => other.kind === 'music' && other.slug !== slug).map(other => <a key={other.slug} href={'/music/' + other.slug}>{other.title}<span>{other.duration}</span></a>)}</section>
     </div>
   </main>;
