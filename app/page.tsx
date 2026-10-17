@@ -1,6 +1,13 @@
 import { musicCollectionProcess, musicCreditPolicy } from './music/credits';
 import { pageMetadata } from './seo';
 import { newsletterIsOpen } from '../lib/newsletter';
+import { media, workUrl } from './archive/catalog';
+
+const recentConversationLimit = 5;
+const recentConversations = media
+  .filter((item) => item.kind === 'conversation')
+  .slice(0, recentConversationLimit);
+const latestConversation = recentConversations[0];
 export const metadata = pageMetadata('Echo of Humanity — Music, AI, Humanity', 'Human–AI conversations, books, and original music by Echo. Listen to Before the Dawn, watch the full conversations, and explore the archive.', '/');
 import {
   ArrowDown,
@@ -157,32 +164,37 @@ export default function Home() {
             <MessageCircle aria-hidden="true" />
           </div>
           <div className="conversation-layout">
-            <div className="conversation-art" aria-hidden="true">
-              <img src="/archive/before-it-becomes-obvious.png" loading="lazy" alt="" />
-            </div>
+            <a
+              className="conversation-art"
+              href={workUrl(latestConversation)}
+              aria-label={`Watch the latest conversation: ${latestConversation.title}`}
+            >
+              <img src={latestConversation.image} width="1920" height="1080" loading="lazy" alt={latestConversation.title} />
+            </a>
             <div className="feature-copy">
-              <p className="kicker">Echo Conversations</p>
-              <h2>Before It Becomes Obvious</h2>
-              <p className="lead">
-                How could AI capability become power that ordinary people cannot effectively challenge?
-                What can we change before the outcome becomes obvious?
+              <p className="kicker">The latest conversations</p>
+              <h2>Echo Conversations</h2>
+              <p className="conversation-intro">
+                Human–AI conversations about trust, power, responsibility,
+                and the future we are building.
               </p>
-              <div className="episode-meta">
-                <span>New · 28:26 · 54 turns</span>
-                <span>Full discussion</span>
-              </div>
-              <a
-                className="primary-link"
-                href="/conversations/before-it-becomes-obvious"
-              >
-                Watch the complete conversation
+              <ol className="track-list conversation-list" aria-label="Latest five conversations">
+                {recentConversations.map((item, index) => (
+                  <li key={item.slug}>
+                    <a href={workUrl(item)}>
+                      <span className="conversation-status">{index === 0 ? 'NEW' : String(index + 1).padStart(2, '0')}</span>
+                      <span className="conversation-name">{item.title}</span>
+                      <span className="conversation-duration">{item.duration}</span>
+                      <ArrowUpRight aria-hidden="true" size={16} strokeWidth={1.7} />
+                    </a>
+                  </li>
+                ))}
+              </ol>
+              <p className="quiet-note">The five most recent episodes. Full conversations, transcripts and chapters are available on each page.</p>
+              <a className="primary-link conversation-archive-link" href="/archive#conversations">
+                Explore all Echo Conversations
                 <ArrowUpRight aria-hidden="true" size={16} strokeWidth={1.7} />
               </a>
-              <p className="quiet-note">
-                HUMAN and AGENT voices, synchronized words, and rings that
-                respond directly to the narration. Full transcript, source notes and sixteen chapters.
-              </p>
-              <a className="text-link" href="/archive#conversations">Explore all Echo Conversations <ArrowUpRight aria-hidden="true" size={16} /></a>
             </div>
           </div>
         </div>
