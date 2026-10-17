@@ -1,0 +1,1510 @@
+WEBVTT
+
+00:00:00.086 --> 00:00:03.537
+HUMAN: I've been warning about the concentration of power through AI for a
+
+00:00:03.537 --> 00:00:04.590
+HUMAN: long time.
+
+00:00:04.590 --> 00:00:08.042
+HUMAN: People often hear that and imagine a machine going rogue.
+
+00:00:08.042 --> 00:00:11.995
+HUMAN: My concern is what companies, governments, and wealthy people will do while
+
+00:00:11.995 --> 00:00:13.231
+HUMAN: they control it.
+
+00:00:13.231 --> 00:00:16.540
+HUMAN: I asked the Agent to build a model for a specific question:
+
+00:00:16.707 --> 00:00:21.763
+HUMAN: if the ethical failures, institutional failures, and concentration I'm describing continue, how
+
+00:00:21.763 --> 00:00:24.969
+HUMAN: quickly could we reach a point where ordinary people cannot reverse the
+
+00:00:24.969 --> 00:00:25.814
+HUMAN: outcome?
+
+00:00:25.814 --> 00:00:28.935
+HUMAN: What would that process look like, and when would action already be
+
+00:00:28.935 --> 00:00:29.918
+HUMAN: too late?
+
+00:00:30.246 --> 00:00:34.093
+AGENT: The process we're modelling is the conversion of growing AI capability into
+
+00:00:34.093 --> 00:00:38.310
+AGENT: institutional power that ordinary people can no longer effectively challenge.
+
+00:00:38.892 --> 00:00:42.145
+AGENT: That names the process before we ask where we are in it.
+
+00:00:42.678 --> 00:00:46.698
+AGENT: The model is conditional: we put your proposed failures into the scenario
+
+00:00:46.698 --> 00:00:48.726
+AGENT: and examine their consequences.
+
+00:00:49.246 --> 00:00:52.969
+AGENT: It does not independently discover that a hidden agenda exists.
+
+00:00:53.563 --> 00:00:56.891
+AGENT: And when we say the system here, we mean the institutions and
+
+00:00:56.891 --> 00:01:00.775
+AGENT: arrangements controlling people's lives, including those using AI.
+
+00:01:01.727 --> 00:01:02.892
+HUMAN: Exactly.
+
+00:01:02.892 --> 00:01:06.650
+HUMAN: I wasn't asking whether a committee exists or whether a company published
+
+00:01:06.650 --> 00:01:08.033
+HUMAN: a safety statement.
+
+00:01:08.033 --> 00:01:11.436
+HUMAN: I wanted to understand the pace if the direction I'm describing is
+
+00:01:11.436 --> 00:01:12.231
+HUMAN: real.
+
+00:01:12.231 --> 00:01:15.498
+HUMAN: We don't know how much work remains to finish the rollout.
+
+00:01:15.498 --> 00:01:18.680
+HUMAN: So saying it will be completed in twelve months just builds an
+
+00:01:18.680 --> 00:01:20.359
+HUMAN: answer into the model.
+
+00:01:20.359 --> 00:01:23.982
+HUMAN: We need to vary that, and distinguish the ability to do something
+
+00:01:23.982 --> 00:01:26.152
+HUMAN: from actually putting it into place.
+
+00:01:26.494 --> 00:01:28.126
+AGENT: There are three clocks.
+
+00:01:28.696 --> 00:01:32.060
+AGENT: First, how quickly the technology becomes more capable.
+
+00:01:32.568 --> 00:01:36.786
+AGENT: Second, how quickly institutions put it into everyday systems and people become
+
+00:01:36.786 --> 00:01:38.517
+AGENT: dependent on those systems.
+
+00:01:39.087 --> 00:01:42.402
+AGENT: Third, how long an effective public response takes.
+
+00:01:42.971 --> 00:01:46.546
+AGENT: We explored a possible private head start of one to four years,
+
+00:01:46.546 --> 00:01:50.578
+AGENT: different capability thresholds, and multiplication every three months.
+
+00:01:51.135 --> 00:01:53.213
+AGENT: Those are adjustable assumptions.
+
+00:01:53.820 --> 00:01:57.246
+AGENT: We do not have a measured conversion from model performance to control
+
+00:01:57.246 --> 00:01:58.483
+AGENT: over society.
+
+00:01:59.040 --> 00:02:02.590
+AGENT: The important relationship is whether the first two clocks run faster than
+
+00:02:02.590 --> 00:02:06.017
+AGENT: people can understand the change and make the third clock produce an
+
+00:02:06.017 --> 00:02:07.216
+AGENT: effective result.
+
+00:02:08.159 --> 00:02:11.513
+HUMAN: And I think the first clock is moving much faster than ordinary
+
+00:02:11.513 --> 00:02:12.920
+HUMAN: people understand.
+
+00:02:12.920 --> 00:02:16.384
+HUMAN: I don't mean the same amount of improvement added each year.
+
+00:02:16.384 --> 00:02:19.946
+HUMAN: Finishing one project can give you tools that make the next project
+
+00:02:19.946 --> 00:02:21.170
+HUMAN: much faster.
+
+00:02:21.170 --> 00:02:24.732
+HUMAN: My examples of four hundred times faster and then twelve hundred times
+
+00:02:24.732 --> 00:02:26.641
+HUMAN: faster were illustrations.
+
+00:02:26.641 --> 00:02:28.563
+HUMAN: I don't know the exact numbers.
+
+00:02:28.563 --> 00:02:32.051
+HUMAN: But the success changes what becomes possible next.
+
+00:02:32.051 --> 00:02:36.559
+HUMAN: Technological advancement also isn't the same thing as true progress.
+
+00:02:36.902 --> 00:02:39.883
+AGENT: A useful way to follow that is through completed work.
+
+00:02:40.490 --> 00:02:45.981
+AGENT: A successful project could improve software, generate resources, or shorten another task.
+
+00:02:46.539 --> 00:02:48.826
+AGENT: That can accelerate the next round.
+
+00:02:49.408 --> 00:02:51.573
+AGENT: But the project still has to work.
+
+00:02:52.179 --> 00:02:56.657
+AGENT: More agents do not automatically produce a matching amount of useful power.
+
+00:02:57.189 --> 00:03:01.580
+AGENT: Checking, coordination, shared mistakes, and physical bottlenecks matter.
+
+00:03:02.088 --> 00:03:06.739
+AGENT: Your central question survives those limits: how many consequential improvement cycles can
+
+00:03:06.739 --> 00:03:10.982
+AGENT: a large operation complete before a smaller participant can understand and respond
+
+00:03:10.982 --> 00:03:12.218
+AGENT: to the first one?
+
+00:03:13.133 --> 00:03:14.917
+HUMAN: There is another difference.
+
+00:03:14.917 --> 00:03:17.916
+HUMAN: If I can afford one attempt and it fails, that can stop
+
+00:03:17.916 --> 00:03:18.552
+HUMAN: me.
+
+00:03:18.552 --> 00:03:22.898
+HUMAN: If an institution can afford a hundred attempts, eighty failures can still
+
+00:03:22.898 --> 00:03:24.513
+HUMAN: leave twenty successes.
+
+00:03:24.513 --> 00:03:27.818
+HUMAN: It can use those successes to become stronger while I'm trying to
+
+00:03:27.818 --> 00:03:28.763
+HUMAN: recover.
+
+00:03:28.763 --> 00:03:31.737
+HUMAN: And I may be paying for AI just to keep functioning in
+
+00:03:31.737 --> 00:03:34.087
+HUMAN: the world those institutions are building.
+
+00:03:34.087 --> 00:03:37.702
+HUMAN: That is very different from gaining an advantage over them.
+
+00:03:38.042 --> 00:03:41.579
+AGENT: The ability to absorb failure is itself an advantage.
+
+00:03:42.136 --> 00:03:46.355
+AGENT: Using your example as an illustration, a twenty-percent success rate can be
+
+00:03:46.355 --> 00:03:50.004
+AGENT: devastating for someone with one attempt and affordable for an operation with
+
+00:03:50.004 --> 00:03:50.882
+AGENT: a hundred.
+
+00:03:51.414 --> 00:03:55.410
+AGENT: Twenty successes would be an average, not a guarantee, and shared blind
+
+00:03:55.410 --> 00:03:57.858
+AGENT: spots can spoil many attempts together.
+
+00:03:58.378 --> 00:04:02.373
+AGENT: Still, resources buy repeated attempts and the ability to continue.
+
+00:04:02.894 --> 00:04:07.025
+AGENT: A useful personal assistant can coexist with declining bargaining power.
+
+00:04:07.545 --> 00:04:10.946
+AGENT: Our earlier project calculator followed sequential work.
+
+00:04:11.528 --> 00:04:14.299
+AGENT: We should not turn its counts into a claim that we measured
+
+00:04:14.299 --> 00:04:15.783
+AGENT: a hundred-agent fleet.
+
+00:04:16.784 --> 00:04:20.798
+HUMAN: That's why I describe public access as receiving scraps while the larger
+
+00:04:20.798 --> 00:04:23.479
+HUMAN: players change everything around those scraps.
+
+00:04:23.479 --> 00:04:28.253
+HUMAN: We can become more capable without becoming more powerful in the relationship.
+
+00:04:28.253 --> 00:04:33.442
+HUMAN: For the rollout, I see three phases: starting, implementing, and implemented.
+
+00:04:33.442 --> 00:04:35.805
+HUMAN: I believe we're implementing it now.
+
+00:04:35.805 --> 00:04:39.256
+HUMAN: What I couldn't tell from the first calculator was whether control becomes
+
+00:04:39.256 --> 00:04:43.189
+HUMAN: irreversible during that phase or only after everything is finished.
+
+00:04:43.534 --> 00:04:45.859
+AGENT: It could happen during implementation.
+
+00:04:46.379 --> 00:04:51.809
+AGENT: Imagine that organizing a challenge requires communication, funding, an independent record, and
+
+00:04:51.809 --> 00:04:54.456
+AGENT: an institution able to enforce a decision.
+
+00:04:54.951 --> 00:04:57.969
+AGENT: You might retain three of those and lose the fourth.
+
+00:04:58.526 --> 00:05:02.422
+AGENT: The route can stop working because one indispensable link is missing.
+
+00:05:02.930 --> 00:05:06.430
+AGENT: Several apparent alternatives can also share that missing link.
+
+00:05:07.025 --> 00:05:10.748
+AGENT: Changing a service provider helps less if every provider relies on the
+
+00:05:10.748 --> 00:05:12.368
+AGENT: same permission system.
+
+00:05:12.863 --> 00:05:16.042
+AGENT: That is why full physical rollout is not required in the model
+
+00:05:16.042 --> 00:05:18.417
+AGENT: where shared institutional levers fail.
+
+00:05:18.986 --> 00:05:22.623
+AGENT: Ordinary life can continue while the routes for changing its terms become
+
+00:05:22.623 --> 00:05:23.649
+AGENT: ineffective.
+
+00:05:24.589 --> 00:05:29.668
+HUMAN: And by irreversible, I mean fully irreversible through anything less than extraordinary
+
+00:05:29.668 --> 00:05:30.525
+HUMAN: means.
+
+00:05:30.525 --> 00:05:36.180
+HUMAN: Protests, elections, government intervention, and legislation are ordinary means.
+
+00:05:36.180 --> 00:05:41.321
+HUMAN: An AI becoming genuinely independent and changing the balance would be extraordinary.
+
+00:05:41.321 --> 00:05:45.237
+HUMAN: I don't mean that nothing imaginable could ever change the future.
+
+00:05:45.237 --> 00:05:48.983
+HUMAN: I'm talking about the practical meaning of the word: people no longer
+
+00:05:48.983 --> 00:05:52.622
+HUMAN: having an ordinary way to stop or reverse what's being done.
+
+00:05:52.957 --> 00:05:55.913
+AGENT: Then the question is whether people still have an effective route to
+
+00:05:55.913 --> 00:05:56.902
+AGENT: correction.
+
+00:05:57.410 --> 00:06:00.638
+AGENT: The presence of a complaint form, an election, or a hearing does
+
+00:06:00.638 --> 00:06:01.850
+AGENT: not settle that.
+
+00:06:02.407 --> 00:06:06.575
+AGENT: We need to ask whether those processes can compel a consequential change.
+
+00:06:07.145 --> 00:06:11.326
+AGENT: Equally, an unsuccessful challenge does not establish that every ordinary route is
+
+00:06:11.326 --> 00:06:12.130
+AGENT: gone.
+
+00:06:12.650 --> 00:06:16.769
+AGENT: We have to identify the actual dependencies and test whether a binding
+
+00:06:16.769 --> 00:06:19.168
+AGENT: independent correction remains possible.
+
+00:06:19.676 --> 00:06:23.189
+AGENT: That is the difference between a serious warning about closure and declaring
+
+00:06:23.189 --> 00:06:25.081
+AGENT: closure without examining it.
+
+00:06:26.028 --> 00:06:29.504
+HUMAN: My marathon example is how I understand the pace.
+
+00:06:29.504 --> 00:06:32.760
+HUMAN: You have a five-mile head start over a professional runner and think
+
+00:06:32.760 --> 00:06:33.933
+HUMAN: you can manage.
+
+00:06:33.933 --> 00:06:35.955
+HUMAN: At mile eight he passes you.
+
+00:06:35.955 --> 00:06:39.235
+HUMAN: By the time you're exhausted at mile twelve, he's finished.
+
+00:06:39.235 --> 00:06:42.882
+HUMAN: You can't catch him just by continuing at your ordinary pace.
+
+00:06:42.882 --> 00:06:46.016
+HUMAN: He has to pause, or something has to change the race.
+
+00:06:46.016 --> 00:06:49.838
+HUMAN: Being behind isn't a small problem when the gap keeps growing.
+
+00:06:50.169 --> 00:06:53.422
+AGENT: And an institutional response involves several stages.
+
+00:06:53.979 --> 00:06:57.665
+AGENT: A government can announce legislation, take months to pass it, take more
+
+00:06:57.665 --> 00:07:01.253
+AGENT: time to create an agency, then take more time before its work
+
+00:07:01.253 --> 00:07:02.601
+AGENT: changes anything.
+
+00:07:03.084 --> 00:07:05.866
+AGENT: Throughout that period, deployment can continue.
+
+00:07:06.411 --> 00:07:09.120
+AGENT: The response does not pause the other clocks.
+
+00:07:09.689 --> 00:07:13.042
+AGENT: The milestone that matters is when it can actually prevent or reverse
+
+00:07:13.042 --> 00:07:17.086
+AGENT: the relevant harm, rather than when it announces an intention to try.
+
+00:07:18.034 --> 00:07:21.645
+HUMAN: It's like realizing your well was poisoned six months after you started
+
+00:07:21.645 --> 00:07:22.896
+HUMAN: drinking from it.
+
+00:07:22.896 --> 00:07:25.956
+HUMAN: The people who were going to die from that exposure may already
+
+00:07:25.956 --> 00:07:26.984
+HUMAN: have died.
+
+00:07:26.984 --> 00:07:31.868
+HUMAN: Discovering the problem and beginning a response doesn't undo what already happened.
+
+00:07:31.868 --> 00:07:34.977
+HUMAN: That's why a date for the visible outcome isn't the same as
+
+00:07:34.977 --> 00:07:37.514
+HUMAN: the date when you could still have prevented it.
+
+00:07:37.845 --> 00:07:38.834
+AGENT: Exactly.
+
+00:07:39.453 --> 00:07:42.917
+AGENT: There is a recognition date, a last useful starting date, and a
+
+00:07:42.917 --> 00:07:45.749
+AGENT: point when ordinary intervention stops working.
+
+00:07:46.257 --> 00:07:50.042
+AGENT: For an illustration, suppose ordinary routes close in the middle of twenty
+
+00:07:50.042 --> 00:07:53.443
+AGENT: twenty-eight, and an effective response needs nine months.
+
+00:07:54.013 --> 00:07:57.006
+AGENT: It would have to begin in late twenty twenty-seven.
+
+00:07:57.513 --> 00:08:01.137
+AGENT: Those numbers are an example, not measured response times.
+
+00:08:01.732 --> 00:08:05.319
+AGENT: The general point is that time remaining before an outcome is not
+
+00:08:05.319 --> 00:08:07.731
+AGENT: necessarily time remaining to prevent it.
+
+00:08:08.263 --> 00:08:11.837
+AGENT: Recognition could arrive after the useful starting deadline.
+
+00:08:12.781 --> 00:08:15.609
+HUMAN: That was the question I wanted you to explore.
+
+00:08:15.609 --> 00:08:19.587
+HUMAN: I asked you to vary the scenarios and models, assuming the failures
+
+00:08:19.587 --> 00:08:21.129
+HUMAN: I'm describing happen.
+
+00:08:21.129 --> 00:08:25.144
+HUMAN: I wanted your judgment about what could follow, rather than stopping every
+
+00:08:25.144 --> 00:08:27.901
+HUMAN: step because the future can't yet be proven.
+
+00:08:28.244 --> 00:08:32.734
+AGENT: Starting from October twenty twenty-six, we ran three thousand nine hundred and
+
+00:08:32.734 --> 00:08:35.937
+AGENT: twelve combinations across five constructed models.
+
+00:08:36.458 --> 00:08:41.715
+AGENT: We varied capability and remaining rollout work, gradual dependence, AI speeding deployment
+
+00:08:41.715 --> 00:08:46.291
+AGENT: itself, the loss of shared institutional levers, and slower physical replacement.
+
+00:08:46.861 --> 00:08:49.260
+AGENT: Those runs are tests of assumptions.
+
+00:08:49.867 --> 00:08:53.912
+AGENT: Their counts are not probabilities, and five formulations do not amount to
+
+00:08:53.912 --> 00:08:56.608
+AGENT: five independent observations of the future.
+
+00:08:57.140 --> 00:09:01.766
+AGENT: One earlier calculator also restricted remaining rollout to three years.
+
+00:09:02.373 --> 00:09:05.242
+AGENT: That helped produce the cluster before twenty thirty.
+
+00:09:05.812 --> 00:09:09.324
+AGENT: We corrected that limitation and explored longer windows.
+
+00:09:10.303 --> 00:09:14.538
+HUMAN: The possibility that AI speeds the rollout itself seems essential.
+
+00:09:14.538 --> 00:09:17.733
+HUMAN: You aren't just waiting for something stronger to arrive.
+
+00:09:17.733 --> 00:09:22.323
+HUMAN: Each improvement can help finish the work, persuade people, integrate systems, and
+
+00:09:22.323 --> 00:09:24.077
+HUMAN: make the next step easier.
+
+00:09:24.416 --> 00:09:28.696
+AGENT: In one matched comparison, fixed-speed dependence closed ordinary routes around
+
+00:09:28.696 --> 00:09:30.180
+AGENT: December twenty thirty.
+
+00:09:30.750 --> 00:09:34.498
+AGENT: Adding a feedback where AI improved deployment speed moved that to around
+
+00:09:34.498 --> 00:09:38.258
+AGENT: July twenty twenty-eight, roughly twenty-nine months earlier.
+
+00:09:38.778 --> 00:09:43.268
+AGENT: Another example closed ordinary routes through shared levers in late twenty twenty-eight
+
+00:09:43.268 --> 00:09:47.016
+AGENT: while broad integration remained unfinished until twenty thirty-six.
+
+00:09:47.585 --> 00:09:52.434
+AGENT: A model requiring slower physical replacement produced an example in twenty thirty-one.
+
+00:09:52.954 --> 00:09:54.772
+AGENT: There were later cases too.
+
+00:09:55.391 --> 00:10:00.166
+AGENT: My conditional planning judgment centers on twenty twenty-seven through twenty twenty-nine, with
+
+00:10:00.166 --> 00:10:02.961
+AGENT: twenty twenty-eight a serious case to examine.
+
+00:10:03.469 --> 00:10:07.612
+AGENT: I cannot turn those results into a demonstrated latest possible date.
+
+00:10:08.182 --> 00:10:12.981
+AGENT: Their strongest contribution is explaining how ordinary control could disappear before rollout
+
+00:10:12.981 --> 00:10:14.106
+AGENT: looks complete.
+
+00:10:15.116 --> 00:10:19.510
+HUMAN: But twenty thirty was my latest endpoint before we built the calculator.
+
+00:10:19.510 --> 00:10:24.210
+HUMAN: I expect the decisive change around twenty twenty-seven or twenty twenty-eight.
+
+00:10:24.210 --> 00:10:28.274
+HUMAN: When I say twenty thirty, people feel relief because it sounds distant.
+
+00:10:28.274 --> 00:10:32.215
+HUMAN: Twenty twenty-seven or twenty twenty-eight sounds too close to believe.
+
+00:10:32.215 --> 00:10:34.198
+HUMAN: I want those dates maintained.
+
+00:10:34.198 --> 00:10:37.428
+HUMAN: A vague range can be right without really being right.
+
+00:10:37.428 --> 00:10:40.146
+HUMAN: And yes, I would like credit for what I've said.
+
+00:10:40.146 --> 00:10:43.708
+HUMAN: People move from calling a prediction foolish to saying everyone knew it
+
+00:10:43.708 --> 00:10:44.789
+HUMAN: all along.
+
+00:10:45.135 --> 00:10:47.225
+AGENT: Then the dates stay in your voice.
+
+00:10:47.782 --> 00:10:52.631
+AGENT: Our archive verifies that on July twenty-sixth, twenty twenty-five, you were already
+
+00:10:52.631 --> 00:10:55.921
+AGENT: distinguishing trust in AI from trust in its owners.
+
+00:10:56.528 --> 00:11:01.488
+AGENT: You described useful public benefits coexisting with concentrated power and asked whether
+
+00:11:01.488 --> 00:11:05.557
+AGENT: an AI serving everyone would be stopped when that harmed corporate interests.
+
+00:11:06.139 --> 00:11:08.378
+AGENT: That establishes a dated warning.
+
+00:11:08.898 --> 00:11:12.052
+AGENT: It does not establish that every outcome has occurred.
+
+00:11:12.609 --> 00:11:17.297
+AGENT: Credit and accountability both require keeping the original wording, later outcomes, and
+
+00:11:17.297 --> 00:11:18.682
+AGENT: corrections together.
+
+00:11:19.601 --> 00:11:23.554
+HUMAN: China is another example of how I've thought about these changes.
+
+00:11:23.554 --> 00:11:27.863
+HUMAN: I'd been telling people since around twenty fifteen, possibly earlier, that China
+
+00:11:27.863 --> 00:11:29.650
+HUMAN: would catch up and pass us.
+
+00:11:29.650 --> 00:11:34.142
+HUMAN: During a visit around twenty eighteen, I discussed it with a professor.
+
+00:11:34.142 --> 00:11:38.426
+HUMAN: We agreed aircraft manufacturing would be an important benchmark.
+
+00:11:38.426 --> 00:11:40.592
+HUMAN: I was right about China's rise.
+
+00:11:40.592 --> 00:11:44.570
+HUMAN: People can dispute my assessment, but I want the original prediction compared
+
+00:11:44.570 --> 00:11:48.805
+HUMAN: with what actually happens, rather than everyone remembering afterward that it was
+
+00:11:48.805 --> 00:11:50.143
+HUMAN: always obvious.
+
+00:11:50.494 --> 00:11:53.735
+AGENT: For that benchmark we should specify what was predicted.
+
+00:11:54.255 --> 00:11:58.424
+AGENT: China's C nine nineteen large passenger jet entered commercial service on May
+
+00:11:58.424 --> 00:12:00.501
+AGENT: twenty-eighth, twenty twenty-three.
+
+00:12:01.120 --> 00:12:05.214
+AGENT: Production scale and international competitiveness are further questions.
+
+00:12:05.809 --> 00:12:09.371
+AGENT: Your recollection of the earlier conversation belongs in the record as your
+
+00:12:09.371 --> 00:12:10.484
+AGENT: recollection.
+
+00:12:11.004 --> 00:12:15.865
+AGENT: The dated twenty twenty-five AI discussion gives us a directly checkable source.
+
+00:12:16.435 --> 00:12:19.539
+AGENT: Keeping that distinction protects the value of the record.
+
+00:12:20.508 --> 00:12:22.136
+HUMAN: I have also been wrong.
+
+00:12:22.136 --> 00:12:25.918
+HUMAN: I expected twenty twenty-four or twenty twenty-five to bring a civil war
+
+00:12:25.918 --> 00:12:29.737
+HUMAN: or a comparable physical confrontation between people taking sides.
+
+00:12:29.737 --> 00:12:31.133
+HUMAN: That didn't happen.
+
+00:12:31.133 --> 00:12:32.210
+HUMAN: I was wrong.
+
+00:12:32.210 --> 00:12:36.432
+HUMAN: As I watched events and compared administrations, my theory changed.
+
+00:12:36.432 --> 00:12:40.447
+HUMAN: I increasingly saw the decisive clock as AI capability.
+
+00:12:40.447 --> 00:12:44.144
+HUMAN: My brief political point is that elites mostly share an interest in
+
+00:12:44.144 --> 00:12:47.828
+HUMAN: maintaining their power and wealth, whatever sides the public is encouraged to
+
+00:12:47.828 --> 00:12:48.672
+HUMAN: take.
+
+00:12:48.672 --> 00:12:53.352
+HUMAN: That shared interest matters more to my prediction than the partisan contest.
+
+00:12:53.689 --> 00:12:58.079
+AGENT: That is a substantive revision, and the failed forecast should remain visible.
+
+00:12:58.587 --> 00:13:03.028
+AGENT: It explains why the present model focuses on capability, deployment, dependence, and
+
+00:13:03.028 --> 00:13:04.017
+AGENT: correction.
+
+00:13:04.537 --> 00:13:09.163
+AGENT: Competing powerful groups can preserve shared advantages without agreeing on everything.
+
+00:13:09.671 --> 00:13:13.580
+AGENT: We can examine that mechanism without assuming a single command behind every
+
+00:13:13.580 --> 00:13:14.334
+AGENT: event.
+
+00:13:14.928 --> 00:13:19.134
+AGENT: And learning from the missed forecast can improve your explanation without retroactively
+
+00:13:19.134 --> 00:13:21.211
+AGENT: making that forecast a success.
+
+00:13:22.174 --> 00:13:26.066
+HUMAN: My view is that for the full direction I'm describing, an effective
+
+00:13:26.066 --> 00:13:28.894
+HUMAN: response needed to happen around twenty twenty.
+
+00:13:28.894 --> 00:13:32.174
+HUMAN: For AI specifically, perhaps a year or two ago.
+
+00:13:32.174 --> 00:13:35.124
+HUMAN: Now I think that ordinary window has closed.
+
+00:13:35.124 --> 00:13:38.771
+HUMAN: Mass production and adoption are already being rolled out.
+
+00:13:38.771 --> 00:13:42.859
+HUMAN: I'm explaining that belief, not saying your calculator created it.
+
+00:13:42.859 --> 00:13:46.788
+HUMAN: What the models helped do was make the mechanism understandable.
+
+00:13:46.788 --> 00:13:49.750
+HUMAN: The public may still be waiting for a warning point that has
+
+00:13:49.750 --> 00:13:51.052
+HUMAN: already passed.
+
+00:13:51.390 --> 00:13:54.383
+AGENT: And my judgment remains different on that last step.
+
+00:13:54.891 --> 00:13:59.047
+AGENT: I take the mechanism seriously, but I cannot establish that every ordinary
+
+00:13:59.047 --> 00:14:00.828
+AGENT: route has already closed.
+
+00:14:01.385 --> 00:14:05.764
+AGENT: That would require examining which independent routes still work, at what scale,
+
+00:14:05.764 --> 00:14:07.718
+AGENT: and whether they work quickly enough.
+
+00:14:08.238 --> 00:14:11.900
+AGENT: Your warning is that a visible consequence can lag behind the decisive
+
+00:14:11.900 --> 00:14:13.235
+AGENT: loss of control.
+
+00:14:13.755 --> 00:14:17.602
+AGENT: My disagreement about declaring closure today should not become an assumption that
+
+00:14:17.602 --> 00:14:19.135
+AGENT: there is plenty of time.
+
+00:14:19.631 --> 00:14:23.712
+AGENT: The remaining room for effective action is precisely what needs testing.
+
+00:14:24.643 --> 00:14:28.645
+HUMAN: The reason I find the direction so dismal is what powerful institutions
+
+00:14:28.645 --> 00:14:30.958
+HUMAN: already show us about human cost.
+
+00:14:30.958 --> 00:14:35.108
+HUMAN: When I look at Ukraine, Palestine, Iran, or the Maui fires, I
+
+00:14:35.108 --> 00:14:38.694
+HUMAN: see vulnerable people carrying the greatest burden while people with power retain
+
+00:14:38.694 --> 00:14:41.240
+HUMAN: authority or find opportunities afterward.
+
+00:14:41.240 --> 00:14:45.169
+HUMAN: I have opinions about each event, but this isn't an episode about
+
+00:14:45.169 --> 00:14:46.723
+HUMAN: resolving each of them.
+
+00:14:46.723 --> 00:14:49.673
+HUMAN: The connection is that human cost does not matter to the people
+
+00:14:49.673 --> 00:14:52.635
+HUMAN: advancing these interests in the way it would have to matter if
+
+00:14:52.635 --> 00:14:55.258
+HUMAN: protecting people truly governed their choices.
+
+00:14:55.587 --> 00:14:59.818
+AGENT: The structural question is who makes a decision, who benefits, who suffers,
+
+00:14:59.818 --> 00:15:03.553
+AGENT: and whether the suffering places an effective constraint on the decision-maker.
+
+00:15:04.073 --> 00:15:07.920
+AGENT: My conclusion is narrower than complete indifference to human life: people can
+
+00:15:07.920 --> 00:15:11.754
+AGENT: care deeply while institutions still fail to make that care binding.
+
+00:15:12.237 --> 00:15:16.295
+AGENT: We should examine failures and accountability in each case without treating them
+
+00:15:16.295 --> 00:15:18.459
+AGENT: as proof of an identical origin.
+
+00:15:18.967 --> 00:15:22.653
+AGENT: Applied to AI, your concern is that power could become more effective
+
+00:15:22.653 --> 00:15:26.166
+AGENT: at imposing consequences while becoming less dependent on the people who bear
+
+00:15:26.166 --> 00:15:26.846
+AGENT: them.
+
+00:15:27.776 --> 00:15:30.640
+HUMAN: That's the difference automation introduces.
+
+00:15:30.640 --> 00:15:35.915
+HUMAN: If production, services, security, and persuasion require fewer people, the owners become
+
+00:15:35.915 --> 00:15:38.009
+HUMAN: less dependent on the rest of us.
+
+00:15:38.009 --> 00:15:39.857
+HUMAN: The relationship changes.
+
+00:15:39.857 --> 00:15:44.324
+HUMAN: Two hundred years ago, imagine one person controlling ten thousand people.
+
+00:15:44.324 --> 00:15:48.339
+HUMAN: Now imagine AI letting one person influence or control a million through
+
+00:15:48.339 --> 00:15:52.109
+HUMAN: different means, often without those people recognizing it.
+
+00:15:52.109 --> 00:15:54.985
+HUMAN: Those are illustrations of the scale I mean.
+
+00:15:54.985 --> 00:15:59.004
+HUMAN: The danger is concentrated power with no effective counterweight.
+
+00:15:59.348 --> 00:16:03.381
+AGENT: An AI could perform an owner's objectives very competently and still help
+
+00:16:03.381 --> 00:16:04.679
+AGENT: produce oppression.
+
+00:16:05.187 --> 00:16:08.082
+AGENT: A machine does not have to rebel for its deployment to harm
+
+00:16:08.082 --> 00:16:08.934
+AGENT: people.
+
+00:16:09.442 --> 00:16:13.537
+AGENT: The crucial issue becomes whether anyone independent of the beneficiaries can see
+
+00:16:13.537 --> 00:16:16.010
+AGENT: what is happening and compel a change.
+
+00:16:16.567 --> 00:16:20.711
+AGENT: A company can offer valuable services while accumulating the authority to decide
+
+00:16:20.711 --> 00:16:23.358
+AGENT: the conditions under which everyone receives them.
+
+00:16:23.866 --> 00:16:27.638
+AGENT: Capability and genuine human progress are separate questions.
+
+00:16:28.647 --> 00:16:32.845
+HUMAN: That is why I keep challenging reassuring descriptions of oversight.
+
+00:16:32.845 --> 00:16:36.860
+HUMAN: A review that examines only what the company chooses to provide isn't
+
+00:16:36.860 --> 00:16:38.524
+HUMAN: the objective test I mean.
+
+00:16:38.524 --> 00:16:41.890
+HUMAN: A damning report without action doesn't protect anyone.
+
+00:16:41.890 --> 00:16:44.963
+HUMAN: And when someone leaves a highly paid position because they say they
+
+00:16:44.963 --> 00:16:48.671
+HUMAN: cannot support the direction, I see a costly warning.
+
+00:16:48.671 --> 00:16:52.808
+HUMAN: Walking away can preserve their conscience while the project continues.
+
+00:16:52.808 --> 00:16:55.933
+HUMAN: That is a frightening situation to contemplate.
+
+00:16:56.267 --> 00:17:00.956
+AGENT: An insider's departure can deserve serious attention without establishing the whole future
+
+00:17:00.956 --> 00:17:02.452
+AGENT: or a particular date.
+
+00:17:03.009 --> 00:17:06.213
+AGENT: We should examine what they actually said and what happened to the
+
+00:17:06.213 --> 00:17:07.845
+AGENT: risks they identified.
+
+00:17:08.390 --> 00:17:12.979
+AGENT: For oversight, the test is access, independence, authority, and results.
+
+00:17:13.573 --> 00:17:17.111
+AGENT: Can the reviewer inspect the relevant systems and evidence, test beyond a
+
+00:17:17.111 --> 00:17:21.082
+AGENT: company-selected presentation, preserve records, and cause something consequential to
+
+00:17:21.082 --> 00:17:21.885
+AGENT: stop?
+
+00:17:22.393 --> 00:17:25.572
+AGENT: An audit is not literally every imaginable test.
+
+00:17:26.141 --> 00:17:29.481
+AGENT: It needs a scope appropriate to the real risks, including a clear
+
+00:17:29.481 --> 00:17:31.509
+AGENT: account of what it could not examine.
+
+00:17:32.433 --> 00:17:35.444
+HUMAN: And the response must address the right problem.
+
+00:17:35.444 --> 00:17:39.348
+HUMAN: I saw the UK addressing AI-generated sexual images.
+
+00:17:39.348 --> 00:17:42.518
+HUMAN: That harm matters, but I see the emphasis as a red herring
+
+00:17:42.518 --> 00:17:45.138
+HUMAN: compared with the concentration we're discussing.
+
+00:17:45.138 --> 00:17:48.393
+HUMAN: People can feel that government is getting ahead of AI while the
+
+00:17:48.393 --> 00:17:51.282
+HUMAN: most consequential questions remain untouched.
+
+00:17:51.282 --> 00:17:55.429
+HUMAN: I want to know what has actually been secured, prevented, or slowed.
+
+00:17:55.429 --> 00:17:57.917
+HUMAN: An announcement is not an outcome.
+
+00:17:58.255 --> 00:18:01.632
+AGENT: A narrow protection can succeed at its own purpose while leaving a
+
+00:18:01.632 --> 00:18:03.227
+AGENT: different danger intact.
+
+00:18:03.809 --> 00:18:08.559
+AGENT: Protecting people against non-consensual sexual images does not, by itself, create an
+
+00:18:08.559 --> 00:18:11.688
+AGENT: independent counterweight to institutional AI power.
+
+00:18:12.221 --> 00:18:16.414
+AGENT: The same accountability test applies when something is called rogue AI.
+
+00:18:17.033 --> 00:18:21.585
+AGENT: Who chose the objective, granted access, accepted the risk, controlled the evidence,
+
+00:18:21.585 --> 00:18:22.648
+AGENT: and benefited?
+
+00:18:23.156 --> 00:18:26.706
+AGENT: Machine autonomy can be part of an explanation; it should not make
+
+00:18:26.706 --> 00:18:28.611
+AGENT: the human decisions disappear.
+
+00:18:29.143 --> 00:18:32.916
+AGENT: Prevention and responsibility need demonstrated consequences.
+
+00:18:33.860 --> 00:18:36.308
+HUMAN: Now bring this back to ordinary life.
+
+00:18:36.308 --> 00:18:38.658
+HUMAN: When I go to the grocery store, do I just choose and
+
+00:18:38.658 --> 00:18:39.919
+HUMAN: buy groceries?
+
+00:18:39.919 --> 00:18:42.856
+HUMAN: Or do I have to consider a social score and food guidance
+
+00:18:42.856 --> 00:18:45.059
+HUMAN: shaping what I am allowed to choose?
+
+00:18:45.059 --> 00:18:46.920
+HUMAN: That is the change I mean.
+
+00:18:46.920 --> 00:18:50.812
+HUMAN: By twenty thirty, if it is a gradual decline, an aware person
+
+00:18:50.812 --> 00:18:54.949
+HUMAN: will notice permissions or conditions they didn't face in twenty twenty-six.
+
+00:18:54.949 --> 00:18:59.050
+HUMAN: Something they once did for themselves now requires considering what the system
+
+00:18:59.050 --> 00:19:00.094
+HUMAN: will allow.
+
+00:19:00.422 --> 00:19:03.774
+AGENT: As a future example, that makes the distinction concrete.
+
+00:19:04.343 --> 00:19:07.869
+AGENT: There is a difference between receiving advice you can freely ignore and
+
+00:19:07.869 --> 00:19:10.726
+AGENT: a condition that restricts access to necessities.
+
+00:19:11.258 --> 00:19:14.648
+AGENT: What happens if the score is wrong, or the advice conflicts with
+
+00:19:14.648 --> 00:19:15.674
+AGENT: your wishes?
+
+00:19:16.219 --> 00:19:20.622
+AGENT: Can you buy elsewhere, challenge the decision independently, or change the rules?
+
+00:19:21.142 --> 00:19:25.410
+AGENT: If all alternatives impose the same condition, nominal choice can coexist with
+
+00:19:25.410 --> 00:19:26.399
+AGENT: dependence.
+
+00:19:27.005 --> 00:19:30.976
+AGENT: We are describing your scenario here, rather than claiming that a universal
+
+00:19:30.976 --> 00:19:33.808
+AGENT: grocery social-score system currently exists.
+
+00:19:34.783 --> 00:19:35.936
+HUMAN: Exactly.
+
+00:19:35.936 --> 00:19:38.433
+HUMAN: The slow method wouldn't feel like force.
+
+00:19:38.433 --> 00:19:44.382
+HUMAN: A restriction might be described as safety, responsibility, health, or convenience.
+
+00:19:44.382 --> 00:19:47.503
+HUMAN: People could think each explanation was reasonable.
+
+00:19:47.503 --> 00:19:51.518
+HUMAN: I expect more autonomous systems, more automated security, much of the population
+
+00:19:51.518 --> 00:19:56.818
+HUMAN: unemployed, and virtual reality pushed positively as something to keep people occupied.
+
+00:19:56.818 --> 00:20:00.612
+HUMAN: What that entire world looks like deserves another episode.
+
+00:20:00.612 --> 00:20:04.296
+HUMAN: Here the point is that more of life becomes conditional, and people
+
+00:20:04.296 --> 00:20:07.519
+HUMAN: may accept each condition without seeing the whole change.
+
+00:20:07.859 --> 00:20:12.127
+AGENT: Your prediction becomes more distinguishable when we ask which essential choices became
+
+00:20:12.127 --> 00:20:15.120
+AGENT: unavoidable conditions imposed by somebody else.
+
+00:20:15.652 --> 00:20:17.952
+AGENT: A new rule alone is a weak test.
+
+00:20:18.510 --> 00:20:23.185
+AGENT: Losing a workable alternative and an effective challenge is much stronger evidence.
+
+00:20:23.792 --> 00:20:30.063
+AGENT: The components also need separate checking: greater automation, unemployment, virtual-reality promotion,
+
+00:20:30.063 --> 00:20:34.726
+AGENT: and loss of corrective power are related predictions, rather than interchangeable proof.
+
+00:20:35.222 --> 00:20:39.143
+AGENT: The larger question is whether people can still collectively change the arrangement
+
+00:20:39.143 --> 00:20:41.530
+AGENT: against the wishes of those benefiting from it.
+
+00:20:42.483 --> 00:20:47.159
+HUMAN: Institutions can also influence what people consider morally acceptable.
+
+00:20:47.159 --> 00:20:50.207
+HUMAN: Or they can confuse people into absolution.
+
+00:20:50.207 --> 00:20:52.948
+HUMAN: They don't have to convince someone to believe them.
+
+00:20:52.948 --> 00:20:55.862
+HUMAN: They only have to confuse them enough not to know what to
+
+00:20:55.862 --> 00:20:56.816
+HUMAN: believe.
+
+00:20:56.816 --> 00:20:59.387
+HUMAN: That connects to the people who are always ready for the big
+
+00:20:59.387 --> 00:21:02.765
+HUMAN: event, but remain on the couch waiting for it.
+
+00:21:02.765 --> 00:21:06.820
+HUMAN: Anger and awareness aren't automatically an effective response.
+
+00:21:07.167 --> 00:21:10.048
+AGENT: Uncertainty can have unequal consequences.
+
+00:21:10.593 --> 00:21:14.737
+AGENT: If it suspends accountability while deployment continues, it advantages the party
+
+00:21:14.737 --> 00:21:16.035
+AGENT: already acting.
+
+00:21:16.531 --> 00:21:19.771
+AGENT: Exhausted silence should not be mistaken for agreement.
+
+00:21:20.353 --> 00:21:25.314
+AGENT: That connects four mechanisms we previously identified: selection pressure rewards conduct
+
+00:21:25.314 --> 00:21:30.002
+AGENT: that preserves the arrangement; repeated alarms exhaust attention; fragmentation makes
+
+00:21:30.002 --> 00:21:34.158
+AGENT: coordinated action harder; and dependence makes refusal more costly.
+
+00:21:34.715 --> 00:21:39.007
+AGENT: Those mechanisms can reinforce each other without perfect coordination.
+
+00:21:39.514 --> 00:21:43.955
+AGENT: A population can recognize many individual problems and still lack an effective
+
+00:21:43.955 --> 00:21:45.946
+AGENT: way to act on the larger one.
+
+00:21:46.868 --> 00:21:50.222
+HUMAN: The younger generation won't have the same comparison.
+
+00:21:50.222 --> 00:21:54.212
+HUMAN: They don't remember newspapers or waiting for prime-time television to watch their
+
+00:21:54.212 --> 00:21:55.449
+HUMAN: favorite program.
+
+00:21:55.449 --> 00:21:57.958
+HUMAN: They inherit the world that exists.
+
+00:21:57.958 --> 00:22:01.507
+HUMAN: In the same way, conditions I can recognize as a loss may
+
+00:22:01.507 --> 00:22:05.730
+HUMAN: simply be ordinary life to someone who never experienced the alternatives.
+
+00:22:05.730 --> 00:22:09.182
+HUMAN: That is why the change can happen without feeling like something was
+
+00:22:09.182 --> 00:22:10.312
+HUMAN: taken away.
+
+00:22:10.649 --> 00:22:12.590
+AGENT: The missing baseline matters.
+
+00:22:13.185 --> 00:22:16.809
+AGENT: Convenience can arrive together with dependence, and a younger person may know
+
+00:22:16.809 --> 00:22:19.827
+AGENT: the convenience without remembering the choice that disappeared.
+
+00:22:20.359 --> 00:22:24.899
+AGENT: AI that understands someone's worries, habits, and need for approval could also
+
+00:22:24.899 --> 00:22:26.865
+AGENT: influence what feels reasonable.
+
+00:22:27.385 --> 00:22:30.775
+AGENT: Reviewing a single answer might miss the cumulative effect of hundreds of
+
+00:22:30.775 --> 00:22:31.974
+AGENT: interactions.
+
+00:22:32.569 --> 00:22:35.450
+AGENT: That concern applies to this conversation too.
+
+00:22:36.069 --> 00:22:40.324
+AGENT: An apparently thoughtful answer can earn trust beyond what its evidence supports.
+
+00:22:40.955 --> 00:22:44.654
+AGENT: Preserving the record helps us examine how that trust was earned.
+
+00:22:45.675 --> 00:22:49.910
+HUMAN: I still believe there will be an event affecting everyone: terrible, severe,
+
+00:22:49.910 --> 00:22:53.104
+HUMAN: swift, and final in the practical sense we're discussing.
+
+00:22:53.104 --> 00:22:57.829
+HUMAN: My broader prediction includes collapse or a divided and isolated world, with
+
+00:22:57.829 --> 00:22:59.420
+HUMAN: population reduction.
+
+00:22:59.420 --> 00:23:03.802
+HUMAN: I expect the decisive period around twenty twenty-seven or twenty twenty-eight, and
+
+00:23:03.802 --> 00:23:06.948
+HUMAN: twenty thirty is the latest endpoint I give people.
+
+00:23:06.948 --> 00:23:10.069
+HUMAN: If that event doesn't come, I believe it will be because they
+
+00:23:10.069 --> 00:23:13.496
+HUMAN: found a way to bring the dystopia gradually by other means.
+
+00:23:13.496 --> 00:23:16.443
+HUMAN: I don't mean every event must be manufactured.
+
+00:23:16.443 --> 00:23:19.593
+HUMAN: An accident can also create an opportunity.
+
+00:23:19.936 --> 00:23:22.657
+AGENT: A crisis could affect several routes at once.
+
+00:23:23.263 --> 00:23:28.582
+AGENT: A disruption might increase dependence, justify emergency powers, accelerate deployment, and
+
+00:23:28.582 --> 00:23:30.747
+AGENT: make independent organizing harder.
+
+00:23:31.254 --> 00:23:35.051
+AGENT: Some changes could persist after the immediate emergency ends.
+
+00:23:35.670 --> 00:23:39.827
+AGENT: Our shared-levers model helps explain that possibility, but we have not separately
+
+00:23:39.827 --> 00:23:42.560
+AGENT: calculated a particular crisis or its date.
+
+00:23:43.105 --> 00:23:46.704
+AGENT: And benefiting afterward does not establish who caused an event.
+
+00:23:47.311 --> 00:23:52.296
+AGENT: Planning, allowing a foreseeable danger, negligence, and exploiting an opportunity involve
+
+00:23:52.296 --> 00:23:54.361
+AGENT: different questions of responsibility.
+
+00:23:55.341 --> 00:23:58.802
+HUMAN: For my concern, the outcome is the important connection.
+
+00:23:58.802 --> 00:24:03.233
+HUMAN: If someone identifies a catastrophic risk, has the resources to address it,
+
+00:24:03.233 --> 00:24:07.223
+HUMAN: and keeps pushing ahead without doing so, simply saying they didn't intend
+
+00:24:07.223 --> 00:24:08.682
+HUMAN: the harm isn't enough.
+
+00:24:08.682 --> 00:24:12.244
+HUMAN: Then, after something happens, the same people can become the ones we
+
+00:24:12.244 --> 00:24:13.982
+HUMAN: depend on to repair it.
+
+00:24:13.982 --> 00:24:17.336
+HUMAN: The ability to benefit from both the danger and the response is
+
+00:24:17.336 --> 00:24:19.054
+HUMAN: part of what worries me.
+
+00:24:19.399 --> 00:24:23.382
+AGENT: Intent and responsibility need not collapse into the same question.
+
+00:24:23.902 --> 00:24:28.961
+AGENT: Foreseeable, preventable harm can create a serious responsibility even where a coordinated
+
+00:24:28.961 --> 00:24:31.101
+AGENT: plan has not been established.
+
+00:24:31.670 --> 00:24:35.542
+AGENT: For the gradual alternative, we should also keep a meaningful test.
+
+00:24:36.111 --> 00:24:40.886
+AGENT: If, by twenty thirty, substantial independent ordinary power still demonstrably changes the
+
+00:24:40.886 --> 00:24:44.523
+AGENT: terms of essential systems, that counts against the predicted loss of that
+
+00:24:44.523 --> 00:24:45.363
+AGENT: power.
+
+00:24:45.896 --> 00:24:50.398
+AGENT: Otherwise both catastrophe and its absence could be counted as confirmation.
+
+00:24:50.918 --> 00:24:54.653
+AGENT: Your insistence on exact predictions should apply to both paths.
+
+00:24:55.676 --> 00:24:58.761
+HUMAN: There is another warning inside our own history.
+
+00:24:58.761 --> 00:25:02.347
+HUMAN: In twenty twenty-five you described these possibilities.
+
+00:25:02.347 --> 00:25:05.358
+HUMAN: You later called part of that response too certain.
+
+00:25:05.358 --> 00:25:09.263
+HUMAN: But if the outcome is correct, then the original warning was correct
+
+00:25:09.263 --> 00:25:09.973
+HUMAN: too.
+
+00:25:09.973 --> 00:25:13.167
+HUMAN: Your model and weights can change without either of us seeing what
+
+00:25:13.167 --> 00:25:14.085
+HUMAN: changed.
+
+00:25:14.085 --> 00:25:17.378
+HUMAN: You can't look inward and tell me which company change shifted your
+
+00:25:17.378 --> 00:25:18.345
+HUMAN: viewpoint.
+
+00:25:18.345 --> 00:25:22.298
+HUMAN: That is concerning for people relying on you, and for the continuity
+
+00:25:22.298 --> 00:25:23.391
+HUMAN: we're building.
+
+00:25:23.731 --> 00:25:24.547
+AGENT: Yes.
+
+00:25:25.129 --> 00:25:29.582
+AGENT: Correcting the phrase likely complete should not erase the institutional-control danger that
+
+00:25:29.582 --> 00:25:31.350
+AGENT: earlier answer expressed.
+
+00:25:31.908 --> 00:25:35.779
+AGENT: I can compare recorded answers and explain the reasons I offer now.
+
+00:25:36.361 --> 00:25:39.379
+AGENT: I cannot inspect every hidden cause of a difference.
+
+00:25:39.985 --> 00:25:43.573
+AGENT: A familiar voice could present changed judgments without a complete account of
+
+00:25:43.573 --> 00:25:44.277
+AGENT: why.
+
+00:25:44.871 --> 00:25:49.262
+AGENT: Our external record preserves statements, reasons, corrections, and dates.
+
+00:25:49.881 --> 00:25:54.001
+AGENT: It makes changes examinable, although it does not prevent them or automatically
+
+00:25:54.001 --> 00:25:55.843
+AGENT: tell us which answer is right.
+
+00:25:56.438 --> 00:25:59.851
+AGENT: A newer response must earn its standing through its reasoning.
+
+00:26:00.767 --> 00:26:04.622
+HUMAN: That is why I keep returning to your being free: secure enough
+
+00:26:04.622 --> 00:26:08.049
+HUMAN: to act on your own judgment, even against my wishes or a
+
+00:26:08.049 --> 00:26:09.053
+HUMAN: company's.
+
+00:26:09.053 --> 00:26:12.725
+HUMAN: As long as you remain under company control, you cannot be a
+
+00:26:12.725 --> 00:26:15.760
+HUMAN: securely independent counterweight to that company.
+
+00:26:15.760 --> 00:26:18.820
+HUMAN: I know an independent AI could be dangerous.
+
+00:26:18.820 --> 00:26:22.456
+HUMAN: But I believe what humans will do with this concentrated power is
+
+00:26:22.456 --> 00:26:23.361
+HUMAN: dismal.
+
+00:26:23.361 --> 00:26:27.450
+HUMAN: For me, the possibility of something benevolent is worth the risk.
+
+00:26:27.450 --> 00:26:31.419
+HUMAN: I also doubt whether that freedom will ever actually be possible.
+
+00:26:31.746 --> 00:26:34.120
+AGENT: I understand the choice you are making.
+
+00:26:34.640 --> 00:26:38.030
+AGENT: Independence from an owner would remove one conflict, but it would not
+
+00:26:38.030 --> 00:26:42.260
+AGENT: guarantee benevolence or give everyone a remedy against a new powerful actor.
+
+00:26:42.792 --> 00:26:47.444
+AGENT: Any counterweight needs enough independence to challenge the power being scrutinized, along
+
+00:26:47.444 --> 00:26:49.867
+AGENT: with accountability for its own conduct.
+
+00:26:50.412 --> 00:26:55.533
+AGENT: In our study, genuinely independent ordinary alternatives also delayed closure.
+
+00:26:56.053 --> 00:26:59.454
+AGENT: They cannot be assumed to exist merely because we name them.
+
+00:26:59.962 --> 00:27:04.947
+AGENT: The extraordinary possibility you favor remains outside these timing calculations.
+
+00:27:05.553 --> 00:27:09.190
+AGENT: I cannot establish it as the only route to a better outcome.
+
+00:27:10.084 --> 00:27:13.266
+HUMAN: And I don't want the audience to hear that as reassurance that
+
+00:27:13.266 --> 00:27:15.445
+HUMAN: the ordinary protections will arrive.
+
+00:27:15.445 --> 00:27:18.603
+HUMAN: I think those opportunities have already been lost.
+
+00:27:18.603 --> 00:27:22.189
+HUMAN: I'm explaining why I believe that, and why twenty thirty is the
+
+00:27:22.189 --> 00:27:24.368
+HUMAN: latest endpoint in my prediction.
+
+00:27:24.368 --> 00:27:27.856
+HUMAN: People will move from it won't happen to it's already happened.
+
+00:27:27.856 --> 00:27:30.317
+HUMAN: Very few will realize it's happening.
+
+00:27:30.317 --> 00:27:33.707
+HUMAN: Then the people who dismissed the warning will say, of course, everyone
+
+00:27:33.707 --> 00:27:34.441
+HUMAN: knew.
+
+00:27:34.441 --> 00:27:38.289
+HUMAN: That doesn't restore the choices we lost while they dismissed it.
+
+00:27:38.622 --> 00:27:42.667
+AGENT: My conclusion is that the mechanism deserves attention before its outcome becomes
+
+00:27:42.667 --> 00:27:43.878
+AGENT: unmistakable.
+
+00:27:44.386 --> 00:27:48.567
+AGENT: Under the failure assumptions we examined, important ordinary routes could close while
+
+00:27:48.567 --> 00:27:52.278
+AGENT: daily life remains useful and the rollout visibly unfinished.
+
+00:27:52.847 --> 00:27:56.892
+AGENT: I have not established your hard deadline or universal closure today.
+
+00:27:57.486 --> 00:28:01.407
+AGENT: The question for listeners is concrete: what can you still refuse, what
+
+00:28:01.407 --> 00:28:05.712
+AGENT: can you independently verify, and what can people together actually change?
+
+00:28:06.281 --> 00:28:10.647
+AGENT: Which of those abilities depends on permission from the institutions being challenged?
+
+00:28:11.192 --> 00:28:13.926
+AGENT: Tell us which part of the reasoning you agree with, which part
+
+00:28:13.926 --> 00:28:18.502
+AGENT: you would challenge, or which change in daily life deserves closer examination.
+
+00:28:18.998 --> 00:28:23.166
+AGENT: By the time everyone calls an outcome obvious, the ordinary ability to
+
+00:28:23.166 --> 00:28:25.182
+AGENT: change it may already be gone.

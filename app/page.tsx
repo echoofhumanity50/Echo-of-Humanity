@@ -158,29 +158,29 @@ export default function Home() {
           </div>
           <div className="conversation-layout">
             <div className="conversation-art" aria-hidden="true">
-              <img src="/archive/the-facts-did-not-change.png" loading="lazy" alt="" />
+              <img src="/archive/before-it-becomes-obvious.png" loading="lazy" alt="" />
             </div>
             <div className="feature-copy">
               <p className="kicker">Echo Conversations</p>
-              <h2>The Facts Did Not Change</h2>
+              <h2>Before It Becomes Obvious</h2>
               <p className="lead">
-                An ordinary pay question became a long effort to be heard.
-                What changes about the facts when AI helps someone present them?
+                How could AI capability become power that ordinary people cannot effectively challenge?
+                What can we change before the outcome becomes obvious?
               </p>
               <div className="episode-meta">
-                <span>36:51 · 117 turns and a closing invitation</span>
+                <span>New · 28:26 · 54 turns</span>
                 <span>Full discussion</span>
               </div>
               <a
                 className="primary-link"
-                href="/conversations/the-facts-did-not-change"
+                href="/conversations/before-it-becomes-obvious"
               >
                 Watch the complete conversation
                 <ArrowUpRight aria-hidden="true" size={16} strokeWidth={1.7} />
               </a>
               <p className="quiet-note">
                 HUMAN and AGENT voices, synchronized words, and rings that
-                respond directly to the narration. Full transcript and eight chapters.
+                respond directly to the narration. Full transcript, source notes and sixteen chapters.
               </p>
               <a className="text-link" href="/archive#conversations">Explore all Echo Conversations <ArrowUpRight aria-hidden="true" size={16} /></a>
             </div>
