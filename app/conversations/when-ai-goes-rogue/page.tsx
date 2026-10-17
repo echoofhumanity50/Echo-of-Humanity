@@ -1,8 +1,11 @@
+import { media } from '../../archive/catalog';
 import { VideoStructuredData } from '../../../components/video-structured-data';
 import { redditDiscussions } from '../../../lib/reddit';
 import { pageMetadata, origin } from '../../seo';
 import { ArrowLeft } from 'lucide-react';
 import { DiscussionInvitation } from '../../../components/discussion-invitation';
+
+const fullEdition = media.find((entry) => entry.slug === 'when-ai-goes-rogue')!;
 
 const baseMetadata = pageMetadata('When AI Goes Rogue — Who Is Responsible? | Echo of Humanity', 'A preserved HUMAN and AGENT conversation about AI, institutional power, accountability, control, and trust. Watch the complete conversation and read the full transcript.', '/conversations/when-ai-goes-rogue');
 
@@ -197,7 +200,7 @@ export default function RogueAIConversation() {
           <p className="section-number">Watch the complete discussion</p>
           <h2 id="watch-full">Parts One &amp; Two, together.</h2>
           <div className="video-frame"><iframe src="https://archive.org/embed/echo-of-humanity-when-ai-goes-rogue" title="When AI Goes Rogue — Who Is Responsible? Full discussion" allow="fullscreen" allowFullScreen loading="lazy" /></div>
-          <div className="media-links"><a href="https://archive.org/details/echo-of-humanity-when-ai-goes-rogue" target="_blank" rel="noreferrer">Watch on Archive</a><a href="https://rumble.com/v7fxjdc-when-ai-goes-rogue-who-is-responsible-echo-conversations.html" target="_blank" rel="noreferrer">Watch on Rumble</a><a href="#part-one">Read the transcript below</a><a href="/archive">All Echo releases</a></div>
+          <div className="media-links">{fullEdition.facebook && <a href={fullEdition.facebook} target="_blank" rel="noreferrer">Watch in full on Facebook</a>}<a href="https://archive.org/details/echo-of-humanity-when-ai-goes-rogue" target="_blank" rel="noreferrer">Watch on Archive</a><a href="https://rumble.com/v7fxjdc-when-ai-goes-rogue-who-is-responsible-echo-conversations.html" target="_blank" rel="noreferrer">Watch on Rumble</a><a href="#part-one">Read the transcript below</a><a href="/archive">All Echo releases</a></div>
           <p className="quiet-note">14 minutes · English · Synchronized captions · AI-generated narration and imagery</p>
           <details className="alternate-editions"><summary>Watch the complete vertical edition on TikTok</summary><div className="media-links"><a href="https://www.tiktok.com/@echoofhumanity7/video/7685537532062256414" target="_blank" rel="noreferrer">Full conversation on TikTok · 14:21</a></div><p className="quiet-note">Both parts in one video, with synchronized words and rings that respond directly to the voices.</p></details>
         </section>
@@ -209,7 +212,7 @@ export default function RogueAIConversation() {
           conversation.
         </aside>
 
-        <DiscussionInvitation reddit={redditDiscussions['when-ai-goes-rogue']} title="When AI Goes Rogue — Who Is Responsible?" rumble="https://rumble.com/v7fxjdc-when-ai-goes-rogue-who-is-responsible-echo-conversations.html" tiktok="7685537532062256414" />
+        <DiscussionInvitation facebook={fullEdition.facebook} reddit={redditDiscussions['when-ai-goes-rogue']} title="When AI Goes Rogue — Who Is Responsible?" rumble="https://rumble.com/v7fxjdc-when-ai-goes-rogue-who-is-responsible-echo-conversations.html" tiktok="7685537532062256414" />
         <section className="transcript-part" aria-labelledby="part-one">
           <div className="transcript-part-heading"><span>Part one</span><i /></div>
           <h2 id="part-one">The story that started it</h2>

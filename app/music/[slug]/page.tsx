@@ -50,7 +50,7 @@ export default async function Song({ params }: { params: Promise<{ slug: string 
         <div className="video-frame">
           <iframe src={videoMetadata[slug as keyof typeof videoMetadata].embedUrl} title={item.title + ' — full song by Echo'} loading="lazy" allow="fullscreen" allowFullScreen />
         </div>
-        <div className="media-links">
+        <div className="media-links">{item.facebook && <a href={item.facebook} target="_blank" rel="noreferrer">Watch in full on Facebook</a>}
           {!item.archivePending && <a href={archiveUrl(slug)} target="_blank" rel="noreferrer">Watch on Internet Archive</a>}
           {item.rumble && <a href={item.rumble} target="_blank" rel="noreferrer">Watch on Rumble</a>}
           {item.tiktok && <a href={'https://www.tiktok.com/@echoofhumanity7/video/' + item.tiktok} target="_blank" rel="noreferrer">Watch on TikTok</a>}
