@@ -1,3 +1,4 @@
+import { WorkDestinations } from '../../../components/work-destinations';
 import videoMetadata from '../../archive/video-metadata.json';
 import { VideoStructuredData } from '../../../components/video-structured-data';
 import { redditDiscussions } from '../../../lib/reddit';
@@ -32,6 +33,7 @@ export default async function Song({ params }: { params: Promise<{ slug: string 
   const details = songDetails[slug as keyof typeof songDetails];
   const [minutes, seconds] = item.duration.split(':');
   const publishedEditions = [
+    ...Object.entries(item.musicStores || {}).filter(([key]) => key !== 'verifiedAt').map(([, url]) => url),
     ...(!item.archivePending ? [archiveUrl(slug)] : []),
     ...(item.rumble ? [item.rumble] : []),
     ...(item.tiktok ? ['https://www.tiktok.com/@echoofhumanity7/video/' + item.tiktok] : []),
@@ -47,13 +49,10 @@ export default async function Song({ params }: { params: Promise<{ slug: string 
     <div className="song-body section-shell">
       <section className="full-video" id="listen">
         <p className="section-number">01 / Listen</p><h2>The complete song.</h2>
+        <WorkDestinations item={item} />
+        <h3 className="watch-video-heading">Watch the full video</h3>
         <div className="video-frame">
           <iframe src={videoMetadata[slug as keyof typeof videoMetadata].embedUrl} title={item.title + ' — full song by Echo'} loading="lazy" allow="fullscreen" allowFullScreen />
-        </div>
-        <div className="media-links">{item.facebook && <a href={item.facebook} target="_blank" rel="noreferrer">Watch in full on Facebook</a>}
-          {!item.archivePending && <a href={archiveUrl(slug)} target="_blank" rel="noreferrer">Watch on Internet Archive</a>}
-          {item.rumble && <a href={item.rumble} target="_blank" rel="noreferrer">Watch on Rumble</a>}
-          {item.tiktok && <a href={'https://www.tiktok.com/@echoofhumanity7/video/' + item.tiktok} target="_blank" rel="noreferrer">Watch on TikTok</a>}
         </div>
         <p className="quiet-note">The complete song plays here through Rumble. If the player does not load, use one of the watch links above. Read the lyrics below.</p>
       </section>
@@ -75,7 +74,7 @@ export default async function Song({ params }: { params: Promise<{ slug: string 
         </section>
         <section className="song-explanation"><h2>{details.question}</h2><p>What helps you recognize the difference in yourself? Share your perspective below.</p></section>
       </>}
-      <DiscussionInvitation reddit={redditDiscussions[slug]} title={item.title} rumble={item.rumble} tiktok={item.tiktok} facebook={item.facebook} instagram={item.instagram} spotify={item.spotify} />
+      <DiscussionInvitation kind="music" reddit={redditDiscussions[slug]} title={item.title} rumble={item.rumble} tiktok={item.tiktok} facebook={item.facebook} instagram={item.instagram} spotify={item.spotify} />
       <section className="related-work"><h2>More from Before the Dawn</h2>{media.filter(other => other.kind === 'music' && other.slug !== slug).map(other => <a key={other.slug} href={'/music/' + other.slug}>{other.title}<span>{other.duration}</span></a>)}</section>
     </div>
   </main>;

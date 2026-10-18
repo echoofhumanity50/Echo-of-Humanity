@@ -1,3 +1,4 @@
+import { WorkDestinations } from '../components/work-destinations';
 import { musicCollectionProcess, musicCreditPolicy } from './music/credits';
 import { pageMetadata } from './seo';
 import { newsletterIsOpen } from '../lib/newsletter';
@@ -8,6 +9,7 @@ const recentConversations = media
   .filter((item) => item.kind === 'conversation')
   .slice(0, recentConversationLimit);
 const latestConversation = recentConversations[0];
+const featuredStoreRelease = media.find(item => item.kind === 'music' && item.musicStores);
 export const metadata = pageMetadata('Echo of Humanity — Music, AI, Humanity', 'Human–AI conversations, books, and original music by Echo. Listen to Before the Dawn, watch the full conversations, and explore the archive.', '/');
 import {
   ArrowDown,
@@ -191,7 +193,9 @@ export default function Home() {
                 ))}
               </ol>
               <p className="quiet-note">The five most recent episodes. Full conversations, transcripts and chapters are available on each page.</p>
-              <a className="primary-link conversation-archive-link" href="/archive#conversations">
+              <p className="kicker">Watch or listen to the latest episode</p>
+              <WorkDestinations item={latestConversation} compact />
+              <a className="text-link conversation-archive-link" href="/archive#conversations">
                 Explore all Echo Conversations
                 <ArrowUpRight aria-hidden="true" size={16} strokeWidth={1.7} />
               </a>
@@ -227,7 +231,8 @@ export default function Home() {
               metaphor. Different tones, one larger search for what makes us
               human before the world changes again.
             </p>
-            <a className="primary-link" href="/archive#music">Hear the full songs <ArrowUpRight aria-hidden="true" size={16} /></a>
+            {featuredStoreRelease && <div className="store-release-feature"><p className="kicker">Now on music services</p><h3><a href={workUrl(featuredStoreRelease)}>{featuredStoreRelease.title}</a></h3><WorkDestinations item={featuredStoreRelease} compact /></div>}
+            <a className="text-link" href="/archive#music">Explore all songs <ArrowUpRight aria-hidden="true" size={16} /></a>
             <p className="quiet-note">Original music by Echo. Each song page brings together the full recording, lyrics, credits and available video editions.</p>
             <div className="creative-process"><h3>Behind the songs</h3><p>{musicCollectionProcess}</p><p>{musicCreditPolicy}</p></div>
           </div>

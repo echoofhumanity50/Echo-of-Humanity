@@ -884,3 +884,28 @@ a:focus-visible, summary:focus-visible { outline:2px solid var(--dawn); outline-
   .feature-conversations h2 { font-size: clamp(2.2rem, 8vw, 3.4rem); }
   .participation-options > a, .video-comment-option { padding: 1.25rem; }
 }
+
+
+.work-destinations { margin: 1.25rem 0 1.6rem; }
+.work-primary-links { display: flex; flex-wrap: wrap; gap: .65rem; align-items: center; }
+.work-primary-links a { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; max-width: 100%; padding: .65rem 1rem; border: 1px solid var(--dawn); border-radius: 3px; font-size: .9rem; line-height: 1.35; font-weight: 600; text-align: center; }
+.work-primary-links .work-primary { background: var(--dawn); color: #071017; }
+.work-primary-links .work-secondary { color: var(--dawn); background: #0b1319; }
+.work-primary-links .work-purchase { color: var(--foreground); border-color: var(--border); }
+.work-primary-links a:hover { filter: brightness(1.15); }
+.work-primary-links a:focus-visible, .work-more-links summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.work-more-links { margin: .9rem 0; color: var(--muted-foreground); font-size: .85rem; }
+.work-more-links summary { cursor: pointer; width: fit-content; min-height: 44px; padding: .6rem 0; }
+.work-more-links .media-links, .work-more-links .video-comment-links { margin-top: .2rem; }
+.work-more-links a { color: var(--dawn); }
+.work-text-links { margin-top: .8rem; }
+.work-destinations-compact { margin: 1rem 0 1.5rem; }
+.work-destinations-compact .work-primary-links a { font-size: .82rem; padding: .65rem .8rem; }
+.watch-video-heading { font-size: 1rem; font-family: var(--font-body); font-weight: 500; color: var(--muted-foreground); margin-top: 2rem; }
+.store-release-feature { margin: 1.5rem 0 2rem; padding: 1.3rem 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.store-release-feature h3 { margin: .4rem 0; font-size: 1.5rem; }
+.store-release-feature .work-destinations { margin-bottom: 0; }
+@media (max-width: 480px) {
+  .work-primary-links { align-items: stretch; }
+  .work-primary-links a { flex: 1 1 160px; }
+}

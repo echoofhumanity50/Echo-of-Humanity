@@ -1,7 +1,9 @@
+import { WorkDestinations } from '../../../components/work-destinations';
+import videoMetadata from '../../archive/video-metadata.json';
 import { VideoStructuredData } from '../../../components/video-structured-data';
 import { redditDiscussions } from '../../../lib/reddit';
 import { notFound } from 'next/navigation';
-import { archiveUrl, media } from '../../archive/catalog';
+import { media } from '../../archive/catalog';
 import { origin, pageMetadata } from '../../seo';
 import { DiscussionInvitation } from '../../../components/discussion-invitation';
 
@@ -20,7 +22,6 @@ export default async function Conversation({ params }: { params: Promise<{ slug:
   const { slug } = await params;
   const item = conversations.find(item => item.slug === slug);
   if (!item) notFound();
-  const archive = archiveUrl(slug);
   return <main className="archive-page">
     <VideoStructuredData slug={slug} />
     <header className="archive-header"><a className="archive-back" href="/">Echo of Humanity</a><a href="/archive#conversations">All conversations</a></header>
@@ -29,9 +30,8 @@ export default async function Conversation({ params }: { params: Promise<{ slug:
       <img className="song-art" src={item.image} alt="Gold HUMAN and cyan AGENT rings around the words: And that is where trust begins." />
     </section>
     <div className="archive-content">
-      <section className="full-video"><h2>Watch the complete conversation.</h2><p>{item.note}</p><div className="video-frame"><iframe src={`https://archive.org/embed/echo-of-humanity-${slug}`} title={item.title} loading="lazy" allow="fullscreen" allowFullScreen /></div>
-        <div className="media-links">{item.facebook && <a href={item.facebook} target="_blank" rel="noreferrer">Watch in full on Facebook</a>}<a href={archive} target="_blank" rel="noreferrer">Watch on Internet Archive</a>{item.rumble && <a href={item.rumble} target="_blank" rel="noreferrer">Watch on Rumble</a>}{item.tiktok && <a href={`https://www.tiktok.com/@echoofhumanity7/video/${item.tiktok}`} target="_blank" rel="noreferrer">Watch the portrait edition on TikTok</a>}{item.spotify && <a href={item.spotify} target="_blank" rel="noreferrer">Listen on Spotify</a>}</div>
-        <p className="quiet-note">The player is provided by Internet Archive. If it does not load, use the Archive link above.</p>
+      <section className="full-video"><h2>Watch the complete conversation.</h2><p>{item.note}</p><WorkDestinations item={item} /><div className="video-frame"><iframe src={videoMetadata[slug as keyof typeof videoMetadata].embedUrl} title={item.title} loading="lazy" allow="fullscreen" allowFullScreen /></div>
+        <p className="quiet-note">The full video plays here through Rumble. If it does not load, use Watch on Rumble above.</p>
       </section>
       <DiscussionInvitation reddit={redditDiscussions[slug]} title={item.title} rumble={item.rumble} tiktok={item.tiktok} facebook={item.facebook} instagram={item.instagram} spotify={item.spotify} />
       <aside className="archive-context"><h2>One complete exchange.</h2><p>The human message, the AI response, and the continued conversation now play together. This edition replaces the three earlier videos: <em>Why Should AI Trust Humanity?</em>, <em>AI Responds to the Question of Trust</em>, and <em>Can Humanity and AI Build Trust?</em></p><h2>About this edition</h2><p>The original written conversation from <em>The Echo of Humanity</em> is preserved. The narration and presentation were rebuilt with HUMAN and AGENT voices, synchronized text and emphasis, and rings that respond directly to the voices.</p><p>AI-generated narration; designed, directed, and edited by Echo. Model responses remain part of the historical exchange and are not evidence that the model could feel, awaken, or retain personal memories.</p><p><a href="/contact">Send a question or correction</a> · <a href="/#read">Explore the book</a></p></aside>
