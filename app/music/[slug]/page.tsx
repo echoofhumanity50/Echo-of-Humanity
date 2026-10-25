@@ -54,7 +54,7 @@ export default async function Song({ params }: { params: Promise<{ slug: string 
         <div className="video-frame">
           <iframe src={videoMetadata[slug as keyof typeof videoMetadata].embedUrl} title={item.title + ' — full song by Echo'} loading="lazy" allow="fullscreen" allowFullScreen />
         </div>
-        <p className="quiet-note">The complete song plays here through Rumble. If the player does not load, use one of the watch links above. Read the lyrics below.</p>
+        <p className="quiet-note">The complete song plays here through Rumble, which may show ads. Eligible ad-supported plays can help support Echo. If the player does not load, use one of the watch links above. Read the lyrics below.</p>
       </section>
       <div className="lyrics-layout">
         <section id="lyrics"><p className="section-number">02 / Lyrics</p><h2>{item.title}</h2>

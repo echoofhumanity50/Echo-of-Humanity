@@ -1,5 +1,6 @@
 // Verified Echo discussion destinations, October 12, 2026.
 export const redditDiscussions: Record<string, string | undefined> = {
+  "just-one-more-bite": "https://www.reddit.com/user/Visible-Current-3909/comments/1xfant7/just_one_more_bite_a_very_serious_song_about_not/",
   "before-it-becomes-obvious": "https://www.reddit.com/user/Visible-Current-3909/comments/1x8iw29/could_our_ability_to_change_ais_course_disappear/",
   "the-facts-did-not-change": "https://www.reddit.com/user/Visible-Current-3909/comments/1x49qs9/if_ai_helps_someone_present_the_evidence_what/",
   "somebody-else": "https://www.reddit.com/user/Visible-Current-3909/comments/1x49yn5/somebody_else_wanting_the_world_to_change_while/",
