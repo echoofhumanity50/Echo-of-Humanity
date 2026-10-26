@@ -152,9 +152,10 @@ export default function Home() {
             <ExternalLink className="primary-link" href={externalLinks.amazon}>
               Read on Amazon
             </ExternalLink>
-            <p className="quiet-note">
-              Free access will be linked here whenever it is available.
+            <p style={{ margin: '1rem 0 0' }}>
+              <a className="text-link" href="/conversations/full-conversation#listen">Listen for free <Headphones aria-hidden="true" size={16} /></a>
             </p>
+            <p className="quiet-note">Hear the original conversation behind the book. No purchase required.</p>
           </div>
         </div>
       </section>
@@ -177,7 +178,7 @@ export default function Home() {
               <p className="kicker">The latest conversations</p>
               <h2>Echo Conversations</h2>
               <p className="conversation-intro">
-                Human–AI conversations about trust, power, responsibility,
+                Human–AI conversations and original essays about trust, power, responsibility,
                 and the future we are building.
               </p>
               <ol className="track-list conversation-list" aria-label="Latest five conversations">

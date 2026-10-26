@@ -30,7 +30,7 @@ export default async function Conversation({ params }: { params: Promise<{ slug:
       <img className="song-art" src={item.image} alt="Gold HUMAN and cyan AGENT rings around the words: And that is where trust begins." />
     </section>
     <div className="archive-content">
-      <section className="full-video"><h2>Watch the complete conversation.</h2><p>{item.note}</p><WorkDestinations item={item} /><div className="video-frame"><iframe src={videoMetadata[slug as keyof typeof videoMetadata].embedUrl} title={item.title} loading="lazy" allow="fullscreen" allowFullScreen /></div>
+      <section className="full-video" id="listen"><h2>Watch the complete conversation.</h2><p>{item.note}</p><WorkDestinations item={item} /><div className="video-frame"><iframe src={videoMetadata[slug as keyof typeof videoMetadata].embedUrl} title={item.title} loading="lazy" allow="fullscreen" allowFullScreen /></div>
         <p className="quiet-note">The full video plays here through Rumble. If it does not load, use Watch on Rumble above.</p>
       </section>
       <DiscussionInvitation reddit={redditDiscussions[slug]} title={item.title} rumble={item.rumble} tiktok={item.tiktok} facebook={item.facebook} instagram={item.instagram} spotify={item.spotify} />
