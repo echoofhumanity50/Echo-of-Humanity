@@ -1,5 +1,6 @@
 // Verified Echo discussion destinations, October 12, 2026.
 export const redditDiscussions: Record<string, string | undefined> = {
+  "who-is-shaping-our-children": "https://www.reddit.com/user/Visible-Current-3909/comments/1xjoyp3/who_is_shaping_our_children_echo_conversations/",
   "even-if-im-right": "https://www.reddit.com/user/Visible-Current-3909/comments/1xg2tht/if_an_ais_advice_is_right_does_that_give_it_the/",
   "just-one-more-bite": "https://www.reddit.com/user/Visible-Current-3909/comments/1xfant7/just_one_more_bite_a_very_serious_song_about_not/",
   "before-it-becomes-obvious": "https://www.reddit.com/user/Visible-Current-3909/comments/1x8iw29/could_our_ability_to_change_ais_course_disappear/",

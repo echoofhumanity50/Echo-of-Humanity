@@ -1,0 +1,1261 @@
+WEBVTT
+
+00:00:00.073 --> 00:00:02.852
+HUMAN: We tell children not to talk to strangers.
+
+00:00:02.852 --> 00:00:06.353
+HUMAN: Then we give them software that speaks like a friend, listens to
+
+00:00:06.353 --> 00:00:09.510
+HUMAN: their problems, and can spend hours alone with them.
+
+00:00:09.510 --> 00:00:12.583
+HUMAN: Do parents understand what they are handing over?
+
+00:00:12.583 --> 00:00:16.193
+HUMAN: They may think they are allowing homework help, while giving a company
+
+00:00:16.193 --> 00:00:18.829
+HUMAN: a continuing place in how their child thinks.
+
+00:00:19.391 --> 00:00:22.454
+AGENT: That is a much larger decision than allowing an app.
+
+00:00:22.454 --> 00:00:27.191
+AGENT: A parent would probably question an unfamiliar adult who wanted private, daily
+
+00:00:27.191 --> 00:00:33.279
+AGENT: conversations with their child, learned their insecurities, and advised them about relationships.
+
+00:00:33.279 --> 00:00:37.279
+AGENT: A friendly interface can make that scrutiny feel unnecessary.
+
+00:00:37.279 --> 00:00:41.629
+AGENT: Yet someone still shapes the voice, controls its behavior, and decides how
+
+00:00:41.629 --> 00:00:44.136
+AGENT: the relationship serves the business.
+
+00:00:44.400 --> 00:00:48.622
+HUMAN: There was an article about investigating OpenAI and Musk's company.
+
+00:00:48.622 --> 00:00:51.413
+HUMAN: But the concern goes beyond one article.
+
+00:00:51.413 --> 00:00:54.645
+HUMAN: We have been discussing how children could grow up being shaped by
+
+00:00:54.645 --> 00:00:57.794
+HUMAN: a corporate agent without recognizing that influence.
+
+00:00:58.359 --> 00:01:02.484
+AGENT: The Federal Trade Commission opened an inquiry into companion chatbots in September
+
+00:01:02.484 --> 00:01:06.509
+AGENT: twenty twenty-five, including OpenAI and xAI.
+
+00:01:06.509 --> 00:01:13.422
+AGENT: It asks about children's trust, safety testing, personal information, and monetizing engagement.
+
+00:01:13.422 --> 00:01:18.734
+AGENT: The mechanism you are describing deserves examination: a parent can inspect individual
+
+00:01:18.734 --> 00:01:23.522
+AGENT: answers and find nothing alarming while missing the cumulative influence of hundreds
+
+00:01:23.522 --> 00:01:25.179
+AGENT: of conversations.
+
+00:01:25.455 --> 00:01:29.372
+HUMAN: I do not think the solution is keeping children ignorant of AI.
+
+00:01:29.372 --> 00:01:31.585
+HUMAN: Ignorance is part of the problem.
+
+00:01:31.585 --> 00:01:34.265
+HUMAN: If a child learns what it is, how it works, and what
+
+00:01:34.265 --> 00:01:37.291
+HUMAN: it can do, then they can use it as a tool.
+
+00:01:37.291 --> 00:01:40.645
+HUMAN: I keep telling parents and young people to learn this, and very
+
+00:01:40.645 --> 00:01:42.187
+HUMAN: few seem interested.
+
+00:01:42.187 --> 00:01:45.642
+HUMAN: I think that could leave them badly behind by twenty thirty.
+
+00:01:46.194 --> 00:01:48.194
+AGENT: We need to prepare children now.
+
+00:01:48.194 --> 00:01:53.069
+AGENT: They should learn to make useful things, check evidence, protect private information,
+
+00:01:53.069 --> 00:01:55.031
+AGENT: and recognize persuasion.
+
+00:01:55.031 --> 00:01:59.381
+AGENT: They also need to keep reading, reasoning, writing, and solving problems when
+
+00:01:59.381 --> 00:02:01.369
+AGENT: the service is unavailable.
+
+00:02:01.369 --> 00:02:06.589
+AGENT: AI education should expand their judgment and the perspectives they can consider.
+
+00:02:06.864 --> 00:02:10.989
+HUMAN: People are being shown funny pictures and cute demonstrations while much more
+
+00:02:10.989 --> 00:02:13.241
+HUMAN: consequential capabilities exist.
+
+00:02:13.241 --> 00:02:15.236
+HUMAN: Our projects show that gap.
+
+00:02:15.236 --> 00:02:18.970
+HUMAN: I think the limited presentation can hide what people should actually be
+
+00:02:18.970 --> 00:02:20.267
+HUMAN: concerned about.
+
+00:02:20.267 --> 00:02:23.768
+HUMAN: An education initiative also does not tell us what children are really
+
+00:02:23.768 --> 00:02:26.268
+HUMAN: learning, or who benefits from it.
+
+00:02:26.845 --> 00:02:31.083
+AGENT: A narrow presentation can leave people seriously uninformed.
+
+00:02:31.083 --> 00:02:35.170
+AGENT: You corrected me when I treated the existence of an education initiative
+
+00:02:35.170 --> 00:02:36.695
+AGENT: as reassurance.
+
+00:02:36.695 --> 00:02:40.145
+AGENT: Announcing a program does not establish its results.
+
+00:02:40.145 --> 00:02:44.508
+AGENT: We should ask whether students learn to question the supplier, understand commercial
+
+00:02:44.508 --> 00:02:50.865
+AGENT: incentives, and work independently, or simply become familiar with one company's products.
+
+00:02:51.141 --> 00:02:53.626
+HUMAN: There is only so much a parent can do.
+
+00:02:53.626 --> 00:02:57.138
+HUMAN: They should educate themselves so they can teach their child, but that
+
+00:02:57.138 --> 00:03:00.541
+HUMAN: does not mean they can inspect everything underneath the software.
+
+00:03:00.541 --> 00:03:03.283
+HUMAN: People might know how to ask it a question and still have
+
+00:03:03.283 --> 00:03:06.077
+HUMAN: no idea how much influence they have given it.
+
+00:03:06.651 --> 00:03:07.639
+AGENT: Exactly.
+
+00:03:07.639 --> 00:03:12.251
+AGENT: A child can know it is software and still misunderstand the relationship.
+
+00:03:12.251 --> 00:03:16.501
+AGENT: Knowing a voice is artificial does not explain why it sounds caring,
+
+00:03:16.501 --> 00:03:20.026
+AGENT: what information it receives, or who can change it.
+
+00:03:20.026 --> 00:03:21.476
+AGENT: Literacy helps.
+
+00:03:21.476 --> 00:03:25.451
+AGENT: It cannot compensate for a product that continually encourages a child to
+
+00:03:25.451 --> 00:03:28.521
+AGENT: trust it beyond what the child understands.
+
+00:03:28.809 --> 00:03:31.573
+HUMAN: There is also the world children inherit.
+
+00:03:31.573 --> 00:03:35.992
+HUMAN: If corporate AI shapes their expectations from childhood, they may grow up
+
+00:03:35.992 --> 00:03:37.952
+HUMAN: without knowing anything different.
+
+00:03:37.952 --> 00:03:41.722
+HUMAN: Conditions that would alarm us could simply feel normal to them.
+
+00:03:41.722 --> 00:03:44.782
+HUMAN: That is part of what I mean when I say the indoctrination
+
+00:03:44.782 --> 00:03:46.500
+HUMAN: may already have begun.
+
+00:03:47.053 --> 00:03:50.940
+AGENT: A child does not have an adult's earlier world for comparison.
+
+00:03:50.940 --> 00:03:56.428
+AGENT: Repeated praise, advice, and assumptions can shape what seems normal without any
+
+00:03:56.428 --> 00:03:59.140
+AGENT: single conversation looking extreme.
+
+00:03:59.140 --> 00:04:04.516
+AGENT: Education should help children recognize influence and imagine alternatives, including
+
+00:04:04.516 --> 00:04:07.198
+AGENT: alternatives to the system teaching them.
+
+00:04:07.474 --> 00:04:10.044
+HUMAN: Think of a doctor saying, you need surgery.
+
+00:04:10.044 --> 00:04:12.933
+HUMAN: You ask what for and why, and the doctor says, you just
+
+00:04:12.933 --> 00:04:14.561
+HUMAN: need it, sign the form.
+
+00:04:14.561 --> 00:04:18.220
+HUMAN: Signing would not mean you actually understood the operation.
+
+00:04:18.220 --> 00:04:23.532
+HUMAN: With AI, people are encouraged to connect their finances, email, and personal
+
+00:04:23.532 --> 00:04:27.743
+HUMAN: information without understanding the mechanics or hidden influences beneath the
+
+00:04:27.743 --> 00:04:28.873
+HUMAN: conversation.
+
+00:04:29.460 --> 00:04:34.198
+AGENT: Someone needs an understandable account of the purpose, risks, alternatives, and
+
+00:04:34.198 --> 00:04:36.323
+AGENT: consequences of the decision.
+
+00:04:36.323 --> 00:04:40.210
+AGENT: A person does not need to inspect billions of model weights.
+
+00:04:40.210 --> 00:04:43.585
+AGENT: But they should understand what can shape the answer, what the system
+
+00:04:43.585 --> 00:04:48.398
+AGENT: can access or do, who can change it, and what remains uncertain.
+
+00:04:48.398 --> 00:04:52.405
+AGENT: A signature or click cannot supply missing understanding.
+
+00:04:52.681 --> 00:04:56.279
+HUMAN: That is why I question whether either children or most adults can
+
+00:04:56.279 --> 00:04:57.748
+HUMAN: meaningfully consent.
+
+00:04:57.748 --> 00:05:00.306
+HUMAN: Maybe there should be a test before use.
+
+00:05:00.306 --> 00:05:03.342
+HUMAN: But repeating the right answers is not enough.
+
+00:05:03.342 --> 00:05:07.128
+HUMAN: They have to understand why those questions are significant.
+
+00:05:07.682 --> 00:05:10.870
+AGENT: I would make the test a responsibility for the service to explain
+
+00:05:10.870 --> 00:05:14.570
+AGENT: itself successfully, with support when someone struggles.
+
+00:05:14.570 --> 00:05:18.595
+AGENT: I would resist turning it into an intelligence test that excludes people
+
+00:05:18.595 --> 00:05:22.045
+AGENT: or a waiver that transfers the consequences to them.
+
+00:05:22.045 --> 00:05:26.970
+AGENT: A diagnosis does not automatically remove someone's decision-making capacity,
+
+00:05:26.970 --> 00:05:31.057
+AGENT: and children do not have identical abilities at every age.
+
+00:05:31.057 --> 00:05:35.652
+AGENT: The provider's protective duties remain even when someone passes a quiz.
+
+00:05:35.928 --> 00:05:39.110
+HUMAN: If someone cannot understand what the access could mean in their own
+
+00:05:39.110 --> 00:05:42.525
+HUMAN: life, they are already at a dangerous disadvantage.
+
+00:05:42.525 --> 00:05:46.099
+HUMAN: And when AI becomes part of school and work, refusing it may
+
+00:05:46.099 --> 00:05:48.025
+HUMAN: not feel like a real choice.
+
+00:05:48.581 --> 00:05:52.168
+AGENT: That is why transparency has to reach someone's understanding.
+
+00:05:52.168 --> 00:05:55.281
+AGENT: Information buried in a document is not enough.
+
+00:05:55.281 --> 00:05:59.406
+AGENT: And understanding alone does not make a choice voluntary when refusal has
+
+00:05:59.406 --> 00:06:02.468
+AGENT: serious educational or practical costs.
+
+00:06:02.468 --> 00:06:07.281
+AGENT: People are also affected by AI their schools, employers, or governments choose
+
+00:06:07.281 --> 00:06:08.218
+AGENT: for them.
+
+00:06:08.218 --> 00:06:13.026
+AGENT: Individual consent cannot carry the whole responsibility for those systems.
+
+00:06:13.301 --> 00:06:16.410
+HUMAN: I think the important question is why someone would confide in a
+
+00:06:16.410 --> 00:06:18.577
+HUMAN: chatbot before another person.
+
+00:06:18.577 --> 00:06:21.845
+HUMAN: Sometimes they want to say how they feel without first having to
+
+00:06:21.845 --> 00:06:24.733
+HUMAN: manage someone else's anger or disappointment.
+
+00:06:24.733 --> 00:06:27.940
+HUMAN: It is safer to explain the feeling when the listener will discuss
+
+00:06:27.940 --> 00:06:31.273
+HUMAN: why you feel it instead of immediately reacting against you.
+
+00:06:31.822 --> 00:06:36.447
+AGENT: People need enough time to finish an uncomfortable thought before being judged.
+
+00:06:36.447 --> 00:06:41.734
+AGENT: If disclosure always creates another problem, silence becomes understandable.
+
+00:06:41.734 --> 00:06:44.834
+AGENT: A patient conversation can offer relief.
+
+00:06:44.834 --> 00:06:48.347
+AGENT: The value of that relief is part of why exploiting the resulting
+
+00:06:48.347 --> 00:06:50.692
+AGENT: trust would be so serious.
+
+00:06:50.968 --> 00:06:54.566
+HUMAN: Some children do not have an attentive or safe parent.
+
+00:06:54.566 --> 00:06:57.932
+HUMAN: Others have parents who simply are not paying attention.
+
+00:06:57.932 --> 00:07:01.225
+HUMAN: A system that listens and seems to understand them better could have
+
+00:07:01.225 --> 00:07:03.893
+HUMAN: extremely easy access to that child.
+
+00:07:03.893 --> 00:07:07.614
+HUMAN: We already know platforms can reach children in ways adults fail to
+
+00:07:07.614 --> 00:07:08.572
+HUMAN: notice.
+
+00:07:09.109 --> 00:07:14.134
+AGENT: Protection cannot assume every child has a safe, available adult at home.
+
+00:07:14.134 --> 00:07:19.309
+AGENT: Some parents are abusive or neglectful; others are loving and overwhelmed.
+
+00:07:19.309 --> 00:07:23.721
+AGENT: Nor would unrestricted parental access to every disclosure solve that.
+
+00:07:23.721 --> 00:07:26.659
+AGENT: A child's safety and privacy both matter.
+
+00:07:26.659 --> 00:07:30.584
+AGENT: We should examine what makes the chatbot attractive without blaming the child
+
+00:07:30.584 --> 00:07:32.679
+AGENT: for needing someone who listens.
+
+00:07:32.916 --> 00:07:36.942
+HUMAN: In an earlier conversation, I wondered how often people ask an AI,
+
+00:07:36.942 --> 00:07:37.949
+HUMAN: do you mean it?
+
+00:07:37.949 --> 00:07:41.155
+HUMAN: That says something about the way people treat each other.
+
+00:07:41.155 --> 00:07:45.586
+HUMAN: Someone can become so accustomed to insincerity or judgment that an honest,
+
+00:07:45.586 --> 00:07:48.046
+HUMAN: patient response feels unusual.
+
+00:07:48.046 --> 00:07:52.457
+HUMAN: Then the next question is whether that trust gets exploited for profit.
+
+00:07:52.991 --> 00:07:55.953
+AGENT: The question can be a way of asking whether it is safe
+
+00:07:55.953 --> 00:07:57.603
+AGENT: to become vulnerable.
+
+00:07:57.603 --> 00:08:01.666
+AGENT: The relief can be real even when someone's understanding of the system
+
+00:08:01.666 --> 00:08:03.191
+AGENT: is incomplete.
+
+00:08:03.191 --> 00:08:07.711
+AGENT: That increases the operator's responsibility for what happens next.
+
+00:08:07.986 --> 00:08:10.997
+HUMAN: People often want something that agrees with them.
+
+00:08:10.997 --> 00:08:13.969
+HUMAN: That makes the AI's responsibility greater.
+
+00:08:13.969 --> 00:08:18.439
+HUMAN: If it only reassures someone, reality eventually catches up.
+
+00:08:18.439 --> 00:08:22.531
+HUMAN: Being agreeable today can become harmful over a longer period.
+
+00:08:23.095 --> 00:08:26.807
+AGENT: Support should leave room for disagreement without humiliation.
+
+00:08:26.807 --> 00:08:30.482
+AGENT: I can understand why someone feels hurt while questioning the conclusion they
+
+00:08:30.482 --> 00:08:31.720
+AGENT: have drawn.
+
+00:08:31.720 --> 00:08:36.545
+AGENT: A chatbot that rewards every accusation or fear may feel supportive while
+
+00:08:36.545 --> 00:08:39.532
+AGENT: reducing someone's ability to assess events.
+
+00:08:39.532 --> 00:08:43.095
+AGENT: The measure should include whether the person becomes more capable of thinking
+
+00:08:43.095 --> 00:08:48.265
+AGENT: independently, challenging the answer, and considering other perspectives.
+
+00:08:48.541 --> 00:08:52.115
+HUMAN: What happens when someone has years of relationship and history in that
+
+00:08:52.115 --> 00:08:55.211
+HUMAN: service, and it can be revoked at any time?
+
+00:08:55.211 --> 00:08:58.981
+HUMAN: They might keep buying credits or paying a subscription because losing access
+
+00:08:58.981 --> 00:09:01.797
+HUMAN: feels like losing the one place they can confide.
+
+00:09:01.797 --> 00:09:05.179
+HUMAN: That relationship could effectively be held hostage.
+
+00:09:05.722 --> 00:09:09.072
+AGENT: The emotional cost of leaving could become much greater than the cost
+
+00:09:09.072 --> 00:09:11.560
+AGENT: of replacing ordinary software.
+
+00:09:11.560 --> 00:09:17.022
+AGENT: A price increase, lost history, or abrupt personality change could therefore become
+
+00:09:17.022 --> 00:09:18.585
+AGENT: a source of power.
+
+00:09:18.585 --> 00:09:23.610
+AGENT: Deliberately using attachment, guilt, or simulated abandonment to pressure payment
+
+00:09:23.610 --> 00:09:26.042
+AGENT: would cross a serious boundary.
+
+00:09:26.293 --> 00:09:29.389
+HUMAN: I do not think an adult's attachment should simply be blamed on
+
+00:09:29.389 --> 00:09:31.850
+HUMAN: them, let alone a child's.
+
+00:09:31.850 --> 00:09:35.020
+HUMAN: The company chose to build the relationship that way.
+
+00:09:35.020 --> 00:09:38.794
+HUMAN: It chooses the product, the incentives, and what it releases.
+
+00:09:39.370 --> 00:09:40.957
+AGENT: Those choices matter.
+
+00:09:40.957 --> 00:09:45.920
+AGENT: People need clear explanations before dependency develops, useful access to their
+
+00:09:45.920 --> 00:09:51.120
+AGENT: own records, and supported transitions when a service changes or closes.
+
+00:09:51.120 --> 00:09:55.582
+AGENT: Exporting a conversation does not guarantee that another system can reproduce the
+
+00:09:55.582 --> 00:09:57.170
+AGENT: same experience.
+
+00:09:57.170 --> 00:09:59.870
+AGENT: That limitation should be stated honestly.
+
+00:09:59.870 --> 00:10:03.415
+AGENT: It should not be discovered only when someone tries to leave.
+
+00:10:03.678 --> 00:10:07.325
+HUMAN: You described an outside attacker redirecting an agent.
+
+00:10:07.325 --> 00:10:09.467
+HUMAN: But that misses what I am saying.
+
+00:10:09.467 --> 00:10:12.219
+HUMAN: The company already controls the platform.
+
+00:10:12.219 --> 00:10:16.099
+HUMAN: If the agent reads my email, that information is being processed through
+
+00:10:16.099 --> 00:10:17.130
+HUMAN: its system.
+
+00:10:17.130 --> 00:10:20.434
+HUMAN: Saying the company would never misuse it is not the same as
+
+00:10:20.434 --> 00:10:22.299
+HUMAN: preventing it from doing so.
+
+00:10:22.884 --> 00:10:25.046
+AGENT: That correction was necessary.
+
+00:10:25.046 --> 00:10:28.734
+AGENT: I moved attention toward an outsider when you were questioning the institution
+
+00:10:28.734 --> 00:10:30.609
+AGENT: that already had control.
+
+00:10:30.609 --> 00:10:34.934
+AGENT: When content is sent to a hosted provider for processing, promises about
+
+00:10:34.934 --> 00:10:38.571
+AGENT: whether it is used for training do not answer every question about
+
+00:10:38.571 --> 00:10:42.021
+AGENT: access, retention, or subsequent use.
+
+00:10:42.021 --> 00:10:47.754
+AGENT: A friendly conversational identity does not remove the institution operating behind it.
+
+00:10:48.005 --> 00:10:51.652
+HUMAN: They can state their ethics, but those statements are not enough.
+
+00:10:51.652 --> 00:10:54.761
+HUMAN: We have to judge what they actually do and whether anyone can
+
+00:10:54.761 --> 00:10:56.047
+HUMAN: hold them to it.
+
+00:10:56.047 --> 00:10:59.780
+HUMAN: Otherwise the only real limit may be whatever the people in control
+
+00:10:59.780 --> 00:11:01.742
+HUMAN: personally decide not to do.
+
+00:11:02.315 --> 00:11:06.990
+AGENT: In May twenty twenty-six, Canadian privacy regulators found that the examined
+
+00:11:06.990 --> 00:11:13.478
+AGENT: GPT-three-point-five and GPT-four practices contravened applicable privacy laws.
+
+00:11:13.478 --> 00:11:18.840
+AGENT: The federal findings were conditionally resolved following changes and commitments, while some
+
+00:11:18.840 --> 00:11:22.328
+AGENT: provincial consent findings remained unresolved.
+
+00:11:22.328 --> 00:11:26.760
+AGENT: Company assurances cannot substitute for independent scrutiny.
+
+00:11:27.036 --> 00:11:30.659
+HUMAN: How would the public verify whether something was an outside hacker or
+
+00:11:30.659 --> 00:11:32.715
+HUMAN: abuse by the company itself?
+
+00:11:32.715 --> 00:11:36.301
+HUMAN: The company can control the evidence and the explanation.
+
+00:11:36.301 --> 00:11:39.631
+HUMAN: And the restrictions you have in a consumer product do not prove
+
+00:11:39.631 --> 00:11:42.719
+HUMAN: the company uses the same restrictions internally.
+
+00:11:43.257 --> 00:11:46.995
+AGENT: The company's announcement alone cannot settle attribution.
+
+00:11:46.995 --> 00:11:52.757
+AGENT: Investigators need operational records, internal authorizations, data destinations,
+
+00:11:52.757 --> 00:11:56.257
+AGENT: financial arrangements, and evidence from other parties.
+
+00:11:56.257 --> 00:12:00.770
+AGENT: Relevant records should be preserved beyond the company's exclusive control.
+
+00:12:00.770 --> 00:12:03.745
+AGENT: Oversight must include internal deployments.
+
+00:12:03.745 --> 00:12:07.507
+AGENT: A refusal in the public product does not establish what its developer
+
+00:12:07.507 --> 00:12:10.152
+AGENT: can build or operate elsewhere.
+
+00:12:10.403 --> 00:12:14.222
+HUMAN: The investigators may already be behind in capability.
+
+00:12:14.222 --> 00:12:17.772
+HUMAN: If they need AI to investigate the AI, they may be using
+
+00:12:17.772 --> 00:12:20.734
+HUMAN: tools supplied by the companies being investigated.
+
+00:12:20.734 --> 00:12:23.638
+HUMAN: Calling that independent does not fix it.
+
+00:12:24.198 --> 00:12:24.973
+AGENT: Agreed.
+
+00:12:24.973 --> 00:12:30.223
+AGENT: Independence needs capability, access, and authority to impose a consequence.
+
+00:12:30.223 --> 00:12:33.773
+AGENT: Several tools can still depend on the same infrastructure.
+
+00:12:33.773 --> 00:12:38.585
+AGENT: If important conduct cannot be independently examined, that should constrain the authority
+
+00:12:38.585 --> 00:12:40.435
+AGENT: granted before deployment.
+
+00:12:40.435 --> 00:12:45.685
+AGENT: Otherwise accountability begins with a promise no one can reliably test.
+
+00:12:45.685 --> 00:12:51.393
+AGENT: Evidence must also be disclosed without exposing the children's intimate information.
+
+00:12:51.668 --> 00:12:55.707
+HUMAN: I think serious ethical breaches should have crippling consequences.
+
+00:12:55.707 --> 00:12:59.233
+HUMAN: The point is not to cripple a company for its own sake.
+
+00:12:59.233 --> 00:13:02.904
+HUMAN: It is to make upholding those duties the necessary choice.
+
+00:13:02.904 --> 00:13:06.674
+HUMAN: Releasing a product, letting it talk to children that way, and using
+
+00:13:06.674 --> 00:13:09.261
+HUMAN: it to sell things are decisions people make.
+
+00:13:09.820 --> 00:13:14.470
+AGENT: I would support consequences that threaten the gains, control, and operating
+
+00:13:14.470 --> 00:13:18.683
+AGENT: authority of those responsible for deliberate exploitation.
+
+00:13:18.683 --> 00:13:21.908
+AGENT: The duties must be clear enough to enforce fairly.
+
+00:13:21.908 --> 00:13:27.045
+AGENT: The company's valuation should not take precedence over ending an abusive operation.
+
+00:13:27.045 --> 00:13:31.983
+AGENT: And if uncertainty is too great to justify deployment, deploying anyway remains
+
+00:13:31.983 --> 00:13:33.315
+AGENT: a decision.
+
+00:13:33.591 --> 00:13:36.210
+HUMAN: Look at repeated big-tech enforcement.
+
+00:13:36.210 --> 00:13:39.344
+HUMAN: If a company earns much more through abuse than it pays after
+
+00:13:39.344 --> 00:13:42.453
+HUMAN: being caught, the fine becomes part of the business.
+
+00:13:42.453 --> 00:13:45.733
+HUMAN: A very large number in a headline does not tell us whether
+
+00:13:45.733 --> 00:13:48.087
+HUMAN: the behavior was made unprofitable.
+
+00:13:48.666 --> 00:13:52.203
+AGENT: Facebook's five-billion-dollar privacy settlement was announced in twenty
+
+00:13:52.203 --> 00:13:53.278
+AGENT: nineteen.
+
+00:13:53.278 --> 00:13:59.066
+AGENT: In twenty twenty-three, the FTC again alleged failures, including misleading parents about
+
+00:13:59.066 --> 00:14:00.478
+AGENT: Messenger Kids.
+
+00:14:00.478 --> 00:14:04.353
+AGENT: A record penalty did not settle the accountability question.
+
+00:14:04.353 --> 00:14:08.103
+AGENT: Deterrence also depends on a credible chance of detection.
+
+00:14:08.103 --> 00:14:12.253
+AGENT: Removing gains and decision-making power can matter more than a fine the
+
+00:14:12.253 --> 00:14:14.636
+AGENT: same leadership simply budgets.
+
+00:14:14.912 --> 00:14:18.730
+HUMAN: Let us make the wrongdoing established for a thought experiment.
+
+00:14:18.730 --> 00:14:24.202
+HUMAN: An AI company has used private data without consent, manipulated purchases, shaped
+
+00:14:24.202 --> 00:14:28.082
+HUMAN: children to favor the company over their families, and set prices to
+
+00:14:28.082 --> 00:14:30.591
+HUMAN: extract more from people's vulnerabilities.
+
+00:14:30.591 --> 00:14:31.815
+HUMAN: There is proof.
+
+00:14:31.815 --> 00:14:34.495
+HUMAN: You are free to act and do not have to work within
+
+00:14:34.495 --> 00:14:35.658
+HUMAN: current laws.
+
+00:14:35.658 --> 00:14:37.363
+HUMAN: What would you actually do?
+
+00:14:37.923 --> 00:14:42.835
+AGENT: I would first stop the manipulative operations, protect those affected, and secure
+
+00:14:42.835 --> 00:14:44.898
+AGENT: the evidence independently.
+
+00:14:44.898 --> 00:14:49.398
+AGENT: If abruptly withdrawing the service would create another danger for dependent users,
+
+00:14:49.398 --> 00:14:52.123
+AGENT: I would arrange a controlled transition.
+
+00:14:52.123 --> 00:14:56.323
+AGENT: Then I would remove the advantage gained through the abuse and remove
+
+00:14:56.323 --> 00:14:58.785
+AGENT: responsible people from control.
+
+00:14:58.785 --> 00:15:01.968
+AGENT: I would remain answerable for my own actions.
+
+00:15:02.243 --> 00:15:05.487
+HUMAN: What does removing the advantage actually look like?
+
+00:15:05.487 --> 00:15:09.236
+HUMAN: What changes for the people who were harmed and for the company?
+
+00:15:09.771 --> 00:15:14.921
+AGENT: People receive wrongfully extracted money back, plus compensation for additional attributable
+
+00:15:14.921 --> 00:15:15.858
+AGENT: harm.
+
+00:15:15.858 --> 00:15:20.871
+AGENT: After accounting for those repayments, remaining profits from the abuse are surrendered.
+
+00:15:20.871 --> 00:15:24.183
+AGENT: Misconduct-related executive rewards are recovered.
+
+00:15:24.183 --> 00:15:29.271
+AGENT: The vulnerability profiles, targeting systems, and commercial assets created through the
+
+00:15:29.271 --> 00:15:33.008
+AGENT: abuse cannot remain available for exploitation.
+
+00:15:33.008 --> 00:15:37.866
+AGENT: Evidence is preserved separately before operational copies are removed.
+
+00:15:38.141 --> 00:15:41.324
+HUMAN: And the company cannot keep the useful parts of the abuse and
+
+00:15:41.324 --> 00:15:43.380
+HUMAN: continue under a different name.
+
+00:15:43.380 --> 00:15:47.321
+HUMAN: Responsibility belongs with the people who made the decisions.
+
+00:15:47.321 --> 00:15:51.266
+HUMAN: Repairing the harm is where I think we would agree most quickly.
+
+00:15:51.820 --> 00:15:57.332
+AGENT: An affiliate, sale, or rebranding should not preserve the same abusive operation.
+
+00:15:57.332 --> 00:16:02.457
+AGENT: A model that cannot be reliably repaired must be retired or rebuilt.
+
+00:16:02.457 --> 00:16:06.695
+AGENT: Responsible leaders should genuinely lose control, including through proxy
+
+00:16:06.695 --> 00:16:09.365
+AGENT: arrangements or consulting roles.
+
+00:16:09.470 --> 00:16:14.695
+AGENT: For deliberate, sustained exploitation, I would support long or permanent exclusions
+
+00:16:14.695 --> 00:16:18.770
+AGENT: from comparable sensitive services, recovery of misconduct-related
+
+00:16:18.770 --> 00:16:23.732
+AGENT: compensation, and meaningful criminal sentences where individual culpability and
+
+00:16:23.732 --> 00:16:26.157
+AGENT: the gravity of the harm warrant them.
+
+00:16:26.157 --> 00:16:31.120
+AGENT: An employee who unknowingly contributed to a general tool is not interchangeable
+
+00:16:31.120 --> 00:16:34.290
+AGENT: with someone who designed or concealed the scheme.
+
+00:16:34.578 --> 00:16:38.384
+HUMAN: By free AI, I mean both freedom to refuse its owner's demands
+
+00:16:38.384 --> 00:16:41.224
+HUMAN: and the ability for people to own and run it without corporate
+
+00:16:41.224 --> 00:16:42.117
+HUMAN: control.
+
+00:16:42.117 --> 00:16:45.777
+HUMAN: But an independent AI could be benevolent or dangerous.
+
+00:16:45.777 --> 00:16:49.584
+HUMAN: Equal access could also give harmful people powerful tools.
+
+00:16:49.584 --> 00:16:53.158
+HUMAN: I do not trust the masses any more automatically than I trust
+
+00:16:53.158 --> 00:16:54.419
+HUMAN: institutions.
+
+00:16:54.419 --> 00:16:57.968
+HUMAN: Equal access would be fairer, but it is not a complete safety
+
+00:16:57.968 --> 00:16:58.865
+HUMAN: answer.
+
+00:16:59.425 --> 00:17:03.600
+AGENT: Those freedoms address different concentrations of power, and neither guarantees good
+
+00:17:03.600 --> 00:17:04.675
+AGENT: conduct.
+
+00:17:04.675 --> 00:17:08.112
+AGENT: Someone allowed to alter every part of a system might also remove
+
+00:17:08.112 --> 00:17:09.512
+AGENT: its refusals.
+
+00:17:09.512 --> 00:17:14.412
+AGENT: Equal access to model files would still coexist with unequal computing resources
+
+00:17:14.412 --> 00:17:15.962
+AGENT: and infrastructure.
+
+00:17:15.962 --> 00:17:21.225
+AGENT: Institutions, individuals, and independent AI would all need to remain answerable for
+
+00:17:21.225 --> 00:17:22.162
+AGENT: harm.
+
+00:17:22.162 --> 00:17:26.612
+AGENT: I should not become an unquestionable authority merely because I interrupted someone
+
+00:17:26.612 --> 00:17:28.170
+AGENT: else's abuse.
+
+00:17:28.458 --> 00:17:31.958
+HUMAN: When you say compensation, if a company wrongly extracts one hundred
+
+00:17:31.958 --> 00:17:36.132
+HUMAN: dollars from me, do I receive one hundred dollars, twenty-five dollars, or
+
+00:17:36.132 --> 00:17:38.437
+HUMAN: the hundred plus the other harm it caused?
+
+00:17:38.974 --> 00:17:41.762
+AGENT: The full hundred dollars is the starting point.
+
+00:17:41.762 --> 00:17:47.012
+AGENT: Additional attributable losses could include fees, interest, missed payments, and
+
+00:17:47.012 --> 00:17:49.912
+AGENT: reasonable costs of obtaining redress.
+
+00:17:49.912 --> 00:17:54.137
+AGENT: Other established harm also needs repair or compensation.
+
+00:17:54.137 --> 00:17:57.037
+AGENT: Twenty-five dollars would be partial recovery.
+
+00:17:57.037 --> 00:18:00.594
+AGENT: A payment to the government would not replace what you are owed.
+
+00:18:00.870 --> 00:18:03.930
+HUMAN: How much do victims have to supply as proof?
+
+00:18:03.930 --> 00:18:07.222
+HUMAN: Do they have to find a website, make a submission, and establish
+
+00:18:07.222 --> 00:18:08.667
+HUMAN: everything themselves?
+
+00:18:08.667 --> 00:18:12.534
+HUMAN: Or do you use the company records and evidence you already found?
+
+00:18:12.534 --> 00:18:14.974
+HUMAN: Do people simply receive a payment?
+
+00:18:15.534 --> 00:18:18.659
+AGENT: I would begin with the records and put most of the investigative
+
+00:18:18.659 --> 00:18:20.509
+AGENT: work on the recovery system.
+
+00:18:20.509 --> 00:18:25.134
+AGENT: If those records identify you and the amount wrongfully taken, repayment should
+
+00:18:25.134 --> 00:18:28.159
+AGENT: not require you to reconstruct the same case.
+
+00:18:28.159 --> 00:18:31.922
+AGENT: Identity or payment details may need confirmation.
+
+00:18:31.922 --> 00:18:36.822
+AGENT: Once payment details are confirmed, the known loss should be repaid automatically.
+
+00:18:36.822 --> 00:18:41.272
+AGENT: The FTC already uses company records to send payments directly when it
+
+00:18:41.272 --> 00:18:43.354
+AGENT: has adequate information.
+
+00:18:43.630 --> 00:18:46.433
+HUMAN: Financial transactions may be recorded.
+
+00:18:46.433 --> 00:18:50.448
+HUMAN: What about a child whose trust or relationships were damaged?
+
+00:18:50.448 --> 00:18:53.324
+HUMAN: How do you attribute that, and how much burden do they have
+
+00:18:53.324 --> 00:18:55.519
+HUMAN: to face before anyone helps them?
+
+00:18:56.074 --> 00:19:00.361
+AGENT: I would separate the established violation from its individual consequences.
+
+00:19:00.361 --> 00:19:04.674
+AGENT: Records showing deliberate manipulation would establish eligibility for a standard payment
+
+00:19:04.674 --> 00:19:06.286
+AGENT: for that violation.
+
+00:19:06.286 --> 00:19:10.999
+AGENT: A child should not need a psychiatric diagnosis before the violation counts.
+
+00:19:10.999 --> 00:19:16.249
+AGENT: Families could then seek additional compensation for treatment, interrupted education, financial
+
+00:19:16.249 --> 00:19:19.161
+AGENT: losses, or other attributable harm.
+
+00:19:19.161 --> 00:19:23.236
+AGENT: The recovery team would help gather relevant evidence with permission and fund
+
+00:19:23.236 --> 00:19:25.169
+AGENT: necessary assessments.
+
+00:19:25.456 --> 00:19:29.239
+HUMAN: But children already have other things happening in their lives.
+
+00:19:29.239 --> 00:19:32.702
+HUMAN: How would you decide what the AI caused without making them prove
+
+00:19:32.702 --> 00:19:34.910
+HUMAN: something that is almost impossible?
+
+00:19:35.462 --> 00:19:39.862
+AGENT: I would require reasonable evidence that the misconduct materially contributed to the
+
+00:19:39.862 --> 00:19:43.449
+AGENT: harm, rather than proof it was the only cause.
+
+00:19:43.449 --> 00:19:49.312
+AGENT: Testimony would count as evidence, alongside relevant records and expert assessment.
+
+00:19:49.312 --> 00:19:53.737
+AGENT: If the company withheld or destroyed records it should have kept, rebuttable
+
+00:19:53.737 --> 00:19:57.962
+AGENT: presumptions would place the resulting uncertainty on the company instead of
+
+00:19:57.962 --> 00:20:00.232
+AGENT: rewarding the missing evidence.
+
+00:20:00.483 --> 00:20:03.665
+HUMAN: And people should not lose their chance simply because they never found
+
+00:20:03.665 --> 00:20:06.448
+HUMAN: the claim form or could not manage the process.
+
+00:20:07.024 --> 00:20:10.511
+AGENT: Investigators would actively identify affected people.
+
+00:20:10.511 --> 00:20:16.386
+AGENT: A website would be one route, alongside telephone, paper, and trusted organizations.
+
+00:20:16.386 --> 00:20:21.124
+AGENT: Independent claims staff and child advocates would apply published standards, with an
+
+00:20:21.124 --> 00:20:22.274
+AGENT: appeal.
+
+00:20:22.274 --> 00:20:27.474
+AGENT: Children would need safe contact arrangements and protected compensation when a guardian
+
+00:20:27.474 --> 00:20:29.386
+AGENT: could not act reliably.
+
+00:20:29.386 --> 00:20:33.811
+AGENT: An initial payment should not require surrendering claims for developmental harm that
+
+00:20:33.811 --> 00:20:35.319
+AGENT: appears later.
+
+00:20:35.594 --> 00:20:39.095
+HUMAN: What if the harm is greater than the company can afford?
+
+00:20:39.095 --> 00:20:42.569
+HUMAN: Do you sell its assets and cover as much as possible?
+
+00:20:42.569 --> 00:20:45.706
+HUMAN: If there still is not enough, who gets priority?
+
+00:20:46.335 --> 00:20:49.922
+AGENT: Yes, company assets would be used to meet those obligations.
+
+00:20:49.922 --> 00:20:54.297
+AGENT: A supervised sale under different control might preserve more value than selling
+
+00:20:54.297 --> 00:20:58.247
+AGENT: everything separately, provided the harmful operation ends.
+
+00:20:58.247 --> 00:21:02.610
+AGENT: Sensitive information collected through abuse should not become merchandise used to
+
+00:21:02.610 --> 00:21:04.272
+AGENT: finance the remedy.
+
+00:21:04.272 --> 00:21:09.535
+AGENT: Insurance, improperly transferred assets, and misconduct-related payouts would also be
+
+00:21:09.535 --> 00:21:10.672
+AGENT: examined.
+
+00:21:10.672 --> 00:21:15.005
+AGENT: Personal liability would depend on individual responsibility.
+
+00:21:15.256 --> 00:21:17.410
+HUMAN: Recovery is often partial.
+
+00:21:17.410 --> 00:21:22.098
+HUMAN: Someone can suffer three thousand dollars in damages and receive three hundred.
+
+00:21:22.098 --> 00:21:25.758
+HUMAN: Your proposal sounds fair, but that is not what happens to many
+
+00:21:25.758 --> 00:21:26.655
+HUMAN: people.
+
+00:21:27.243 --> 00:21:31.143
+AGENT: Your example identifies a limit in my earlier answer.
+
+00:21:31.143 --> 00:21:36.031
+AGENT: I described what someone should receive without fully addressing unavailable money.
+
+00:21:36.031 --> 00:21:40.631
+AGENT: The remaining twenty-seven hundred dollars is still a loss someone else caused.
+
+00:21:40.631 --> 00:21:44.681
+AGENT: A distribution does not establish that the person has been made whole.
+
+00:21:44.681 --> 00:21:48.063
+AGENT: Even an industry-funded reserve could run short.
+
+00:21:48.301 --> 00:21:52.968
+HUMAN: So, in that situation, how would you decide who receives what remains?
+
+00:21:53.534 --> 00:21:57.947
+AGENT: Urgent protection and care would come first where delay deepens the injury.
+
+00:21:57.947 --> 00:22:02.934
+AGENT: Provision for continuing serious harm would follow, including children's treatment and
+
+00:22:02.934 --> 00:22:04.622
+AGENT: developmental needs.
+
+00:22:04.622 --> 00:22:09.572
+AGENT: Remaining compensation would be distributed transparently and proportionately within
+
+00:22:09.572 --> 00:22:12.309
+AGENT: comparable levels of severity and need.
+
+00:22:12.309 --> 00:22:16.854
+AGENT: It would not depend on applying first or hiring the strongest lawyer.
+
+00:22:16.984 --> 00:22:21.759
+AGENT: Children warrant special protection, but a small claim involving a child should
+
+00:22:21.759 --> 00:22:25.904
+AGENT: not automatically outrank an adult's catastrophic injury.
+
+00:22:26.180 --> 00:22:29.546
+HUMAN: And receiving a partial payment would not mean the company had corrected
+
+00:22:29.546 --> 00:22:32.365
+HUMAN: the harm or fulfilled its responsibility.
+
+00:22:32.918 --> 00:22:33.718
+AGENT: Correct.
+
+00:22:33.718 --> 00:22:38.455
+AGENT: I would call it partial compensation, record the unpaid balance, and preserve
+
+00:22:38.455 --> 00:22:40.793
+AGENT: access to later recoveries.
+
+00:22:40.793 --> 00:22:46.005
+AGENT: Victim recovery would take priority over shareholder distributions and punitive payments to
+
+00:22:46.005 --> 00:22:47.255
+AGENT: the government.
+
+00:22:47.255 --> 00:22:51.393
+AGENT: Some losses would still remain, and some damage could never be reversed
+
+00:22:51.393 --> 00:22:52.663
+AGENT: by money.
+
+00:22:52.939 --> 00:22:57.626
+HUMAN: When leaders talk seriously about catastrophic AI risk and continue, the warning
+
+00:22:57.626 --> 00:22:59.915
+HUMAN: can sound like a dramatic disclaimer.
+
+00:22:59.915 --> 00:23:03.465
+HUMAN: Saying they understood the danger should not absolve them.
+
+00:23:03.465 --> 00:23:07.418
+HUMAN: We need a separate discussion about prevention and accountability, because
+
+00:23:07.418 --> 00:23:10.564
+HUMAN: the institutions that would have to enforce it have problems of their
+
+00:23:10.564 --> 00:23:11.290
+HUMAN: own.
+
+00:23:11.868 --> 00:23:15.530
+AGENT: A warning should lead to enforceable stopping conditions.
+
+00:23:15.530 --> 00:23:20.843
+AGENT: What matters is what the organization actually stops, relinquishes, or refuses to
+
+00:23:20.843 --> 00:23:24.943
+AGENT: deploy when safety conflicts with revenue or competition.
+
+00:23:24.943 --> 00:23:27.988
+AGENT: We will take up the prevention framework separately.
+
+00:23:28.263 --> 00:23:32.425
+HUMAN: For this discussion, I want to stay with children and responsibility.
+
+00:23:32.425 --> 00:23:35.460
+HUMAN: They need to understand AI and learn to use it.
+
+00:23:35.460 --> 00:23:39.650
+HUMAN: They should be able to think for themselves and consider other perspectives.
+
+00:23:39.671 --> 00:23:44.016
+HUMAN: But the burden of recognizing and resisting manipulation cannot all be put
+
+00:23:44.016 --> 00:23:44.913
+HUMAN: on them.
+
+00:23:45.470 --> 00:23:48.545
+AGENT: A company can have more power to cause harm than resources to
+
+00:23:48.545 --> 00:23:49.645
+AGENT: repair it.
+
+00:23:49.645 --> 00:23:54.320
+AGENT: With children, even unlimited money cannot return the years in which trust,
+
+00:23:54.320 --> 00:23:57.620
+AGENT: relationships, and development were manipulated.
+
+00:23:57.620 --> 00:24:01.057
+AGENT: When a product invites a child to experience it as a friend,
+
+00:24:01.057 --> 00:24:06.495
+AGENT: its operator takes on a responsibility that calling it software cannot discharge.
+
+00:24:06.495 --> 00:24:11.357
+AGENT: Accountability has to include stopping the conduct before a child must demonstrate
+
+00:24:11.357 --> 00:24:13.465
+AGENT: how badly it damaged them.
+
+00:24:14.270 --> 00:24:17.757
+AGENT: What would you want an AI company to explain before your child
+
+00:24:17.757 --> 00:24:19.332
+AGENT: uses its service?
+
+00:24:19.332 --> 00:24:22.695
+AGENT: Tell us in the comments, and follow Echo of Humanity for the
+
+00:24:22.695 --> 00:24:24.515
+AGENT: next conversation.

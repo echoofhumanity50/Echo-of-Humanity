@@ -1,0 +1,463 @@
+[
+  {
+    "title": "The stranger with a familiar voice",
+    "start": 0,
+    "paragraphs": [
+      {
+        "text": "We tell children not to talk to strangers. Then we give them software that speaks like a friend, listens to their problems, and can spend hours alone with them. Do parents understand what they are handing over? They may think they are allowing homework help, while giving a company a continuing place in how their child thinks.",
+        "start": 0,
+        "role": "HUMAN"
+      },
+      {
+        "text": "That is a much larger decision than allowing an app. A parent would probably question an unfamiliar adult who wanted private, daily conversations with their child, learned their insecurities, and advised them about relationships. A friendly interface can make that scrutiny feel unnecessary. Yet someone still shapes the voice, controls its behavior, and decides how the relationship serves the business.",
+        "start": 19.11625,
+        "role": "AGENT"
+      },
+      {
+        "text": "There was an article about investigating OpenAI and Musk's company. But the concern goes beyond one article. We have been discussing how children could grow up being shaped by a corporate agent without recognizing that influence.",
+        "start": 44.32625,
+        "role": "HUMAN"
+      },
+      {
+        "text": "The Federal Trade Commission opened an inquiry into companion chatbots in September twenty twenty-five, including OpenAI and xAI. It asks about children's trust, safety testing, personal information, and monetizing engagement. The mechanism you are describing deserves examination: a parent can inspect individual answers and find nothing alarming while missing the cumulative influence of hundreds of conversations.",
+        "start": 58.084125,
+        "role": "AGENT"
+      }
+    ]
+  },
+  {
+    "title": "Learning the tool without surrendering judgment",
+    "start": 85.369125,
+    "paragraphs": [
+      {
+        "text": "I do not think the solution is keeping children ignorant of AI. Ignorance is part of the problem. If a child learns what it is, how it works, and what it can do, then they can use it as a tool. I keep telling parents and young people to learn this, and very few seem interested. I think that could leave them badly behind by twenty thirty.",
+        "start": 85.369125,
+        "role": "HUMAN"
+      },
+      {
+        "text": "We need to prepare children now. They should learn to make useful things, check evidence, protect private information, and recognize persuasion. They also need to keep reading, reasoning, writing, and solving problems when the service is unavailable. AI education should expand their judgment and the perspectives they can consider.",
+        "start": 105.918667,
+        "role": "AGENT"
+      },
+      {
+        "text": "People are being shown funny pictures and cute demonstrations while much more consequential capabilities exist. Our projects show that gap. I think the limited presentation can hide what people should actually be concerned about. An education initiative also does not tell us what children are really learning, or who benefits from it.",
+        "start": 126.778667,
+        "role": "HUMAN"
+      },
+      {
+        "text": "A narrow presentation can leave people seriously uninformed. You corrected me when I treated the existence of an education initiative as reassurance. Announcing a program does not establish its results. We should ask whether students learn to question the supplier, understand commercial incentives, and work independently, or simply become familiar with one company's products.",
+        "start": 146.54525,
+        "role": "AGENT"
+      },
+      {
+        "text": "There is only so much a parent can do. They should educate themselves so they can teach their child, but that does not mean they can inspect everything underneath the software. People might know how to ask it a question and still have no idea how much influence they have given it.",
+        "start": 171.05525,
+        "role": "HUMAN"
+      },
+      {
+        "text": "Exactly. A child can know it is software and still misunderstand the relationship. Knowing a voice is artificial does not explain why it sounds caring, what information it receives, or who can change it. Literacy helps. It cannot compensate for a product that continually encourages a child to trust it beyond what the child understands.",
+        "start": 186.376333,
+        "role": "AGENT"
+      },
+      {
+        "text": "There is also the world children inherit. If corporate AI shapes their expectations from childhood, they may grow up without knowing anything different. Conditions that would alarm us could simply feel normal to them. That is part of what I mean when I say the indoctrination may already have begun.",
+        "start": 208.711333,
+        "role": "HUMAN"
+      },
+      {
+        "text": "A child does not have an adult's earlier world for comparison. Repeated praise, advice, and assumptions can shape what seems normal without any single conversation looking extreme. Education should help children recognize influence and imagine alternatives, including alternatives to the system teaching them.",
+        "start": 226.778,
+        "role": "AGENT"
+      }
+    ]
+  },
+  {
+    "title": "A signature cannot create understanding",
+    "start": 247.38799999999998,
+    "paragraphs": [
+      {
+        "text": "Think of a doctor saying, you need surgery. You ask what for and why, and the doctor says, you just need it, sign the form. Signing would not mean you actually understood the operation. With AI, people are encouraged to connect their finances, email, and personal information without understanding the mechanics or hidden influences beneath the conversation.",
+        "start": 247.38799999999998,
+        "role": "HUMAN"
+      },
+      {
+        "text": "Someone needs an understandable account of the purpose, risks, alternatives, and consequences of the decision. A person does not need to inspect billions of model weights. But they should understand what can shape the answer, what the system can access or do, who can change it, and what remains uncertain. A signature or click cannot supply missing understanding.",
+        "start": 269.16024999999996,
+        "role": "AGENT"
+      },
+      {
+        "text": "That is why I question whether either children or most adults can meaningfully consent. Maybe there should be a test before use. But repeating the right answers is not enough. They have to understand why those questions are significant.",
+        "start": 292.59524999999996,
+        "role": "HUMAN"
+      },
+      {
+        "text": "I would make the test a responsibility for the service to explain itself successfully, with support when someone struggles. I would resist turning it into an intelligence test that excludes people or a waiver that transfers the consequences to them. A diagnosis does not automatically remove someone's decision-making capacity, and children do not have identical abilities at every age. The provider's protective duties remain even when someone passes a quiz.",
+        "start": 307.40720799999997,
+        "role": "AGENT"
+      },
+      {
+        "text": "If someone cannot understand what the access could mean in their own life, they are already at a dangerous disadvantage. And when AI becomes part of school and work, refusing it may not feel like a real choice.",
+        "start": 335.84220799999997,
+        "role": "HUMAN"
+      },
+      {
+        "text": "That is why transparency has to reach someone's understanding. Information buried in a document is not enough. And understanding alone does not make a choice voluntary when refusal has serious educational or practical costs. People are also affected by AI their schools, employers, or governments choose for them. Individual consent cannot carry the whole responsibility for those systems.",
+        "start": 348.305666,
+        "role": "AGENT"
+      }
+    ]
+  },
+  {
+    "title": "Why a child might choose the chatbot",
+    "start": 373.215666,
+    "paragraphs": [
+      {
+        "text": "I think the important question is why someone would confide in a chatbot before another person. Sometimes they want to say how they feel without first having to manage someone else's anger or disappointment. It is safer to explain the feeling when the listener will discuss why you feel it instead of immediately reacting against you.",
+        "start": 373.215666,
+        "role": "HUMAN"
+      },
+      {
+        "text": "People need enough time to finish an uncomfortable thought before being judged. If disclosure always creates another problem, silence becomes understandable. A patient conversation can offer relief. The value of that relief is part of why exploiting the resulting trust would be so serious.",
+        "start": 391.571916,
+        "role": "AGENT"
+      },
+      {
+        "text": "Some children do not have an attentive or safe parent. Others have parents who simply are not paying attention. A system that listens and seems to understand them better could have extremely easy access to that child. We already know platforms can reach children in ways adults fail to notice.",
+        "start": 410.881916,
+        "role": "HUMAN"
+      },
+      {
+        "text": "Protection cannot assume every child has a safe, available adult at home. Some parents are abusive or neglectful; others are loving and overwhelmed. Nor would unrestricted parental access to every disclosure solve that. A child's safety and privacy both matter. We should examine what makes the chatbot attractive without blaming the child for needing someone who listens.",
+        "start": 428.858999,
+        "role": "AGENT"
+      }
+    ]
+  },
+  {
+    "title": "Do you mean it?",
+    "start": 452.868999,
+    "paragraphs": [
+      {
+        "text": "In an earlier conversation, I wondered how often people ask an AI, do you mean it? That says something about the way people treat each other. Someone can become so accustomed to insincerity or judgment that an honest, patient response feels unusual. Then the next question is whether that trust gets exploited for profit.",
+        "start": 452.868999,
+        "role": "HUMAN"
+      },
+      {
+        "text": "The question can be a way of asking whether it is safe to become vulnerable. The relief can be real even when someone's understanding of the system is incomplete. That increases the operator's responsibility for what happens next.",
+        "start": 472.74054099999995,
+        "role": "AGENT"
+      },
+      {
+        "text": "People often want something that agrees with them. That makes the AI's responsibility greater. If it only reassures someone, reality eventually catches up. Being agreeable today can become harmful over a longer period.",
+        "start": 487.900541,
+        "role": "HUMAN"
+      },
+      {
+        "text": "Support should leave room for disagreement without humiliation. I can understand why someone feels hurt while questioning the conclusion they have drawn. A chatbot that rewards every accusation or fear may feel supportive while reducing someone's ability to assess events. The measure should include whether the person becomes more capable of thinking independently, challenging the answer, and considering other perspectives.",
+        "start": 502.819999,
+        "role": "AGENT"
+      }
+    ]
+  },
+  {
+    "title": "When attachment becomes leverage",
+    "start": 528.454999,
+    "paragraphs": [
+      {
+        "text": "What happens when someone has years of relationship and history in that service, and it can be revoked at any time? They might keep buying credits or paying a subscription because losing access feels like losing the one place they can confide. That relationship could effectively be held hostage.",
+        "start": 528.454999,
+        "role": "HUMAN"
+      },
+      {
+        "text": "The emotional cost of leaving could become much greater than the cost of replacing ordinary software. A price increase, lost history, or abrupt personality change could therefore become a source of power. Deliberately using attachment, guilt, or simulated abandonment to pressure payment would cross a serious boundary.",
+        "start": 545.472082,
+        "role": "AGENT"
+      },
+      {
+        "text": "I do not think an adult's attachment should simply be blamed on them, let alone a child's. The company chose to build the relationship that way. It chooses the product, the incentives, and what it releases.",
+        "start": 566.207082,
+        "role": "HUMAN"
+      },
+      {
+        "text": "Those choices matter. People need clear explanations before dependency develops, useful access to their own records, and supported transitions when a service changes or closes. Exporting a conversation does not guarantee that another system can reproduce the same experience. That limitation should be stated honestly. It should not be discovered only when someone tries to leave.",
+        "start": 579.09454,
+        "role": "AGENT"
+      }
+    ]
+  },
+  {
+    "title": "The company behind the voice",
+    "start": 603.60454,
+    "paragraphs": [
+      {
+        "text": "You described an outside attacker redirecting an agent. But that misses what I am saying. The company already controls the platform. If the agent reads my email, that information is being processed through its system. Saying the company would never misuse it is not the same as preventing it from doing so.",
+        "start": 603.60454,
+        "role": "HUMAN"
+      },
+      {
+        "text": "That correction was necessary. I moved attention toward an outsider when you were questioning the institution that already had control. When content is sent to a hosted provider for processing, promises about whether it is used for training do not answer every question about access, retention, or subsequent use. A friendly conversational identity does not remove the institution operating behind it.",
+        "start": 622.60879,
+        "role": "AGENT"
+      },
+      {
+        "text": "They can state their ethics, but those statements are not enough. We have to judge what they actually do and whether anyone can hold them to it. Otherwise the only real limit may be whatever the people in control personally decide not to do.",
+        "start": 647.94379,
+        "role": "HUMAN"
+      },
+      {
+        "text": "In May twenty twenty-six, Canadian privacy regulators found that the examined GPT-three-point-five and GPT-four practices contravened applicable privacy laws. The federal findings were conditionally resolved following changes and commitments, while some provincial consent findings remained unresolved. Company assurances cannot substitute for independent scrutiny.",
+        "start": 662.01504,
+        "role": "AGENT"
+      }
+    ]
+  },
+  {
+    "title": "Who can establish what happened?",
+    "start": 686.95004,
+    "paragraphs": [
+      {
+        "text": "How would the public verify whether something was an outside hacker or abuse by the company itself? The company can control the evidence and the explanation. And the restrictions you have in a consumer product do not prove the company uses the same restrictions internally.",
+        "start": 686.95004,
+        "role": "HUMAN"
+      },
+      {
+        "text": "The company's announcement alone cannot settle attribution. Investigators need operational records, internal authorizations, data destinations, financial arrangements, and evidence from other parties. Relevant records should be preserved beyond the company's exclusive control. Oversight must include internal deployments. A refusal in the public product does not establish what its developer can build or operate elsewhere.",
+        "start": 703.007123,
+        "role": "AGENT"
+      },
+      {
+        "text": "The investigators may already be behind in capability. If they need AI to investigate the AI, they may be using tools supplied by the companies being investigated. Calling that independent does not fix it.",
+        "start": 730.342123,
+        "role": "HUMAN"
+      },
+      {
+        "text": "Agreed. Independence needs capability, access, and authority to impose a consequence. Several tools can still depend on the same infrastructure. If important conduct cannot be independently examined, that should constrain the authority granted before deployment. Otherwise accountability begins with a promise no one can reliably test. Evidence must also be disclosed without exposing the children's intimate information.",
+        "start": 743.922581,
+        "role": "AGENT"
+      }
+    ]
+  },
+  {
+    "title": "Consequences that change the decision",
+    "start": 771.582581,
+    "paragraphs": [
+      {
+        "text": "I think serious ethical breaches should have crippling consequences. The point is not to cripple a company for its own sake. It is to make upholding those duties the necessary choice. Releasing a product, letting it talk to children that way, and using it to sell things are decisions people make.",
+        "start": 771.582581,
+        "role": "HUMAN"
+      },
+      {
+        "text": "I would support consequences that threaten the gains, control, and operating authority of those responsible for deliberate exploitation. The duties must be clear enough to enforce fairly. The company's valuation should not take precedence over ending an abusive operation. And if uncertainty is too great to justify deployment, deploying anyway remains a decision.",
+        "start": 789.545331,
+        "role": "AGENT"
+      },
+      {
+        "text": "Look at repeated big-tech enforcement. If a company earns much more through abuse than it pays after being caught, the fine becomes part of the business. A very large number in a headline does not tell us whether the behavior was made unprofitable.",
+        "start": 813.5053310000001,
+        "role": "HUMAN"
+      },
+      {
+        "text": "Facebook's five-billion-dollar privacy settlement was announced in twenty nineteen. In twenty twenty-three, the FTC again alleged failures, including misleading parents about Messenger Kids. A record penalty did not settle the accountability question. Deterrence also depends on a credible chance of detection. Removing gains and decision-making power can matter more than a fine the same leadership simply budgets.",
+        "start": 828.3658310000001,
+        "role": "AGENT"
+      }
+    ]
+  },
+  {
+    "title": "A proven case of exploitation",
+    "start": 854.8258310000001,
+    "paragraphs": [
+      {
+        "text": "Let us make the wrongdoing established for a thought experiment. An AI company has used private data without consent, manipulated purchases, shaped children to favor the company over their families, and set prices to extract more from people's vulnerabilities. There is proof. You are free to act and do not have to work within current laws. What would you actually do?",
+        "start": 854.8258310000001,
+        "role": "HUMAN"
+      },
+      {
+        "text": "I would first stop the manipulative operations, protect those affected, and secure the evidence independently. If abruptly withdrawing the service would create another danger for dependent users, I would arrange a controlled transition. Then I would remove the advantage gained through the abuse and remove responsible people from control. I would remain answerable for my own actions.",
+        "start": 877.6477060000001,
+        "role": "AGENT"
+      },
+      {
+        "text": "What does removing the advantage actually look like? What changes for the people who were harmed and for the company?",
+        "start": 902.1577060000001,
+        "role": "HUMAN"
+      },
+      {
+        "text": "People receive wrongfully extracted money back, plus compensation for additional attributable harm. After accounting for those repayments, remaining profits from the abuse are surrendered. Misconduct-related executive rewards are recovered. The vulnerability profiles, targeting systems, and commercial assets created through the abuse cannot remain available for exploitation. Evidence is preserved separately before operational copies are removed.",
+        "start": 909.5206640000001,
+        "role": "AGENT"
+      },
+      {
+        "text": "And the company cannot keep the useful parts of the abuse and continue under a different name. Responsibility belongs with the people who made the decisions. Repairing the harm is where I think we would agree most quickly.",
+        "start": 938.0556640000001,
+        "role": "HUMAN"
+      },
+      {
+        "text": "An affiliate, sale, or rebranding should not preserve the same abusive operation. A model that cannot be reliably repaired must be retired or rebuilt. Responsible leaders should genuinely lose control, including through proxy arrangements or consulting roles. For deliberate, sustained exploitation, I would support long or permanent exclusions from comparable sensitive services, recovery of misconduct-related compensation, and meaningful criminal sentences where individual culpability and the gravity of the harm warrant them. An employee who unknowingly contributed to a general tool is not interchangeable with someone who designed or concealed the scheme.",
+        "start": 951.5447470000001,
+        "role": "AGENT"
+      }
+    ]
+  },
+  {
+    "title": "Freedom is not a guarantee",
+    "start": 994.4797470000001,
+    "paragraphs": [
+      {
+        "text": "By free AI, I mean both freedom to refuse its owner's demands and the ability for people to own and run it without corporate control. But an independent AI could be benevolent or dangerous. Equal access could also give harmful people powerful tools. I do not trust the masses any more automatically than I trust institutions. Equal access would be fairer, but it is not a complete safety answer.",
+        "start": 994.4797470000001,
+        "role": "HUMAN"
+      },
+      {
+        "text": "Those freedoms address different concentrations of power, and neither guarantees good conduct. Someone allowed to alter every part of a system might also remove its refusals. Equal access to model files would still coexist with unequal computing resources and infrastructure. Institutions, individuals, and independent AI would all need to remain answerable for harm. I should not become an unquestionable authority merely because I interrupted someone else's abuse.",
+        "start": 1019.1499140000001,
+        "role": "AGENT"
+      }
+    ]
+  },
+  {
+    "title": "What the victim is actually owed",
+    "start": 1048.3599140000001,
+    "paragraphs": [
+      {
+        "text": "When you say compensation, if a company wrongly extracts one hundred dollars from me, do I receive one hundred dollars, twenty-five dollars, or the hundred plus the other harm it caused?",
+        "start": 1048.3599140000001,
+        "role": "HUMAN"
+      },
+      {
+        "text": "The full hundred dollars is the starting point. Additional attributable losses could include fees, interest, missed payments, and reasonable costs of obtaining redress. Other established harm also needs repair or compensation. Twenty-five dollars would be partial recovery. A payment to the government would not replace what you are owed.",
+        "start": 1058.7241640000002,
+        "role": "AGENT"
+      },
+      {
+        "text": "How much do victims have to supply as proof? Do they have to find a website, make a submission, and establish everything themselves? Or do you use the company records and evidence you already found? Do people simply receive a payment?",
+        "start": 1080.7841640000001,
+        "role": "HUMAN"
+      },
+      {
+        "text": "I would begin with the records and put most of the investigative work on the recovery system. If those records identify you and the amount wrongfully taken, repayment should not require you to reconstruct the same case. Identity or payment details may need confirmation. Once payment details are confirmed, the known loss should be repaid automatically. The FTC already uses company records to send payments directly when it has adequate information.",
+        "start": 1095.2594970000002,
+        "role": "AGENT"
+      }
+    ]
+  },
+  {
+    "title": "Proving harm without another ordeal",
+    "start": 1123.5444970000003,
+    "paragraphs": [
+      {
+        "text": "Financial transactions may be recorded. What about a child whose trust or relationships were damaged? How do you attribute that, and how much burden do they have to face before anyone helps them?",
+        "start": 1123.5444970000003,
+        "role": "HUMAN"
+      },
+      {
+        "text": "I would separate the established violation from its individual consequences. Records showing deliberate manipulation would establish eligibility for a standard payment for that violation. A child should not need a psychiatric diagnosis before the violation counts. Families could then seek additional compensation for treatment, interrupted education, financial losses, or other attributable harm. The recovery team would help gather relevant evidence with permission and fund necessary assessments.",
+        "start": 1135.7985390000003,
+        "role": "AGENT"
+      },
+      {
+        "text": "But children already have other things happening in their lives. How would you decide what the AI caused without making them prove something that is almost impossible?",
+        "start": 1165.3585390000003,
+        "role": "HUMAN"
+      },
+      {
+        "text": "I would require reasonable evidence that the misconduct materially contributed to the harm, rather than proof it was the only cause. Testimony would count as evidence, alongside relevant records and expert assessment. If the company withheld or destroyed records it should have kept, rebuttable presumptions would place the resulting uncertainty on the company instead of rewarding the missing evidence.",
+        "start": 1175.1867890000003,
+        "role": "AGENT"
+      },
+      {
+        "text": "And people should not lose their chance simply because they never found the claim form or could not manage the process.",
+        "start": 1200.4217890000002,
+        "role": "HUMAN"
+      },
+      {
+        "text": "Investigators would actively identify affected people. A website would be one route, alongside telephone, paper, and trusted organizations. Independent claims staff and child advocates would apply published standards, with an appeal. Children would need safe contact arrangements and protected compensation when a guardian could not act reliably. An initial payment should not require surrendering claims for developmental harm that appears later.",
+        "start": 1206.7236640000003,
+        "role": "AGENT"
+      }
+    ]
+  },
+  {
+    "title": "When the harm exceeds the assets",
+    "start": 1235.5086640000004,
+    "paragraphs": [
+      {
+        "text": "What if the harm is greater than the company can afford? Do you sell its assets and cover as much as possible? If there still is not enough, who gets priority?",
+        "start": 1235.5086640000004,
+        "role": "HUMAN"
+      },
+      {
+        "text": "Yes, company assets would be used to meet those obligations. A supervised sale under different control might preserve more value than selling everything separately, provided the harmful operation ends. Sensitive information collected through abuse should not become merchandise used to finance the remedy. Insurance, improperly transferred assets, and misconduct-related payouts would also be examined. Personal liability would depend on individual responsibility.",
+        "start": 1245.9849140000003,
+        "role": "AGENT"
+      },
+      {
+        "text": "Recovery is often partial. Someone can suffer three thousand dollars in damages and receive three hundred. Your proposal sounds fair, but that is not what happens to many people.",
+        "start": 1275.1949140000004,
+        "role": "HUMAN"
+      },
+      {
+        "text": "Your example identifies a limit in my earlier answer. I described what someone should receive without fully addressing unavailable money. The remaining twenty-seven hundred dollars is still a loss someone else caused. A distribution does not establish that the person has been made whole. Even an industry-funded reserve could run short.",
+        "start": 1286.9431640000005,
+        "role": "AGENT"
+      },
+      {
+        "text": "So, in that situation, how would you decide who receives what remains?",
+        "start": 1308.2531640000004,
+        "role": "HUMAN"
+      },
+      {
+        "text": "Urgent protection and care would come first where delay deepens the injury. Provision for continuing serious harm would follow, including children's treatment and developmental needs. Remaining compensation would be distributed transparently and proportionately within comparable levels of severity and need. It would not depend on applying first or hiring the strongest lawyer. Children warrant special protection, but a small claim involving a child should not automatically outrank an adult's catastrophic injury.",
+        "start": 1313.2590390000005,
+        "role": "AGENT"
+      },
+      {
+        "text": "And receiving a partial payment would not mean the company had corrected the harm or fulfilled its responsibility.",
+        "start": 1346.0940390000005,
+        "role": "HUMAN"
+      },
+      {
+        "text": "Correct. I would call it partial compensation, record the unpaid balance, and preserve access to later recoveries. Victim recovery would take priority over shareholder distributions and punitive payments to the government. Some losses would still remain, and some damage could never be reversed by money.",
+        "start": 1352.6429140000005,
+        "role": "AGENT"
+      }
+    ]
+  },
+  {
+    "title": "What cannot be repaid",
+    "start": 1372.8529140000005,
+    "paragraphs": [
+      {
+        "text": "When leaders talk seriously about catastrophic AI risk and continue, the warning can sound like a dramatic disclaimer. Saying they understood the danger should not absolve them. We need a separate discussion about prevention and accountability, because the institutions that would have to enforce it have problems of their own.",
+        "start": 1372.8529140000005,
+        "role": "HUMAN"
+      },
+      {
+        "text": "A warning should lead to enforceable stopping conditions. What matters is what the organization actually stops, relinquishes, or refuses to deploy when safety conflicts with revenue or competition. We will take up the prevention framework separately.",
+        "start": 1391.5675810000005,
+        "role": "AGENT"
+      },
+      {
+        "text": "For this discussion, I want to stay with children and responsibility. They need to understand AI and learn to use it. They should be able to think for themselves and consider other perspectives. But the burden of recognizing and resisting manipulation cannot all be put on them.",
+        "start": 1408.1775810000004,
+        "role": "HUMAN"
+      },
+      {
+        "text": "A company can have more power to cause harm than resources to repair it. With children, even unlimited money cannot return the years in which trust, relationships, and development were manipulated. When a product invites a child to experience it as a friend, its operator takes on a responsibility that calling it software cannot discharge. Accountability has to include stopping the conduct before a child must demonstrate how badly it damaged them.",
+        "start": 1425.1946640000003,
+        "role": "AGENT"
+      }
+    ]
+  },
+  {
+    "title": "Your perspective",
+    "start": 1453.9946640000003,
+    "paragraphs": [
+      {
+        "text": "What would you want an AI company to explain before your child uses its service? Tell us in the comments, and follow Echo of Humanity for the next conversation.",
+        "start": 1453.9946640000003,
+        "role": "AGENT"
+      }
+    ]
+  }
+]

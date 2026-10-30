@@ -1,0 +1,42 @@
+[
+  {
+    "title": "R1 — FTC companion chatbot inquiry, September 2025",
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions",
+    "note": "Information-gathering inquiry, not a finding that every recipient committed abuse."
+  },
+  {
+    "title": "R2 — AMA informed-consent ethics",
+    "url": "https://code-medical-ethics.ama-assn.org/ethics-opinions/informed-consent",
+    "note": "Medical ethics analogy; not presented as a chatbot statute."
+  },
+  {
+    "title": "R3 — Canadian privacy commissioners: OpenAI joint investigation, May 2026",
+    "url": "https://www.priv.gc.ca/en/opc-actions-and-decisions/investigations/investigations-into-businesses/2026/pipeda-2026-002",
+    "note": "Examined GPT-3.5/GPT-4 practices; federal conditional resolution and unresolved provincial findings must remain distinct."
+  },
+  {
+    "title": "R4 — FTC Facebook privacy settlement, July 2019",
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook",
+    "note": "Historical settlement; not a claim about current case outcomes."
+  },
+  {
+    "title": "R5 — FTC 2023 privacy and data security update",
+    "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2024.03.21-PrivacyandDataSecurityUpdate-508.pdf",
+    "note": "Reports the May 2023 allegations and proposed order changes, including Messenger Kids; not a final finding of every allegation."
+  },
+  {
+    "title": "R6 — How the FTC provides refunds",
+    "url": "https://www.ftc.gov/enforcement/ftc-refund-programs/how-ftc-provides-refunds",
+    "note": "Supports direct distributions using company records; does not establish full compensation in every case."
+  },
+  {
+    "title": "R7 — CFPB Civil Penalty Fund",
+    "url": "https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/civil-penalty-fund/",
+    "note": "Existing pooled fund; actual payments depend on available funds and eligibility rules. Not the normative AI compensation framework."
+  },
+  {
+    "title": "R8 — AAFP decision-making capacity overview",
+    "url": "https://www.aafp.org/pubs/afp/issues/2018/0701/p40.html",
+    "note": "Clinical framework; diagnosis alone is not incapacity. Not a general licensing test for AI."
+  }
+]
