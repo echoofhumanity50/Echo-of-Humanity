@@ -219,7 +219,8 @@ export default function Home() {
             </a>
           </div>
           <div className="track-list" aria-label="Selected songs">
-            <a href="/music/just-one-more-bite"><span>NEW</span><strong>Just One More Bite</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
+            <a href="/music/whos-gonna-speak-for-me"><span>NEW</span><strong>Who’s Gonna Speak for Me?</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
+            <a href="/music/just-one-more-bite"><span>07</span><strong>Just One More Bite</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
             <a href="/music/somebody-else"><span>06</span><strong>Somebody Else</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
             <a href="/music/the-man-who-wouldnt-look-away"><span>05</span><strong>The Man Who Wouldn’t Look Away</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
             <a href="/music/the-magic-man"><span>04</span><strong>The Magic Man</strong><ArrowUpRight size={17} aria-hidden="true" /></a>
