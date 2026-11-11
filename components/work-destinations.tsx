@@ -23,7 +23,7 @@ export function WorkDestinations({ item, compact = false, children }: { item: Me
         {!item.archivePending && <a href={archiveUrl(item.slug)} target="_blank" rel="noreferrer">Internet Archive</a>}
         {item.facebook && <a href={item.facebook} target="_blank" rel="noreferrer">Full video on Facebook</a>}
         {item.tiktok && <a href={`https://www.tiktok.com/@echoofhumanity7/video/${item.tiktok}`} target="_blank" rel="noreferrer">Full video on TikTok</a>}
-        {item.instagram && <a href={item.instagram} target="_blank" rel="noreferrer">Instagram excerpt</a>}
+        {item.instagram && <a href={item.instagram} target="_blank" rel="noreferrer">{item.kind === 'music' ? 'Full song on Instagram' : 'Instagram excerpt'}</a>}
       </div>
     </details>}
   </div>;

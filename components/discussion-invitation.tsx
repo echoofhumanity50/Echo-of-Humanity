@@ -26,7 +26,7 @@ export function DiscussionInvitation({ title, rumble, tiktok, reddit, facebook, 
       <details className="work-more-links"><summary>More places to join the discussion</summary><div className="video-comment-links">
         <a href={tiktok ? `https://www.tiktok.com/@echoofhumanity7/video/${tiktok}` : 'https://www.tiktok.com/@echoofhumanity7'} target="_blank" rel="noreferrer">TikTok</a>
         <a href={facebook || 'https://www.facebook.com/echoofhumanitynet'} target="_blank" rel="noreferrer">Facebook</a>
-        <a href={instagram || 'https://www.instagram.com/echoofhumanitynet/'} target="_blank" rel="noreferrer">Instagram excerpts</a>
+        <a href={instagram || 'https://www.instagram.com/echoofhumanitynet/'} target="_blank" rel="noreferrer">{kind === 'music' ? 'Full song on Instagram' : 'Instagram excerpts'}</a>
         {kind !== 'music' && <a href={spotify || 'https://open.spotify.com/show/0Q0ZD69F1wQCajG5ONvRFT'} target="_blank" rel="noreferrer">Spotify podcast</a>}
       </div></details>
       <p className="discussion-updates"><a href="/subscribe">{newsletterIsOpen ? 'Get the free monthly email' : 'Monthly newsletter · signup opens soon'}</a></p>
