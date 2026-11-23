@@ -56,7 +56,7 @@ export default async function Song({ params }: { params: Promise<{ slug: string 
         <div className="video-frame">
           {adFreeVideo ? <video className="adfree-player" controls controlsList="nodownload" preload="none" playsInline poster={item.image} aria-label={item.title + ' — ad-free full video'}><source src={adFreeVideo} type="video/mp4"/></video> : <iframe src={videoMetadata[slug as keyof typeof videoMetadata].embedUrl} title={item.title + ' — full song by Echo'} loading="lazy" allow="fullscreen" allowFullScreen />}
         </div>
-        <p className="quiet-note">{adFreeVideo ? 'Watch the complete video here without inserted ads, hosted by the Internet Archive. These plays do not generate revenue for Echo. To support the music through listening, use the available music services or eligible ad-supported views on Rumble above.' : 'The complete video plays through Rumble, which may show ads. Eligible ad-supported plays can support Echo. An ad-free hosted edition is not yet available for this song.'} Read the lyrics below.</p>
+        <p className="quiet-note">{adFreeVideo ? 'Watch the complete video here without inserted ads, hosted by the Internet Archive. These plays do not generate revenue for Echo. To support the music through listening, use the available music services or eligible ad-supported views on Rumble above.' : 'The complete video plays through Rumble, which may show ads. Eligible ad-supported plays can support Echo.'} Read the lyrics below.</p>
       </section>
       <div className="lyrics-layout">
         <section id="lyrics"><p className="section-number">02 / Lyrics</p><h2>{item.title}</h2>
