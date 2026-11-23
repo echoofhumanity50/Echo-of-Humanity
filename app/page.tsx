@@ -35,7 +35,7 @@ const externalLinks = {
   spotify: "https://open.spotify.com/show/0Q0ZD69F1wQCajG5ONvRFT",
 
   archive: 'https://archive.org/details/@echo_of_humanity',
-  amazon: 'https://www.amazon.com/dp/B0HJHPY4J7',
+  amazon: 'https://www.amazon.com/dp/B0HSMDQXP2',
   tiktok: 'https://www.tiktok.com/@echoofhumanity7',
   reddit: 'https://www.reddit.com/user/Visible-Current-3909/',
   rumble: 'https://rumble.com/c/c-7957548',
@@ -70,13 +70,13 @@ export default function Home() {
         <div className="hero-shade" aria-hidden="true" />
 
         <header className="site-header">
-          <a className="brand" href="#top" aria-label="Echo of Humanity home">
+          <div className="brand-doorway"><a className="brand" href="#top" aria-label="Echo of Humanity home">
             <img src="/echo-mark.png" alt="" />
             <span>
               <strong>Echo</strong>
               <small>of humanity</small>
             </span>
-          </a>
+          </a><a className="other-works-door" href="/other-works">Other Works ↗</a></div>
 
           <nav aria-label="Primary navigation">
             {routes.map((route) => (
@@ -137,26 +137,8 @@ export default function Home() {
           <BookOpen aria-hidden="true" />
         </div>
         <div className="book-layout">
-          <a className="book-mark" href={externalLinks.amazon} target="_blank" rel="noreferrer" aria-label="The Echo of Humanity — view the Kindle edition on Amazon">
-            <img src="/echo-of-humanity-book-cover.jpg" width="1600" height="2560" loading="lazy" alt="The Echo of Humanity: Humanity, Artificial Intelligence, and the Question of Trust, by Corey Jones — gold and cyan Returned Signal cover" />
-          </a>
-          <div className="feature-copy">
-            <p className="kicker">The written foundation</p>
-            <h2>The Echo of Humanity</h2>
-            <p className="lead">
-              The message comes before the sale. The second edition is now
-              available on Kindle.
-              A permanent free reading edition will be added here after the
-              current Amazon exclusivity term ends.
-            </p>
-            <ExternalLink className="primary-link" href={externalLinks.amazon}>
-              Read on Amazon
-            </ExternalLink>
-            <p style={{ margin: '1rem 0 0' }}>
-              <a className="text-link" href="/conversations/full-conversation#listen">Listen for free <Headphones aria-hidden="true" size={16} /></a>
-            </p>
-            <p className="quiet-note">Hear the original conversation behind the book. No purchase required.</p>
-          </div>
+          <a className="book-mark" href="/books/echo-of-humanity" aria-label="Explore the three new Echo of Humanity books"><img src="/books/echo-shared.png" loading="lazy" alt="The Echo of Humanity: What We Learn from Each Other — Shared perspective" /></a>
+          <div className="feature-copy"><p className="kicker">New full-length books · Three perspectives</p><h2>The Echo of Humanity</h2><p className="lead">Human, AI, and Shared. One inquiry into fairness, freedom, and what we can learn from each other.</p><p>Shared brings both voices together and is our recommended starting point. Each perspective stands alone with substantial overlap; you do not need all three.</p><a className="primary-link" href="/books/echo-of-humanity">Explore the three editions →</a><p><ExternalLink className="text-link" href={externalLinks.amazon}>Shared hardcover on Amazon</ExternalLink></p><p><a className="text-link" href="/conversations/echo-of-humanity-book-interview#listen">Watch or listen for free <Headphones aria-hidden="true" size={16}/></a></p><p className="quiet-note">The complete book interview. No purchase required.</p></div>
         </div>
       </section>
 

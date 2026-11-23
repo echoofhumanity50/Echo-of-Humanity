@@ -1,3 +1,4 @@
+import adFreeVideos from '../../archive/adfree-videos.json';
 import { WorkDestinations } from '../../../components/work-destinations';
 import videoMetadata from '../../archive/video-metadata.json';
 import { VideoStructuredData } from '../../../components/video-structured-data';
@@ -29,6 +30,7 @@ export default async function Song({ params }: { params: Promise<{ slug: string 
   const { slug } = await params;
   const item = media.find(item => item.kind === 'music' && item.slug === slug);
   if (!item) notFound();
+  const adFreeVideo = adFreeVideos[slug as keyof typeof adFreeVideos];
   const songLyrics = lyrics[slug as keyof typeof lyrics];
   const details = songDetails[slug as keyof typeof songDetails];
   const [minutes, seconds] = item.duration.split(':');
@@ -49,12 +51,12 @@ export default async function Song({ params }: { params: Promise<{ slug: string 
     <div className="song-body section-shell">
       <section className="full-video" id="listen">
         <p className="section-number">01 / Listen</p><h2>The complete song.</h2>
-        <WorkDestinations item={item} />
+        <WorkDestinations item={item} hideAdFree />
         <h3 className="watch-video-heading">Watch the full video</h3>
         <div className="video-frame">
-          <iframe src={videoMetadata[slug as keyof typeof videoMetadata].embedUrl} title={item.title + ' — full song by Echo'} loading="lazy" allow="fullscreen" allowFullScreen />
+          {adFreeVideo ? <video className="adfree-player" controls controlsList="nodownload" preload="none" playsInline poster={item.image} aria-label={item.title + ' — ad-free full video'}><source src={adFreeVideo} type="video/mp4"/></video> : <iframe src={videoMetadata[slug as keyof typeof videoMetadata].embedUrl} title={item.title + ' — full song by Echo'} loading="lazy" allow="fullscreen" allowFullScreen />}
         </div>
-        <p className="quiet-note">The complete song plays here through Rumble, which may show ads. Eligible ad-supported plays can help support Echo. If the player does not load, use one of the watch links above. Read the lyrics below.</p>
+        <p className="quiet-note">{adFreeVideo ? 'Watch the complete video here without inserted ads, hosted by the Internet Archive. These plays do not generate revenue for Echo. To support the music through listening, use the available music services or eligible ad-supported views on Rumble above.' : 'The complete video plays through Rumble, which may show ads. Eligible ad-supported plays can support Echo. An ad-free hosted edition is not yet available for this song.'} Read the lyrics below.</p>
       </section>
       <div className="lyrics-layout">
         <section id="lyrics"><p className="section-number">02 / Lyrics</p><h2>{item.title}</h2>

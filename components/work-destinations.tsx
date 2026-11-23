@@ -1,7 +1,8 @@
+import { AdFreeViewing } from './adfree-viewing';
 import type { ReactNode } from 'react';
 import { archiveUrl, type MediaItem } from '../app/archive/catalog';
 
-export function WorkDestinations({ item, compact = false, children }: { item: MediaItem; compact?: boolean; children?: ReactNode }) {
+export function WorkDestinations({ item, compact = false, hideAdFree = false, children }: { item: MediaItem; compact?: boolean; hideAdFree?: boolean; children?: ReactNode }) {
   const stores = item.kind === 'music' ? item.musicStores : undefined;
   const hasStores = Boolean(stores?.spotify || stores?.appleMusic || stores?.itunes);
   return <div className={`work-destinations${compact ? ' work-destinations-compact' : ''}`}>
@@ -15,6 +16,7 @@ export function WorkDestinations({ item, compact = false, children }: { item: Me
         {item.kind === 'conversation' && item.spotify && <a className="work-secondary" href={item.spotify} target="_blank" rel="noreferrer">Listen on Spotify</a>}
       </>}
     </div>
+    {!compact && <><p className="viewing-choice-note">{item.kind === 'music' ? (hasStores ? 'Spotify and Apple Music streams can generate royalties; iTunes purchases support the music. Spotify Free may include ads; Apple Music requires a subscription.' : 'Rumble may show ads. Eligible ad-supported views can support Echo.') : 'Rumble may show ads; eligible ad-supported views can support Echo. Spotify is a listening option, and Echo’s podcast is not currently earning advertising revenue there.'}</p>{!hideAdFree && <AdFreeViewing slug={item.slug} title={item.title} poster={item.image}/>}</>}
     {children && <div className="media-links work-text-links">{children}</div>}
     {!compact && <details className="work-more-links">
       <summary>More ways to watch or listen</summary>

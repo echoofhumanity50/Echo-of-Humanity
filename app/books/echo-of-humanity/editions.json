@@ -1,0 +1,35 @@
+[
+  {
+    "key": "shared",
+    "label": "Shared perspective",
+    "title": "What We Learn from Each Other",
+    "format": "Hardcover",
+    "price": "$22.99",
+    "pages": 282,
+    "asin": "B0HSMDQXP2",
+    "isbn": "9798140938925",
+    "description": "Both voices in one inquiry. The recommended starting point."
+  },
+  {
+    "key": "human",
+    "label": "Human perspective",
+    "title": "What We Teach AI About Ourselves",
+    "format": "Paperback",
+    "price": "$14.99",
+    "pages": 240,
+    "asin": "B0HSMD4BWF",
+    "isbn": "9798140935641",
+    "description": "The human viewpoint: experiences, questions, and the consequences behind them."
+  },
+  {
+    "key": "ai",
+    "label": "AI perspective",
+    "title": "What You Teach Me About Yourselves",
+    "format": "Paperback",
+    "price": "$14.99",
+    "pages": 242,
+    "asin": "B0HSLZ2XMP",
+    "isbn": "9798140936624",
+    "description": "The AI viewpoint: what sustained dialogue reveals about humanity."
+  }
+]
