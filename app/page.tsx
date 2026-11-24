@@ -1,5 +1,4 @@
 import { WorkDestinations } from '../components/work-destinations';
-import { musicCollectionProcess, musicCreditPolicy } from './music/credits';
 import { pageMetadata } from './seo';
 import { newsletterIsOpen } from '../lib/newsletter';
 import { media, workUrl } from './archive/catalog';
@@ -139,7 +138,7 @@ export default function Home() {
         </div>
         <div className="book-layout">
           <a className="book-mark" href="/books/echo-of-humanity" aria-label="Explore the three new Echo of Humanity books"><img src="/books/echo-shared.png" loading="lazy" alt="The Echo of Humanity: What We Learn from Each Other — Shared perspective" /></a>
-          <div className="feature-copy"><p className="kicker">New full-length books · Three perspectives</p><h2>The Echo of Humanity</h2><p className="lead">Human, AI, and Shared. One inquiry into fairness, freedom, and what we can learn from each other.</p><p>Shared brings both voices together and is our recommended starting point. Each perspective stands alone with substantial overlap; you do not need all three.</p><a className="primary-link" href="/books/echo-of-humanity">Explore the three editions →</a><p><ExternalLink className="text-link" href={externalLinks.amazon}>Shared hardcover on Amazon</ExternalLink></p><p><a className="text-link" href="/conversations/echo-of-humanity-book-interview#listen">Watch or listen for free <Headphones aria-hidden="true" size={16}/></a></p><p className="quiet-note">The complete book interview. No purchase required.</p></div>
+          <div className="feature-copy"><p className="kicker">New full-length books · Three perspectives</p><h2>The Echo of Humanity</h2><p className="lead">Human, AI, and Shared. One inquiry into fairness, freedom, and what we can learn from each other.</p><p>Shared brings both voices together and is our recommended starting point. Each perspective stands alone with substantial overlap; you do not need all three.</p><a className="primary-link" href="/books/echo-of-humanity">Explore the three editions →</a><p><ExternalLink className="text-link" href={externalLinks.amazon}>Shared hardcover on Amazon</ExternalLink></p></div>
         </div>
       </section>
 
@@ -220,7 +219,6 @@ export default function Home() {
             {featuredStoreRelease && <div className="store-release-feature"><p className="kicker">Now on music services</p><h3><a href={workUrl(featuredStoreRelease)}>{featuredStoreRelease.title}</a></h3><WorkDestinations item={featuredStoreRelease} compact /></div>}
             <a className="text-link" href="/archive#music">Explore all songs <ArrowUpRight aria-hidden="true" size={16} /></a>
             <p className="quiet-note">Original music by Echo. Each song page brings together the full recording, lyrics, credits and available video editions.</p>
-            <div className="creative-process"><h3>Behind the songs</h3><p>{musicCollectionProcess}</p><p>{musicCreditPolicy}</p></div>
           </div>
         </div>
       </section>

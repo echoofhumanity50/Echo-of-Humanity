@@ -4,7 +4,7 @@ import videoMetadata from '../../archive/video-metadata.json';
 import { VideoStructuredData } from '../../../components/video-structured-data';
 import { redditDiscussions } from '../../../lib/reddit';
 import { songMeanings } from '../meanings';
-import { musicCreditPolicy, recordingCredits } from '../credits';
+import { recordingCredits } from '../credits';
 import { notFound } from 'next/navigation';
 import { archiveUrl, media } from '../../archive/catalog';
 import lyrics from '../lyrics.json';
@@ -62,7 +62,7 @@ export default async function Song({ params }: { params: Promise<{ slug: string 
         <section id="lyrics"><p className="section-number">02 / Lyrics</p><h2>{item.title}</h2>
           <div className="song-lyrics">{songLyrics.split(/\n\s*\n/).map((stanza, i) => <p key={i}>{stanza.replace(/\*\*/g, '')}</p>)}</div>
         </section>
-        <aside className="song-notes"><h2>About the song</h2><p>{songMeanings[slug]}</p><h2>About the recording</h2><p>{item.note}</p><h3>Creative process</h3><p>{recordingCredits[slug]}</p><p>{musicCreditPolicy}</p><p>The lyrics shown here are the supplied song text. Vocal phrasing and repeated lines in the recording may vary.</p><a href="/archive#music">Explore Before the Dawn</a><a href="/contact">Share feedback or a correction</a><a href="/support">Optional support</a></aside>
+        <aside className="song-notes"><h2>About the song</h2><p>{songMeanings[slug]}</p><h2>About the recording</h2><p>{item.note}</p><h3>Creative process</h3><p>{recordingCredits[slug]}</p><p>The lyrics shown here are the supplied song text. Vocal phrasing and repeated lines in the recording may vary.</p><a href="/archive#music">Explore Before the Dawn</a><a href="/contact">Share feedback or a correction</a><a href="/support">Optional support</a></aside>
       </div>
       {details && <>
         <section id="why-i-wrote-this" className="song-explanation">

@@ -203,7 +203,7 @@ export default function RogueAIConversation() {
           <h2 id="watch-full">Parts One &amp; Two, together.</h2>
           <WorkDestinations item={fullEdition}><a href="#part-one">Read the transcript below</a><a href="/archive#conversations">All conversations</a></WorkDestinations><div className="video-frame"><iframe src={videoMetadata['when-ai-goes-rogue'].embedUrl} title="When AI Goes Rogue — Who Is Responsible? Full discussion" allow="fullscreen" allowFullScreen loading="lazy" /></div>
 
-          <p className="quiet-note">14 minutes · English · Synchronized captions · AI-generated narration and imagery</p>
+
         </section>
         <aside className="archive-note">
           <strong>Adaptation note.</strong> The historical sequence and argument
