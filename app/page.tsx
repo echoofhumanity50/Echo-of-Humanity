@@ -1,4 +1,5 @@
 import { WorkDestinations } from '../components/work-destinations';
+import { musicCollectionProcess } from './music/credits';
 import { pageMetadata } from './seo';
 import { newsletterIsOpen } from '../lib/newsletter';
 import { media, workUrl } from './archive/catalog';
@@ -219,6 +220,7 @@ export default function Home() {
             {featuredStoreRelease && <div className="store-release-feature"><p className="kicker">Now on music services</p><h3><a href={workUrl(featuredStoreRelease)}>{featuredStoreRelease.title}</a></h3><WorkDestinations item={featuredStoreRelease} compact /></div>}
             <a className="text-link" href="/archive#music">Explore all songs <ArrowUpRight aria-hidden="true" size={16} /></a>
             <p className="quiet-note">Original music by Echo. Each song page brings together the full recording, lyrics, credits and available video editions.</p>
+            <div className="creative-process"><h3>Behind the songs</h3><p>{musicCollectionProcess}</p></div>
           </div>
         </div>
       </section>

@@ -1,4 +1,5 @@
 import { WorkDestinations } from '../../components/work-destinations';
+import { musicCollectionProcess } from '../music/credits';
 import { pageMetadata, StructuredData, origin } from '../seo';
 import { ArrowLeft, ArrowUpRight } from 'lucide-react';
 import { media, workUrl } from './catalog';
@@ -22,6 +23,7 @@ export default function MediaArchive() {
         {(['conversation', 'music'] as const).map((kind) => (
           <section className="library-section" id={kind === 'music' ? 'music' : 'conversations'} key={kind}>
             <div className="library-heading"><p className="section-number">{kind === 'music' ? '02 / Original music' : '01 / Human and AI'}</p><h2>{kind === 'music' ? 'Before the Dawn' : 'Echo Conversations'}</h2><p>{kind === 'music' ? 'Original songs by Echo. Different tones, one larger search for what makes us human.' : 'Complete discussions about AI, trust, autonomy, children, evidence, fairness and responsibility.'}</p><details className="work-more-links"><summary>Preservation collection</summary><a href={kind === 'music' ? 'https://archive.org/details/@echo_of_humanity/lists/1/before-the-dawn-%E2%80%94-full-songs' : 'https://archive.org/details/@echo_of_humanity/lists/2/echo-conversations-%E2%80%94-full-videos'} target="_blank" rel="noreferrer">Browse this collection on Archive</a></details></div>
+            {kind === 'music' && <div className="creative-process"><h3>Behind the songs</h3><p>{musicCollectionProcess}</p></div>}
             <div className="media-grid">
               {media.filter((item) => item.kind === kind).map((item) => (
                 <article className="media-card" key={item.slug}>

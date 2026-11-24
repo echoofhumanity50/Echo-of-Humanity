@@ -1,4 +1,5 @@
 export const musicCreativeProcess = "I start with my own concepts, lyrics, and creative vision, then develop and refine the song with AI tools. I shape the sound and imagery and choose the finished version. Suno generates the music and vocals; the artwork is AI-generated under my direction.";
+export const musicCollectionProcess = "Each song’s page explains how it was made. For Heroes Die, The Best I Am, Everybody Poops and The Magic Man, Echo’s creator supplied the concepts, lyrics and creative direction, developing the songs with AI tools.";
 
 // Keep per-song credits explicit so future releases can describe a different process.
 export const recordingCredits: Record<string, string> = {
