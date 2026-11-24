@@ -30,6 +30,7 @@ const routes = [
 ];
 
 const externalLinks = {
+  youtube: "https://www.youtube.com/@echoofhumanitynet",
   facebook: "https://www.facebook.com/echoofhumanitynet",
   instagram: "https://www.instagram.com/echoofhumanitynet/",
   spotify: "https://open.spotify.com/show/0Q0ZD69F1wQCajG5ONvRFT",
@@ -272,6 +273,7 @@ export default function Home() {
         </div>
         <div className="footer-links" aria-label="Echo destinations">
           <a href="/archive">Full archive</a>
+          <ExternalLink href={externalLinks.youtube}>YouTube</ExternalLink>
           <ExternalLink href={externalLinks.archive}>Internet Archive</ExternalLink>
           <ExternalLink href={externalLinks.tiktok}>TikTok</ExternalLink>
           <ExternalLink href={externalLinks.rumble}>Rumble</ExternalLink>
