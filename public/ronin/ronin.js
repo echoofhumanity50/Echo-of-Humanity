@@ -54,3 +54,38 @@
   });
   show(0);
 })();
+
+(() => {
+  'use strict';
+  const player = document.getElementById('ronin-player');
+  const playButton = document.getElementById('film-play');
+  const captions = player.querySelector('track');
+  const chapters = document.querySelectorAll('.chapter-choice');
+
+  function playChapter() {
+    // Give the native controls keyboard focus and keep them usable if playback fails.
+    player.focus({ preventScroll: true });
+    player.play().catch(() => { playButton.hidden = true; });
+  }
+
+  playButton.hidden = false;
+  playButton.addEventListener('click', playChapter);
+  player.addEventListener('play', () => { playButton.hidden = true; });
+
+  for (const chapter of chapters) {
+    chapter.addEventListener('click', (event) => {
+      if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      if (player.getAttribute('src') !== chapter.dataset.film) {
+        player.poster = chapter.dataset.poster;
+        captions.src = chapter.dataset.captions;
+        player.src = chapter.dataset.film;
+        player.setAttribute('aria-label', chapter.querySelector('.chapter-name').textContent);
+        for (const item of chapters) item.removeAttribute('aria-current');
+        chapter.setAttribute('aria-current', 'true');
+      }
+      player.scrollIntoView({ block: 'center' });
+      playChapter();
+    });
+  }
+})();
